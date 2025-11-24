@@ -1,0 +1,21 @@
+.env
+/venv
+*venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Logs temporários
+*.log
+scraping_playwright_*.log
+coleta_*.log
+
+# Dados temporários de checkpoint
+data/raw/checkpoint.json
+
+# Dados coletados (muito grandes para git)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
