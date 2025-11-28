@@ -1,6 +1,49 @@
 """
 Web Scraper para coletar dados de processos do TJCE
 Coleta: Nome do Juiz e Nome do Requerente
+
+ROADMAP DE FUNÇÕES:
+==================
+
+1. LEITURA E PREPARAÇÃO
+   ├── ler_numeros_processos()      : Lê CSV com números de processos
+   ├── carregar_decisoes()           : Carrega mapeamento de decisões (Procedência/Improcedência)
+   ├── carregar_cache()              : Carrega progresso de coletas anteriores
+   └── salvar_cache()                : Salva progresso a cada 50 processos
+
+2. VALIDAÇÃO
+   └── validar_nome_juiz()           : Valida nomes capturados (remove palavras inválidas)
+
+3. WEB SCRAPING (ASYNC)
+   └── buscar_dados_processo()       : Função principal de scraping
+       ├── Navega para site do TJCE
+       ├── Preenche formulário de busca
+       ├── Extrai nome do juiz (tabela ou regex)
+       ├── Extrai nome do requerente (fallback: Requerente→Autor→Massa Falida)
+       └── Retorna dict com status (sucesso/nao_encontrado/dados_incompletos/erro)
+
+4. PROCESSAMENTO PRINCIPAL
+   └── main()                        : Orquestra todo o processo
+       ├── Carrega inputs (processos, decisões, cache)
+       ├── Identifica processos pendentes
+       ├── Inicializa Playwright
+       ├── Loop de scraping com progresso
+       ├── Salva cache periodicamente
+       └── Gera estatísticas finais
+
+5. EXPORTAÇÃO
+   └── salvar_resultados_finais()    : Exporta dados coletados
+       ├── Filtra processos válidos (remove não encontrados/erros)
+       ├── Adiciona campos id e sentenca_favoravel
+       ├── Salva JSON (dados_processos_tjce.json)
+       └── Salva CSV (dados_processos_tjce.csv)
+
+6. INFERÊNCIA DE SEXO (MÓDULO EXTERNO)
+   └── inferir_sexo.py               : Enriquece dados com informação de sexo
+       ├── Carrega base de nomes brasileiros
+       ├── Extrai primeiro nome de juiz e requerente
+       ├── Busca sexo no banco de dados
+       └── Salva CSV final (dados_processos_com_sexo.csv)
 """
 
 import csv
@@ -9,6 +52,7 @@ import asyncio
 import re
 import os
 from playwright.async_api import async_playwright
+import inferir_sexo
 
 # Constantes
 CACHE_FILE = "cache_processos.json"
@@ -189,8 +233,8 @@ async def buscar_dados_processo(page, numero_processo):
         }
 
 
-async def main():
-    """Função principal do scraper"""
+async def executar_scraping():
+    """Executa o processo de scraping"""
     print("=" * 60)
     print("SCRAPER TJCE - Coleta de Dados de Processos")
     print("=" * 60)
@@ -317,6 +361,27 @@ def salvar_resultados_finais(resultados, decisoes_map):
     print(
         f"    Arquivo CSV salvo: dados_processos_tjce.csv ({len(resultados_completos)} processos válidos)"
     )
+
+
+async def main():
+    """
+    Função principal integrada: executa scraping e inferência de sexo
+    """
+    # Etapa 1: Scraping de dados do TJCE
+    await executar_scraping()
+
+    # Etapa 2: Inferência de sexo
+    print("\n" + "=" * 60)
+    print("INFERÊNCIA DE SEXO")
+    print("=" * 60)
+
+    # Verificar se o arquivo de dados foi gerado
+    if os.path.exists("dados_processos_tjce.csv"):
+        print("\nIniciando inferência de sexo a partir dos dados coletados...")
+        inferir_sexo.main()
+    else:
+        print("\n⚠ Arquivo 'dados_processos_tjce.csv' não encontrado.")
+        print("Execute o scraping primeiro para gerar os dados.")
 
 
 if __name__ == "__main__":

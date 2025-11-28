@@ -1,9 +1,49 @@
+"""
+Módulo para Inferência de Sexo
+Enriquece dados de processos com informação de sexo baseado em base de nomes brasileiros
+
+ROADMAP DE FUNÇÕES:
+==================
+
+1. CARREGAMENTO DE DADOS
+   └── carregar_banco_nomes()        : Carrega base de nomes (.csv.gz)
+                                        - Detecta encoding e colunas
+                                        - Retorna DataFrame com nomes e classificações
+
+2. EXTRAÇÃO E NORMALIZAÇÃO
+   └── extrair_primeiro_nome()       : Extrai e normaliza primeiro nome
+                                        - Remove espaços extras
+                                        - Converte para maiúsculas
+                                        - Trata valores nulos
+
+3. BUSCA E MATCHING
+   └── buscar_sexo()                 : Busca sexo no banco de nomes
+                                        - Matching case-insensitive
+                                        - Resolve múltiplas entradas (mode)
+                                        - Retorna: 'M', 'F' ou 'Indefinido'
+
+4. PROCESSAMENTO EM LOTE
+   └── inferir_sexo_processos()      : Aplica inferência em todos os processos
+                                        - Cria colunas temporárias de primeiro nome
+                                        - Aplica busca com pandas.apply()
+                                        - Remove colunas temporárias
+                                        - Retorna DataFrame enriquecido
+
+5. ORQUESTRAÇÃO
+   └── main()                        : Função principal
+                                        - Valida existência de arquivos
+                                        - Configura colunas do banco de nomes
+                                        - Executa inferência
+                                        - Salva resultado final
+                                        - Exibe estatísticas e amostras
+"""
+
 import pandas as pd
 import os
 
 # Configurações
 ARQUIVO_PROCESSOS = "dados_processos_tjce.csv"
-ARQUIVO_NOMES = "nomes.csv.gz"  
+ARQUIVO_NOMES = "nomes.csv.gz"
 ARQUIVO_SAIDA = "dados_processos_com_sexo.csv"
 
 
@@ -12,20 +52,11 @@ def carregar_banco_nomes(arquivo_nomes):
     Carrega o banco de dados de nomes brasileiros.
     Ajuste as colunas conforme a estrutura do seu arquivo.
     """
-    print(f"Carregando banco de nomes de {arquivo_nomes}...")
-
-    # Lê o arquivo comprimido
     df_nomes = pd.read_csv(
         arquivo_nomes,
         compression="gzip",
         encoding="utf-8",
-        on_bad_lines="skip",  # Substitui error_bad_lines (deprecated)
     )
-
-    print(f"Total de nomes carregados: {len(df_nomes)}")
-    print(f"Colunas disponíveis: {df_nomes.columns.tolist()}")
-    print(f"\nPrimeiras linhas do banco de nomes:")
-    print(df_nomes.head())
 
     return df_nomes
 
@@ -65,10 +96,6 @@ def buscar_sexo(primeiro_nome, df_nomes, coluna_nome="nome", coluna_sexo="sexo")
         return "Indefinido"
     elif len(resultado) == 1:
         return resultado.iloc[0][coluna_sexo]
-    else:
-        # Se houver múltiplas entradas, pega a mais frequente
-        sexo_mais_comum = resultado[coluna_sexo].mode()
-        return sexo_mais_comum[0] if len(sexo_mais_comum) > 0 else "Indefinido"
 
 
 def inferir_sexo_processos(
@@ -77,12 +104,7 @@ def inferir_sexo_processos(
     """
     Infere o sexo do juiz e requerente nos processos.
     """
-    print(f"\nCarregando processos de {arquivo_processos}...")
     df_processos = pd.read_csv(arquivo_processos, encoding="utf-8")
-
-    print(f"Total de processos: {len(df_processos)}")
-    print(f"\nInferindo sexo do juiz e requerente...")
-
     # Extrai primeiro nome e infere sexo
     df_processos["primeiro_nome_juiz"] = df_processos["juiz"].apply(
         extrair_primeiro_nome
@@ -90,6 +112,9 @@ def inferir_sexo_processos(
     df_processos["primeiro_nome_requerente"] = df_processos["requerente"].apply(
         extrair_primeiro_nome
     )
+    # print primeiros registros de df_processos
+    print("\nPrimeiros registros de df_processos após extração de primeiros nomes:")
+    print(df_processos.head())
 
     df_processos["sexo_juiz"] = df_processos["primeiro_nome_juiz"].apply(
         lambda x: buscar_sexo(x, df_nomes, coluna_nome, coluna_sexo)
