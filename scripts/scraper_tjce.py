@@ -52,7 +52,7 @@ import asyncio
 import re
 import os
 from playwright.async_api import async_playwright
-import inferir_sexo
+import scripts.inferir_sexo as inferir_sexo
 
 # Constantes
 CACHE_FILE = "cache_processos.json"
