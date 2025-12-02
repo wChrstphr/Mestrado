@@ -2,7 +2,6 @@ import json
 from collections import Counter
 from datetime import datetime
 
-# Carregar dados
 with open("dados_completos.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -10,7 +9,6 @@ processos = data["hits"]["hits"]
 print(f"Total de processos: {len(processos)}")
 print("\n" + "=" * 80)
 
-# Analisar estrutura detalhada
 processo_exemplo = processos[0]["_source"]
 
 print("\n1. MOVIMENTOS:")
@@ -53,7 +51,6 @@ print(f"   {processo_exemplo.get('tribunal')}")
 print("\n10. NÍVEL SIGILO:")
 print(f"   {processo_exemplo.get('nivelSigilo')}")
 
-# Estatísticas agregadas
 print("\n" + "=" * 80)
 print("\nESTATÍSTICAS AGREGADAS:")
 
