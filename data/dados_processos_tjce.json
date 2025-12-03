@@ -1,0 +1,4034 @@
+[
+  {
+    "id": 1,
+    "numero_processo": "02187331420258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Heverton Araujo Sena de Assis",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 2,
+    "numero_processo": "02162085920258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Pedro Victor Silva Pinto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 3,
+    "numero_processo": "02096212120258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Alice Filgueira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 4,
+    "numero_processo": "02077652220258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Marilia Karen Sousa de Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 5,
+    "numero_processo": "02055767120258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Eloa de Oliveira Souza",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 6,
+    "numero_processo": "02054250820258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Sara Pinheiro Lima Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 7,
+    "numero_processo": "02046802820258060001",
+    "juiz": null,
+    "requerente": "Maria Eliete Ferreira",
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 8,
+    "numero_processo": "02041476920258060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Jacqueline Maria de França Cabral Bachá",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 9,
+    "numero_processo": "02621834120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel dos Santos Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 10,
+    "numero_processo": "02612489820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Bernardo Moreira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 11,
+    "numero_processo": "02609544620248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Julio Cesar Nasscimento Mendes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 12,
+    "numero_processo": "02595505720248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Raimunda Nonata da Silva Nascimento (Representando Ana Lívia Silva dos Santos)",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 13,
+    "numero_processo": "02587668020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Lucas de Sousa Grangeiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 14,
+    "numero_processo": "02578938020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Samuel da Silva Couto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 15,
+    "numero_processo": "02580530820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Thomas Fernando Sales Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 16,
+    "numero_processo": "02567210620248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Davi Leão de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 17,
+    "numero_processo": "02567332020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Anthony Silva Girao",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 18,
+    "numero_processo": "02560845520248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel dos Santos Cavalcanti",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 19,
+    "numero_processo": "02555865620248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Anthony Guilherme Ferreira Torres",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 20,
+    "numero_processo": "02545109420248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Barbara Nascimento Barbosa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 21,
+    "numero_processo": "02540301920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Agagha Mayte Ribeiro Dungas de Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 22,
+    "numero_processo": "02534144420248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Agagha Mayte Ribeiro Dungas de Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 23,
+    "numero_processo": "02534023020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Eloá da Rocha Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 24,
+    "numero_processo": "02533599320248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Ana Clara Lopes Ferreira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 25,
+    "numero_processo": "02533823920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Jose Harley Moraes da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 26,
+    "numero_processo": "02397608720248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Victor Hugo Coelho Xavier",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 27,
+    "numero_processo": "02392151720248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Adryelle Félix Nascimento de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 28,
+    "numero_processo": "02372198120248060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Francisca Gisely Marques de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 29,
+    "numero_processo": "02370517920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "João Miguel Araújo Lucena",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 30,
+    "numero_processo": "02370725520248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Cecília Fernandes Souza",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 31,
+    "numero_processo": "02027941520248060167",
+    "juiz": "Antonio Carneiro Roberto",
+    "requerente": "Maria Eloá Ferreira do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 32,
+    "numero_processo": "02354868020248060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Roberta de Sousa Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 33,
+    "numero_processo": "02341451920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Joao Paulo Sampaio de Menezes Neto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 34,
+    "numero_processo": "02341114420248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Antonio Luan Pereira Carneiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 35,
+    "numero_processo": "02336792520248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Elis Nara Raquel Vieira Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 36,
+    "numero_processo": "02333086120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Rayconny Alves de Castro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 37,
+    "numero_processo": "02003828720248060175",
+    "juiz": "André Arruda Veras",
+    "requerente": "Vicente de Paulo Castro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 38,
+    "numero_processo": "02314214220248060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Maria Lisieux de Oliveira Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 39,
+    "numero_processo": "02314915920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Joao Guilherme Nascimento Alves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 40,
+    "numero_processo": "02315678320248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Augusto Morais Braga do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 41,
+    "numero_processo": "02003043920248060096",
+    "juiz": "JORGE ROGER DOS SANTOS LIMA",
+    "requerente": "Antônia Tayna Pereira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 42,
+    "numero_processo": "02307926820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Thaylon Eric Pereira Xavier",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 43,
+    "numero_processo": "02304886920248060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "José Carlos Alves Cardoso",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 44,
+    "numero_processo": "02153142020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Marlon Felipe Coutinho Aguiar",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 45,
+    "numero_processo": "02148387920248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Ruth Maria de Souza Lucas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 46,
+    "numero_processo": "02139310720248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Francisco Izaque Araripe Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 47,
+    "numero_processo": "02136618020248060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Ruth Albuquerque Dantas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 48,
+    "numero_processo": "02135353020248060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Thais Barros Vieira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 49,
+    "numero_processo": "02132763520248060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Luiz Eduardo Ribeiro Solon",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 50,
+    "numero_processo": "02128416120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Cecilia dos Santos Sacraemnto Alves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 51,
+    "numero_processo": "02126589020248060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "Maria Lourdes Evangelista Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 52,
+    "numero_processo": "02127783620248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Júlio César Amarante Pinto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 53,
+    "numero_processo": "02121972120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Elyza Beatriz Duarte Fabricio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 54,
+    "numero_processo": "02117408620248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Antonio Jonathan da Silva Alves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 55,
+    "numero_processo": "02110939120248060001",
+    "juiz": "Ricci Lôbo de Figueiredo",
+    "requerente": "Rene Gouveia Miranda Filho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 56,
+    "numero_processo": "02110687820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Antônio Davi Damasceno da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 57,
+    "numero_processo": "02001989620248060122",
+    "juiz": "Daniel Alves Mendes Filho",
+    "requerente": "Maria Kailany Bezerra",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 58,
+    "numero_processo": "02109146020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Abraão William de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 59,
+    "numero_processo": "02104149120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Pedro Luan Teixeira Soares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 60,
+    "numero_processo": "02831037020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Lorenzo Gomes dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 61,
+    "numero_processo": "02017280220238060113",
+    "juiz": "PAULO LACERDA DE OLIVEIRA JUNIOR",
+    "requerente": "Expedito Joaquim dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 62,
+    "numero_processo": "02824628220238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Marcia Malena Ribeiro Benicio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 63,
+    "numero_processo": "02824471620238060001",
+    "juiz": "Maurício Fernandes Gomes",
+    "requerente": "Lia de Souza Parente",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 64,
+    "numero_processo": "02005843320238060132",
+    "juiz": "HERICK BEZERRA TAVARES",
+    "requerente": "Jose Agnaldo Ferreira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 65,
+    "numero_processo": "02811559320238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel Barbosa da Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 66,
+    "numero_processo": "02811524120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Eduarda Ribeiro Teixeira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 67,
+    "numero_processo": "02811220620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Jhonatan Daniel Batista Abreu",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 68,
+    "numero_processo": "02811195120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Miguel Barbosa da Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 69,
+    "numero_processo": "02800759420238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel Alcantara Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 70,
+    "numero_processo": "02002846920238060068",
+    "juiz": "Ana Celia Pinho Carneiro",
+    "requerente": "Josenilia Soares Holanda",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 71,
+    "numero_processo": "02785654620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Anna Isis de Sousa Cavalcante",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 72,
+    "numero_processo": "02782242020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Emanuel Dutra Florencio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 73,
+    "numero_processo": "02005531320238060132",
+    "juiz": "HERICK BEZERRA TAVARES",
+    "requerente": "Cicera Arrais da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 74,
+    "numero_processo": "02776352820238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel da Silva Justino",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 75,
+    "numero_processo": "02773677120238060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Alexandre Henrique Mallet Filomeno",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 76,
+    "numero_processo": "02053379320238060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Ninive Matias Rodrigues Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 77,
+    "numero_processo": "02601164020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Kaylan Rodrigues Torres",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 78,
+    "numero_processo": "02588120620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Carlos Gegorge Alves da Silva Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 79,
+    "numero_processo": "02584518620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Joseffe Yeshua de Abreu Mergarmelli Borges",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 80,
+    "numero_processo": "02584795420238060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "José Maria Carneiro Sobrinho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 81,
+    "numero_processo": "02584198120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Elliaby Miranda da Siilva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 82,
+    "numero_processo": "02580188220238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "David Belchior Silveira Chagas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 83,
+    "numero_processo": "02574238320238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Henrique José Torres Filho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 84,
+    "numero_processo": "02565135620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Icsa Idalino Bergamaschi",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 85,
+    "numero_processo": "02561559120238060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Tathye Dias Arruda Mihaliuc Rêgo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 86,
+    "numero_processo": "02559627620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Noah Catunda Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 87,
+    "numero_processo": "02559878920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Catarina de Azevedo Soares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 88,
+    "numero_processo": "02561775220238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Izabelly de Sousa de Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 89,
+    "numero_processo": "02557514020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Iasmyn Sahah de Almeida Cavalcante",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 90,
+    "numero_processo": "02557696120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Pedro Lucas de Oliveira Castro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 91,
+    "numero_processo": "02026247420238060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "José Gabriel Bernardo Simião",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 92,
+    "numero_processo": "02547294420238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Helena Maria da Silva Duarte",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 93,
+    "numero_processo": "02545328920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Marielly de Sousa Matias",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 94,
+    "numero_processo": "02426079620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Joao Gabriel Rodrigues de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 95,
+    "numero_processo": "02422571120238060001",
+    "juiz": "Auro Lemos Peixoto Silva",
+    "requerente": "Suely Vieira Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 96,
+    "numero_processo": "02004246920238060144",
+    "juiz": "José Arnaldo dos Santos Soares",
+    "requerente": "Maria Cleidiane Soeiro Ferreira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 97,
+    "numero_processo": "02416742620238060001",
+    "juiz": "LUCIANO NUNES MAIA FREIRE",
+    "requerente": "Ana Thais Barreto Apoliano",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 98,
+    "numero_processo": "02416786320238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Igor Soares de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 99,
+    "numero_processo": "02002258020238060036",
+    "juiz": null,
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 100,
+    "numero_processo": "02415418120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Valentina Pontes Barrozo, Neste Ato Representada Por Maria Erlania Alves Pontes Barrozo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 101,
+    "numero_processo": "02414534320238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Melissa Paz de Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 102,
+    "numero_processo": "02003457620238060181",
+    "juiz": "Hyldon Masters Cavalcante Costa",
+    "requerente": "Alexsandra Costa de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 103,
+    "numero_processo": "02407882720238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Izadora Freitas do Carmo da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 104,
+    "numero_processo": "02403344720238060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Manuel Arruda Araujo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 105,
+    "numero_processo": "02399837420238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Vitor Ramone Oliveira Rego Bezerra de Menezes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 106,
+    "numero_processo": "02239362520238060001",
+    "juiz": "Harbélia Sancho Teixeira",
+    "requerente": "Vitoria de Sousa dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 107,
+    "numero_processo": "02231282020238060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Camila Ximenes Linhares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 108,
+    "numero_processo": "02225635620238060001",
+    "juiz": "Rommel Moreira Conrado",
+    "requerente": "Ticiana Pinto Torres de Melo Almeida",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 109,
+    "numero_processo": "02225765520238060001",
+    "juiz": "Auro Lemos Peixoto Silva",
+    "requerente": "Manuela Walcilene Amorim",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 110,
+    "numero_processo": "02215831220238060001",
+    "juiz": "Lucimeire Godeiro Costa",
+    "requerente": "Francisca Diogenes Carlos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 111,
+    "numero_processo": "02213727320238060001",
+    "juiz": "Ciero Miranda",
+    "requerente": "Maria Carmen Cochrane Santiago",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 112,
+    "numero_processo": "02213987120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Carlos Guilherme Silva Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 113,
+    "numero_processo": "02207205620238060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "Rosanjela Rocha de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 114,
+    "numero_processo": "02198839820238060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Maria Vania Holanda de Morais",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 115,
+    "numero_processo": "02196457920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Ericsson dos Santos Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 116,
+    "numero_processo": "02189408120238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Ana Cristina Gurgel de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 117,
+    "numero_processo": "02001166920238060132",
+    "juiz": "HERICK BEZERRA TAVARES",
+    "requerente": "Cicero Thiago Araujo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 118,
+    "numero_processo": "02000256720238060038",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Maria Marinalva Alves Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 119,
+    "numero_processo": "02041430320238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Marilia Tavares Magalhaes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 120,
+    "numero_processo": "02000603920238060034",
+    "juiz": "JULIANNE BEZERRA BARROS SANTOS",
+    "requerente": "Francisco das Chagas da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 121,
+    "numero_processo": "02035333520238060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Silvana Araujo de Aguiar",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 122,
+    "numero_processo": "02000558720238060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Joao Taciano Sampaio Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 123,
+    "numero_processo": "02001650520238060167",
+    "juiz": "Antonio Carneiro Roberto",
+    "requerente": "Clegiane Linhares Prado",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 124,
+    "numero_processo": "02027677920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Nayra Lohanne Sales,",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 125,
+    "numero_processo": "02000532420238060171",
+    "juiz": "Liana Alencar Correia",
+    "requerente": "Luiza Venâncio de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 126,
+    "numero_processo": "02001223920238060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Laura Pereira do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 127,
+    "numero_processo": "02000325320238060137",
+    "juiz": "Débora Danielle Pinheiro Ximenes Freire",
+    "requerente": "Maria Valdelina Alves da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 128,
+    "numero_processo": "02020246920238060001",
+    "juiz": "Fabiana Silva Félix da Rocha",
+    "requerente": "Flavia Nayane da Silva Sá",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 129,
+    "numero_processo": "02001291620238060117",
+    "juiz": "Luiz Eduardo Viana Pequeno",
+    "requerente": "Francinete de Jesus Maia",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 130,
+    "numero_processo": "02000197120238060099",
+    "juiz": "Lucas Medeiros de Lima",
+    "requerente": "Everardo de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 131,
+    "numero_processo": "02000624320238060055",
+    "juiz": "BRUNO ARAÚJO MASSOUD",
+    "requerente": "Rita Leandro de Mendonça",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 132,
+    "numero_processo": "02000808720238060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Josefa Agalgisa da Costa Gentil",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 133,
+    "numero_processo": "02029050420228060091",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "Francisca Rejane Alves da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 134,
+    "numero_processo": "02870039520228060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Francisco Olinto Chagas Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 135,
+    "numero_processo": "02864071420228060001",
+    "juiz": "Maurício Fernandes Gomes",
+    "requerente": "Anne Aguiar Romeu",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 136,
+    "numero_processo": "02005542320228060038",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Antonio Taumaturgo Alves de Alencar",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 137,
+    "numero_processo": "02017152620228060052",
+    "juiz": "Samara Costa Maia",
+    "requerente": "Vanda Lúcia Cabral Leite",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 138,
+    "numero_processo": "02011073720228060049",
+    "juiz": "Paulo Jeyson Gomes Araújo",
+    "requerente": "Eusenir Santos da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 139,
+    "numero_processo": "02015616220228060034",
+    "juiz": "Juliana Sampaio de Araújo",
+    "requerente": "Jose Cleiton Almeida Gadelha",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 140,
+    "numero_processo": "02018867320228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Davila Teixeira de Paula",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 141,
+    "numero_processo": "02026623020228060101",
+    "juiz": "Luiz Guilherme Costa Pedroso Silva",
+    "requerente": "Antonia de Melo Gomes Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 142,
+    "numero_processo": "02014401620228060137",
+    "juiz": "Jhulian Pablo Rocha Faria",
+    "requerente": "Deborah Thais Ribeiro Macedo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 143,
+    "numero_processo": "02026528320228060101",
+    "juiz": "Leslie Anne Maia Campos",
+    "requerente": "Amauri Teixeira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 144,
+    "numero_processo": "02010634820228060136",
+    "juiz": "Danúbia Loss Nicoláo",
+    "requerente": "Francisco de Assis Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 145,
+    "numero_processo": "02014271720228060137",
+    "juiz": "Jhulian Pablo Rocha Faria",
+    "requerente": "Derliene Adriano da Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 146,
+    "numero_processo": "02847729520228060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Ana Carolina Pinho Conrado",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 147,
+    "numero_processo": "02009257120228060107",
+    "juiz": "Abraão Tiago Costa",
+    "requerente": "Geórgia Parente Amaral",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 148,
+    "numero_processo": "02018633020228060119",
+    "juiz": "avila Alves Brandão",
+    "requerente": "Maria Jaqueline Gama Rocha",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 149,
+    "numero_processo": "02007831620228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Francisco de Assis Siqueira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 150,
+    "numero_processo": "02007614220228060096",
+    "juiz": "JORGE ROGER DOS SANTOS LIMA",
+    "requerente": "Joana Dark Fernandes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 151,
+    "numero_processo": "02765608520228060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Francisca Michele Amaral Pinheiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 152,
+    "numero_processo": "02052592120228060117",
+    "juiz": "Fernando de Souza Vicente",
+    "requerente": "Lidiane Oliveira dos Santos, Rep Legal do Menor Paulo Victor Oliveira dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 153,
+    "numero_processo": "02014386120228060035",
+    "juiz": "RAMON BESERRA DA VEIGA PESSOA",
+    "requerente": "Maria Garcia dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 154,
+    "numero_processo": "02009982320228060049",
+    "juiz": "Paulo Jeyson Gomes Araújo",
+    "requerente": "Lais Ribeiro Silvano",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 155,
+    "numero_processo": "02052376020228060117",
+    "juiz": "Luiz Eduardo Viana Pequeno",
+    "requerente": "Cleivanfarias Coelho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 156,
+    "numero_processo": "02760853220228060001",
+    "juiz": "Anderson Alexandre Nascimento Silva",
+    "requerente": "Ana Lucia Ferreira Lemos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 157,
+    "numero_processo": "02016104220228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Jose Sampaio de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 158,
+    "numero_processo": "02013004820228060115",
+    "juiz": "Isaac Dantas Bezerra Braga",
+    "requerente": "Henrique Jorge de Freitas Régis",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 159,
+    "numero_processo": "02011330920228060090",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "Maria Iêda de Sousa Rolim",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 160,
+    "numero_processo": "02754565820228060001",
+    "juiz": "Paulo de Tarso Pires Nogueira",
+    "requerente": "Adolfo Araújo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 161,
+    "numero_processo": "02031516020228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Antonia Cordeiro de Santana",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 162,
+    "numero_processo": "02010299820228060160",
+    "juiz": "João Luiz Chaves Junior",
+    "requerente": "Aires Maria Dutra Ferreira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 163,
+    "numero_processo": "02750538920228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Yasmim Davila Barbosa do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 164,
+    "numero_processo": "02023430920228060151",
+    "juiz": "Francisco Eduardo Girão Braga",
+    "requerente": "Cleilson Saraiva de Queiroz",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 165,
+    "numero_processo": "02745974220228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Camila Nayara Lopes Castro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 166,
+    "numero_processo": "02749091820228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Agatha Nicole Vieira Henrique Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 167,
+    "numero_processo": "02743047220228060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "Mariana Cid Martins Timbó Lira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 168,
+    "numero_processo": "02745169320228060001",
+    "juiz": "BRUNO GOMES BENIGNO SOBRAL",
+    "requerente": "Maria Ivanete de Lima Santiago",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 169,
+    "numero_processo": "02014414720228060154",
+    "juiz": "Rodrigo Campelo Diógenes",
+    "requerente": "José Claudio Jacinto Ferreira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 170,
+    "numero_processo": "02739366320228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Mariana Sousa dos Santos,",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 171,
+    "numero_processo": "02656300820228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Arthur Ryan do Vale de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 172,
+    "numero_processo": "02046854220228060167",
+    "juiz": "Antonio Carneiro Roberto",
+    "requerente": "Patrícia Vasconcelos Linhares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 173,
+    "numero_processo": "02657029220228060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Sarah Raquel Pinheiro da Silva Gomes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 174,
+    "numero_processo": "02013939620228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Maria do Nascimento Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 175,
+    "numero_processo": "02654508920228060001",
+    "juiz": "Lucimeire Godeiro Costa",
+    "requerente": "Paulo Herbert Thiers Reis",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 176,
+    "numero_processo": "02651953420228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Davi Cordeiro Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 177,
+    "numero_processo": "02647589020228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Viena Maria Figueiredo Ponce de Leao",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 178,
+    "numero_processo": "02647952020228060001",
+    "juiz": null,
+    "requerente": "Maria Eunair de Castro Freitas",
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 179,
+    "numero_processo": "02002458120228060044",
+    "juiz": "Cynthia Pereira Petri Feitosa",
+    "requerente": "Kethellen Neci Lima de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 180,
+    "numero_processo": "02638823820228060001",
+    "juiz": "Patrícia Fernanda Toledo Rodrigues",
+    "requerente": "Marina Nobre Moura",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 181,
+    "numero_processo": "02011589020228060035",
+    "juiz": "RAMON BESERRA DA VEIGA PESSOA",
+    "requerente": "JOSE FRANCISCO DE OLIVEIRA",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 182,
+    "numero_processo": "02639481820228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Victor Gabriel Cavalcante Queiroz",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 183,
+    "numero_processo": "02640330420228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel Portela dos Santos Gomes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 184,
+    "numero_processo": "02010781420228060137",
+    "juiz": "Jhulian Pablo Rocha Faria",
+    "requerente": "Maria do Carmo Wanderley",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 185,
+    "numero_processo": "02048267920228060064",
+    "juiz": "Francisco Biserril Azevedo de Queiroz",
+    "requerente": "Maria de Lourdes de Brito Sampaio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 186,
+    "numero_processo": "02635966020228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Carlos Daniel Coelho Xavier",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 187,
+    "numero_processo": "02005281020228060140",
+    "juiz": "Valdir Vieira Júnior",
+    "requerente": "Osmarina Galdino do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 188,
+    "numero_processo": "02008619620228060160",
+    "juiz": "João Luiz Chaves Junior",
+    "requerente": "Ana Jessica Franklin de Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 189,
+    "numero_processo": "02053806420228060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Maria Sonália de Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 190,
+    "numero_processo": "02007911820228060051",
+    "juiz": "DAYANA CLAUDIA TAVARES BARROS DE CASTRO",
+    "requerente": "Jovelina Angelim de Sousa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 191,
+    "numero_processo": "02007622920228060160",
+    "juiz": "Rosa Cristina Ribeiro Paiva",
+    "requerente": "Francisco Henrique Ribeiro Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 192,
+    "numero_processo": "02006444220228060099",
+    "juiz": "Lucas Medeiros de Lima",
+    "requerente": "Francisca Maria de Sousa Maciel",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 193,
+    "numero_processo": "02003678520228060047",
+    "juiz": "Jaison Stangherlin",
+    "requerente": "Valdemir Pereira de Góes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 194,
+    "numero_processo": "02011391820228060154",
+    "juiz": "Rodrigo Campelo Diógenes",
+    "requerente": "Samia Saraiva do Carmo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 195,
+    "numero_processo": "02006578620228060181",
+    "juiz": "Hyldon Masters Cavalcante Costa",
+    "requerente": "Thayná Vieira da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 196,
+    "numero_processo": "02005216620228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Jose Teles de Sousa Sobrinho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 197,
+    "numero_processo": "02543478520228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Anastacia Talita Gomes de Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 198,
+    "numero_processo": "02542456320228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Davi Martins Girão Porto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 199,
+    "numero_processo": "02005800820228060107",
+    "juiz": "Abraão Tiago Costa",
+    "requerente": "Francisco Fabiano Ferreira Brito",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 200,
+    "numero_processo": "02008974420228060062",
+    "juiz": "Bruno Leonardo Batista de Medeiros Santos",
+    "requerente": "Carlos Alberto de Queiroz",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 201,
+    "numero_processo": "02532963920228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gustavo Leitão Nogueira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 202,
+    "numero_processo": "02011557720228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "João Batista Mendes Repres. Por Seu Filho João Paulo Alves Mendes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 203,
+    "numero_processo": "02038362620228060117",
+    "juiz": "Tassia Fernanda de Siqueira",
+    "requerente": "Samila Rodrigues Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 204,
+    "numero_processo": "02005078220228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Manuel Santana da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 205,
+    "numero_processo": "02005086720228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Francisca Lozinha Bezerra Queiros",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 206,
+    "numero_processo": "02007371620228060160",
+    "juiz": "João Luiz Chaves Junior",
+    "requerente": "Maria Aparecida Rodrigues Pereira Martins",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 207,
+    "numero_processo": "02007423820228060160",
+    "juiz": "Rosa Cristina Ribeiro Paiva",
+    "requerente": "Ademir Furtado Vasconcelos Filho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 208,
+    "numero_processo": "02523004120228060001",
+    "juiz": "Rejane Eire Fernandes Alves",
+    "requerente": "Mayara de Andrade Santos Travassos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 209,
+    "numero_processo": "02005307620228060108",
+    "juiz": "Diogo Altorbelli Silva de Freitas",
+    "requerente": "Raimundo Rocha Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 210,
+    "numero_processo": "02008188820228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Maria Josivania Sousa Lopes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 211,
+    "numero_processo": "02369744120228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Arthur Rola Seleguin",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 212,
+    "numero_processo": "02007521120228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Maria Lucineide de Brito Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 213,
+    "numero_processo": "02006626120228060035",
+    "juiz": "RAMON BESERRA DA VEIGA PESSOA",
+    "requerente": "Josefa Maria Ribeiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 214,
+    "numero_processo": "02006887520228060062",
+    "juiz": "Bruno Leonardo Batista de Medeiros Santos",
+    "requerente": "Francisca Maria Mendes da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 215,
+    "numero_processo": "02027095320228060117",
+    "juiz": "Tassia Fernanda de Siqueira",
+    "requerente": "Yasmim da Silva Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 216,
+    "numero_processo": "02014003820228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Maria Oliveira Moreira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 217,
+    "numero_processo": "02031115220228060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Francisca Ana de Jesus",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 218,
+    "numero_processo": "02031106720228060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Francisco Vital da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 219,
+    "numero_processo": "02030976820228060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Maria Gizelda da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 220,
+    "numero_processo": "02005081920228060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Naíla Araújo de Souza Fernandes Távora",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 221,
+    "numero_processo": "02026727020228060167",
+    "juiz": "Aldenor Sombra de Oliveira",
+    "requerente": "Ramunda Sebastiana dos Santos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 222,
+    "numero_processo": "02321608320228060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Laudiceia Almeida Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 223,
+    "numero_processo": "08000178120228060133",
+    "juiz": "RENATA GUIMARAES GUERRA",
+    "requerente": "Ministério Público do Estado do Ceará",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 224,
+    "numero_processo": "02308053820228060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Carolyna Cabral Carneiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 225,
+    "numero_processo": "02008771120228060173",
+    "juiz": "DENYS KAROL MARTINS SANTANA",
+    "requerente": "Liana Vale dos Santos Marques",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 226,
+    "numero_processo": "02012011620228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Lucas de Almeida Tavares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 227,
+    "numero_processo": "02001576720228060036",
+    "juiz": "Cynthia Pereira Petri Feitosa",
+    "requerente": "Lais de Oliveira Bandeira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 228,
+    "numero_processo": "02011691120228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Francisca Ferreira Guedes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 229,
+    "numero_processo": "02011709320228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Raimunda Nilda da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 230,
+    "numero_processo": "02003220920228060071",
+    "juiz": "Titular\nAdvogados",
+    "requerente": "Aldemiza Lucas Rodrigues",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 231,
+    "numero_processo": "02003065520228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Isabela do Nascimento Sousa Repre. Filha Menor",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 232,
+    "numero_processo": "02003074020228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Maria do Socorro Belem Alves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 233,
+    "numero_processo": "02082641120228060001",
+    "juiz": "LUCIANO NUNES MAIA FREIRE",
+    "requerente": "Edna Maria Alves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 234,
+    "numero_processo": "02002667320228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Rejane Xenofonte de Morais Representando Domicília Xenofonte de Morais",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 235,
+    "numero_processo": "02001342720228060035",
+    "juiz": "RAMON BESERRA DA VEIGA PESSOA",
+    "requerente": "Maria Vandineide Rodrigues de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 236,
+    "numero_processo": "02075488120228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "José Samuel Sousa Bezerra",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 237,
+    "numero_processo": "02000497920228060087",
+    "juiz": "Anderson Alexandre Nascimento Silva",
+    "requerente": "Maria Ivynne Silva de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 238,
+    "numero_processo": "02001835720228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Naiara Aline Vieira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 239,
+    "numero_processo": "02001904920228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Maria Pereira de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 240,
+    "numero_processo": "02001783520228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Francisca Ferreira Lima,",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 241,
+    "numero_processo": "02001628120228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Antonia Gomes de Moura",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 242,
+    "numero_processo": "02001636620228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Antonio Gilberto do Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 243,
+    "numero_processo": "02001305420228060143",
+    "juiz": "Márcio Freire de Souza",
+    "requerente": "Antônia Célia Oliveira de Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 244,
+    "numero_processo": "02000913220228060119",
+    "juiz": "Ana Izabel de Andrade Lima Pontes",
+    "requerente": "Francisco Cleber Ferreira Geraldo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 245,
+    "numero_processo": "02001201020228060143",
+    "juiz": "Márcio Freire de Souza",
+    "requerente": "Maria Juliana da Silva André",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 246,
+    "numero_processo": "02001238420228060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "João Justino Ferreira,",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 247,
+    "numero_processo": "02000234020228060036",
+    "juiz": "Cynthia Pereira Petri Feitosa",
+    "requerente": "Francisco Antônio Alves Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 248,
+    "numero_processo": "02033881320228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Gustavo Martins Queiroz",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 249,
+    "numero_processo": "02000231720228060076",
+    "juiz": "HERICK BEZERRA TAVARES",
+    "requerente": "Adelaide Francelino Ribeiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 250,
+    "numero_processo": "00504770920218060047",
+    "juiz": "Jaison Stangherlin",
+    "requerente": "José Farias de Araújo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 251,
+    "numero_processo": "00504753920218060047",
+    "juiz": "Jaison Stangherlin",
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 252,
+    "numero_processo": "00512645020218060043",
+    "juiz": "Judson Pereira Spindola Junior",
+    "requerente": "Claudia Maria Grangeiro de Sá Barreto Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 253,
+    "numero_processo": "00510427320218060143",
+    "juiz": "Márcio Freire de Souza",
+    "requerente": "Antônio Umbelino de Andrade",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 254,
+    "numero_processo": "00569016620218060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Marli Kameyama Tavares",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 255,
+    "numero_processo": "02772981020218060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Larissa Cunha Peixoto Camelo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 256,
+    "numero_processo": "00536742620218060029",
+    "juiz": "PAULO LACERDA DE OLIVEIRA JUNIOR",
+    "requerente": "Anny Caroline Lima Costa",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 257,
+    "numero_processo": "02749112220218060001",
+    "juiz": "Anderson Alexandre Nascimento Silva",
+    "requerente": "Samuel Brandão Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 258,
+    "numero_processo": "00565188820218060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Maria do Socorro Pereira Leite",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 259,
+    "numero_processo": "02741941020218060001",
+    "juiz": "Maria de Fatima Bezerra Facundo",
+    "requerente": "Sandra Mara Rodrigues de Almeida",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 260,
+    "numero_processo": "00504450420218060047",
+    "juiz": "Jaison Stangherlin",
+    "requerente": "Marcos Antônio de Araújo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 261,
+    "numero_processo": "00507386420218060114",
+    "juiz": "LUZINALDO ALVES ALEXANDRE DA SILVA",
+    "requerente": "Cicero Leite Moreira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 262,
+    "numero_processo": "02723606920218060001",
+    "juiz": "Patrícia Fernanda Toledo Rodrigues",
+    "requerente": "Ruth Helena Oliveira Menezes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 263,
+    "numero_processo": "00503423020218060036",
+    "juiz": "Cynthia Pereira Petri Feitosa",
+    "requerente": "Luciano Pereira de Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 264,
+    "numero_processo": "00531552220218060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Deyvillanne Santos Oliveira dos Anjos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 265,
+    "numero_processo": "02708181620218060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Layla Suellen Moura Ramos",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 266,
+    "numero_processo": "02704475220218060001",
+    "juiz": "Patrícia Fernanda Toledo Rodrigues",
+    "requerente": "Manoel Messias Rocha",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 267,
+    "numero_processo": "00511293820218060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Roberio Cleber Sampaio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 268,
+    "numero_processo": "02800686520218060133",
+    "juiz": "RENATA GUIMARAES GUERRA",
+    "requerente": "Ministério Público do Estado do Ceará",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 269,
+    "numero_processo": "00508665420218060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Mayra Eufrázio da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 270,
+    "numero_processo": "02487792520218060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Eurivone Pereira do Monte",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 271,
+    "numero_processo": "02486051620218060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Mariana Soares Rola",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 272,
+    "numero_processo": "02481289020218060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Diana Carneiro da Cunha Câmara",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 273,
+    "numero_processo": "02469995020218060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Espólio de Amanda de Paula Vieira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 274,
+    "numero_processo": "02467457720218060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Silvio Machado Martins",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 275,
+    "numero_processo": "02800033920218060111",
+    "juiz": "Francisco de Paulo Queiroz Bernardino Junior",
+    "requerente": "Maria Neuza da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 276,
+    "numero_processo": "00534199520218060117",
+    "juiz": "Tassia Fernanda de Siqueira",
+    "requerente": "Edna Maria Leite Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 277,
+    "numero_processo": "02409915720218060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Matheus Teixeira Fialho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 278,
+    "numero_processo": "02385864820218060001",
+    "juiz": "Antonio Teixeira de Sousa",
+    "requerente": "Larissa da Silveira Lima",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 279,
+    "numero_processo": "00514810920218060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Veronica Domingos Lima Honorio",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 280,
+    "numero_processo": "00514776920218060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Giselda Macedo Pereira Correia",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 281,
+    "numero_processo": "00511992220218060151",
+    "juiz": "Francisco Eduardo Girão Braga",
+    "requerente": "Maria Zelinda de Souza Neto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 282,
+    "numero_processo": "02357518720218060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Luiz Heitor Magalhaes Peixoto",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 283,
+    "numero_processo": "02353603520218060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Fabiana Vigatto Rocha Freitas",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 284,
+    "numero_processo": "00513901620218060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 285,
+    "numero_processo": "00513486420218060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 286,
+    "numero_processo": "00510691820218060091",
+    "juiz": "Carlos Eduardo Carvalho Arrais",
+    "requerente": "Pedro Gomes das Neves Filho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 287,
+    "numero_processo": "00510484220218060091",
+    "juiz": "Carlos Eduardo Carvalho Arrais",
+    "requerente": "Maria Otaiza Queiroga Cavalcante",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 288,
+    "numero_processo": "02800185820218060062",
+    "juiz": "Bruno Leonardo Batista de Medeiros Santos",
+    "requerente": "Ministério Público do Estado do Ceará",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 289,
+    "numero_processo": "00510008320218060091",
+    "juiz": "Carlos Eduardo Carvalho Arrais",
+    "requerente": "Paulo Régis de Oliveira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 290,
+    "numero_processo": "01972970920198060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Antonia Edneia de Barros Mendonça",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 291,
+    "numero_processo": "01935123920198060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Espolio de Necy Correia e Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 292,
+    "numero_processo": "01932777220198060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Maria de Fátima de Oliveira Gonçalves",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 293,
+    "numero_processo": "01928316920198060001",
+    "juiz": "DAYANA CLAUDIA TAVARES BARROS DE CASTRO",
+    "requerente": "Maria Isadora Lima Nogueira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 294,
+    "numero_processo": "00200029220198060127",
+    "juiz": "Sérgio da Nobrega Farias",
+    "requerente": "Ministério Público",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 295,
+    "numero_processo": "01842567220198060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "Francisco Tarcisio Damasceno",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 296,
+    "numero_processo": "01835829420198060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Francisco Heráclito de Araujo Silva Junior",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 297,
+    "numero_processo": "01775463620198060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Iseuda Vieira de Souza",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 298,
+    "numero_processo": "01754739120198060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Arnaldo Moraes Pinheiro Filho",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 299,
+    "numero_processo": "00034555820198060100",
+    "juiz": "Gabriela Carvalho Azzi",
+    "requerente": "FRANCISCA PEREIRA BRIOSO",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 300,
+    "numero_processo": "00075589820198060071",
+    "juiz": null,
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 301,
+    "numero_processo": "01610797920198060001",
+    "juiz": null,
+    "requerente": "João Monteiro Neto",
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 302,
+    "numero_processo": "00134327520198060035",
+    "juiz": "RAMON BESERRA DA VEIGA PESSOA",
+    "requerente": "Aldemir do Carmo Nunes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 303,
+    "numero_processo": "01544291620198060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Alice Albuquerque de Souza",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 304,
+    "numero_processo": "01535137920198060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Ethiane Silva Arcanjo de Melo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 305,
+    "numero_processo": "01499706820198060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "José Cavalcante Olinda",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 306,
+    "numero_processo": "01451760420198060001",
+    "juiz": "BRUNO GOMES BENIGNO SOBRAL",
+    "requerente": "Ernilson Martins Nascimento",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 307,
+    "numero_processo": "00061712320198060144",
+    "juiz": "José Arnaldo dos Santos Soares",
+    "requerente": "Ministério Público do Estado do Ceará",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 308,
+    "numero_processo": "01400021420198060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Maria Fátima Pimentel Siqueira",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 309,
+    "numero_processo": "00089750420168060100",
+    "juiz": "Cláudia Waleska Mattos Mascarenhas",
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 310,
+    "numero_processo": "00483357020168060091",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "Emilly Belizario da Silva",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 311,
+    "numero_processo": "00125162020168060173",
+    "juiz": "Felipe William Silva Gonçalves",
+    "requerente": "Jose Matheus dos Reis Araujo",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 312,
+    "numero_processo": "00105769320168060181",
+    "juiz": "Hyldon Masters Cavalcante Costa",
+    "requerente": "Antonia Saraiva de Morais",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 313,
+    "numero_processo": "01315476520168060001",
+    "juiz": "Rommel Moreira Conrado",
+    "requerente": "Francisco Potiguara Frota Ferreira Gomes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 314,
+    "numero_processo": "00135494720168060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Reginaldo da Silva Gomes",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 315,
+    "numero_processo": "02062145620158060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Julio Jorge Vieira Barroso",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 316,
+    "numero_processo": "00019659420158060082",
+    "juiz": "Suetônio de Souza Valgueiro de Carvalho Cantarelli",
+    "requerente": "[Intimação Eletrônica] - Ministério Público Estadual do Ceará",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 317,
+    "numero_processo": "00350977820158060071",
+    "juiz": "Titular Assinado por Certificação Digital",
+    "requerente": null,
+    "sentenca_favoravel": true,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 318,
+    "numero_processo": "00093216320158060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Carmelina Felix Grangeiro",
+    "sentenca_favoravel": true,
+    "status": "sucesso"
+  },
+  {
+    "id": 319,
+    "numero_processo": "02085143920258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Ana Clara dos Santos de Moraes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 320,
+    "numero_processo": "02072733020258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Carlos Vinícius Nobre Mendes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 321,
+    "numero_processo": "02071771520258060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Mateus Henrique Barreto de Vasconcelos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 322,
+    "numero_processo": "02820545720248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Arthur Alves Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 323,
+    "numero_processo": "02756647120248060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "João Pedro Coe Torres Bezerra",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 324,
+    "numero_processo": "02739610820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Leo Jairo da Silva Moreira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 325,
+    "numero_processo": "02681151020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "André Victor Nobre Teixeira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 326,
+    "numero_processo": "02670126520248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Mariana Braga Sales",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 327,
+    "numero_processo": "02572858220248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Isabella Alves Caetano",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 328,
+    "numero_processo": "02566275820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Leide Nagle de Olinvindo Vasconcelos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 329,
+    "numero_processo": "02547161120248060001",
+    "juiz": "Ricci Lôbo de Figueiredo",
+    "requerente": "Samuel Henrique Magalhães Campos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 330,
+    "numero_processo": "02533348020248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Gabriel Sales Gomes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 331,
+    "numero_processo": "02520772020248060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Vânia Maria da Costa Gomes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 332,
+    "numero_processo": "02504819820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Laura Paixao Brasil",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 333,
+    "numero_processo": "02467916120248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Raimundo Nonato Holanda da Silva Junior",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 334,
+    "numero_processo": "02457185420248060001",
+    "juiz": "Lucimeire Godeiro Costa",
+    "requerente": "Andrea Queiroz Sierra",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 335,
+    "numero_processo": "02427548820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Fernanda Lima da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 336,
+    "numero_processo": "02424846420248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Valentina Cavalcante Morrocchi",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 337,
+    "numero_processo": "02315487720248060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Amanda Brandao Moura",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 338,
+    "numero_processo": "00101925120248060052",
+    "juiz": null,
+    "requerente": null,
+    "sentenca_favoravel": false,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 339,
+    "numero_processo": "02252471720248060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "Espólio, sucessores ou herdeiros de Jose Mendes de Sousa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 340,
+    "numero_processo": "02002594520248060028",
+    "juiz": "Gustavo Farias Alves",
+    "requerente": "Aloísio Teixeira Rios Neto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 341,
+    "numero_processo": "02232258320248060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Karen Emanuelle Barbosa Canuto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 342,
+    "numero_processo": "02209661820248060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Francisco Moésio Vasconcelos Moura",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 343,
+    "numero_processo": "02169562820248060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "João Calebe Muniz",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 344,
+    "numero_processo": "02000724720248060057",
+    "juiz": "Caio Lima Barroso",
+    "requerente": "Francisco de Assis Ferreira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 345,
+    "numero_processo": "02166072520248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Cauã Fernando Bezerra Lucena, Fone: 85-989738310",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 346,
+    "numero_processo": "02008238920248060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Jose Loiola de Alencar Filho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 347,
+    "numero_processo": "02160772120248060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "Wesclei Pinheiro Mouzinho de Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 348,
+    "numero_processo": "02160608220248060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Daniele de Souza Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 349,
+    "numero_processo": "02003863520248060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Sandhara Ribeiro Rodrigues",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 350,
+    "numero_processo": "02001304420248060059",
+    "juiz": "Klóvis Carício da Cruz Marques",
+    "requerente": "Zulmira Silva de Souza",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 351,
+    "numero_processo": "02103066220248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Daniel Costa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 352,
+    "numero_processo": "02101568120248060001",
+    "juiz": "Ciero Miranda",
+    "requerente": "Rafaella Joanna da Silva Caseca Galindo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 353,
+    "numero_processo": "02044250720248060001",
+    "juiz": "Fabiana Silva Félix da Rocha",
+    "requerente": "Maria Fernandes de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 354,
+    "numero_processo": "02001628420248060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Francisca Cavalcante Moraes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 355,
+    "numero_processo": "02001736320248060064",
+    "juiz": "Willer Sóstenes de Sousa",
+    "requerente": "Antonia Elisangela do Nascimento Moura",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 356,
+    "numero_processo": "02019870820248060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Pedro Victor Mourão Neres",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 357,
+    "numero_processo": "02014744020248060001",
+    "juiz": "Ricci Lôbo de Figueiredo",
+    "requerente": "Roberta Priscila Moreira Dias Lucas",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 358,
+    "numero_processo": "02874270620238060001",
+    "juiz": "BRUNO GOMES BENIGNO SOBRAL",
+    "requerente": "Raimundo Nonato da Silva Filho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 359,
+    "numero_processo": "02843915320238060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Leticia Emanuelli de Oliveira Melo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 360,
+    "numero_processo": "02789551620238060001",
+    "juiz": "Maria Valdenisa de Sousa Bernardo",
+    "requerente": "Jerônimo Carlos Barros Júnior",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 361,
+    "numero_processo": "02763171020238060001",
+    "juiz": "Ciero Miranda",
+    "requerente": "Maria Alice Monteiro Alexandrino",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 362,
+    "numero_processo": "02756441720238060001",
+    "juiz": "Fabiana Silva Félix da Rocha",
+    "requerente": "Ana Cristina Fonseca de Souza Porto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 363,
+    "numero_processo": "02051220520238060117",
+    "juiz": "Luiz Eduardo Viana Pequeno",
+    "requerente": "Maria Eduarda Sales Duarte",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 364,
+    "numero_processo": "02742039820238060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Juliana Fernandes Araújo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 365,
+    "numero_processo": "02729256220238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Lidiane Oliveira Fernandes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 366,
+    "numero_processo": "02697462320238060001",
+    "juiz": "Ricci Lôbo de Figueiredo",
+    "requerente": "Erivaldo Alexandre de Abreu",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 367,
+    "numero_processo": "02006625720238060122",
+    "juiz": "Daniel Alves Mendes Filho",
+    "requerente": "João Furtado Dias",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 368,
+    "numero_processo": "02675542020238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Sofia Almeida Leoncio Magalhães",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 369,
+    "numero_processo": "02667392320238060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Melissa Macêdo Peixoto Nascimento",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 370,
+    "numero_processo": "02666690620238060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Maria Fabiana Rodrigues dos Anjos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 371,
+    "numero_processo": "02638041020238060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Emanuely Vládia Mota Palhano",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 372,
+    "numero_processo": "02626115720238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Daniel Nickson Barbosa da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 373,
+    "numero_processo": "02617480420238060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Carolina Alencar Veras Starrett",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 374,
+    "numero_processo": "02613566420238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Artur Muniz Figueredo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 375,
+    "numero_processo": "02010809120238060090",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "Izabel Cristina Muniz Barbosa Mendonça",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 376,
+    "numero_processo": "02591689820238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Maria Julia Cruz Rocha",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 377,
+    "numero_processo": "02558284920238060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Helena Maria de Carvalho Brandine",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 378,
+    "numero_processo": "02554777620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Vanessa Mariano de Castro",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 379,
+    "numero_processo": "02045346020238060064",
+    "juiz": "Edison Ponte Bandeira de Melo",
+    "requerente": "Maria Darlete da Silva Viana",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 380,
+    "numero_processo": "02045042520238060064",
+    "juiz": "Maria Valdileny Sombra Franklin",
+    "requerente": "Nayara dos Santos Barros",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 381,
+    "numero_processo": "02528405520238060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Isla Soares de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 382,
+    "numero_processo": "02516920920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maria Beatriz Aires Queiroz Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 383,
+    "numero_processo": "02515198220238060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Manuele Luz Santos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 384,
+    "numero_processo": "02497998020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Mateus de Almeida Sousa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 385,
+    "numero_processo": "02492853020238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Nereide Mendonça da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 386,
+    "numero_processo": "02486548620238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Juan Carlos Nascimento da Cunha",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 387,
+    "numero_processo": "00278516620238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Sophia Loren Moreira de Carvalho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 388,
+    "numero_processo": "02449896220238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Rafaella Aragão Souza",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 389,
+    "numero_processo": "02020964020238060071",
+    "juiz": "José Flávio Bezerra Morais",
+    "requerente": "Tasla Vieira Soares",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 390,
+    "numero_processo": "02428686120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Maitê Ferreira Nunes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 391,
+    "numero_processo": "02009997320238060113",
+    "juiz": "PAULO LACERDA DE OLIVEIRA JUNIOR",
+    "requerente": "Dulce Maria Viana Lourenço",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 392,
+    "numero_processo": "02419748520238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Joaquim Roberto Cardoso de Almeida",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 393,
+    "numero_processo": "02417288920238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Heitor Lima Albuquerque",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 394,
+    "numero_processo": "02390076720238060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "José Alexandre Fernandes Santiago",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 395,
+    "numero_processo": "02008136720238060075",
+    "juiz": "Rejane Eire Fernandes Alves",
+    "requerente": "Ingrid Lustosa Madeira Neves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 396,
+    "numero_processo": "02383312220238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Samuel Lima Albuquerque",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 397,
+    "numero_processo": "02381164620238060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "Helena Vitorino Albim",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 398,
+    "numero_processo": "02315646520238060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Pedro Aragão Neto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 399,
+    "numero_processo": "02250170920238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Amanda Gomes Gurgel",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 400,
+    "numero_processo": "02001055020238060161",
+    "juiz": "Fábio Medeiros Falcão de Andrade",
+    "requerente": "Ana Gleide Rodrigues Braz",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 401,
+    "numero_processo": "02218611320238060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Francisco Martins Filho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 402,
+    "numero_processo": "02000968820238060161",
+    "juiz": "Fábio Medeiros Falcão de Andrade",
+    "requerente": "Francisco das Chagas Sales",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 403,
+    "numero_processo": "00182859320238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Lucas Oliveira do Nascimento",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 404,
+    "numero_processo": "02200675420238060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Katienne Mary Quintino Batista",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 405,
+    "numero_processo": "02198129620238060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Liana Maria Pinto Firmeza",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 406,
+    "numero_processo": "02173827420238060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Monica Barreto Espindola dos Santos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 407,
+    "numero_processo": "02172268620238060001",
+    "juiz": "Ricci Lôbo de Figueiredo",
+    "requerente": "Carlos Miguel Fernandes Tavares",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 408,
+    "numero_processo": "02172371820238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Davi Oliveira Camurça,",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 409,
+    "numero_processo": "02167773120238060001",
+    "juiz": "Maria José Sousa Rosado de Alencar",
+    "requerente": "Maria Vilani Fortaleza de Morais",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 410,
+    "numero_processo": "02164205120238060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Joecelia Raiane Queiroz Barros",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 411,
+    "numero_processo": "02134949720238060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Nicolas Ariel Giraudo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 412,
+    "numero_processo": "02097517920238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Regiane Patrícia Araújo Athayde",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 413,
+    "numero_processo": "02086544420238060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Emilia Martins Cavalcante",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 414,
+    "numero_processo": "02002667620238060091",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "Joana Marinez Alves Coelho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 415,
+    "numero_processo": "02052542220238060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Agenor Soares Dias Filho, Representado Por Tereza Lucia Lopes de Noronha Dias",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 416,
+    "numero_processo": "02000825420238060113",
+    "juiz": "PAULO LACERDA DE OLIVEIRA JUNIOR",
+    "requerente": "Francsica Alves Filha",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 417,
+    "numero_processo": "02024889320238060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Izilda Mendes de Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 418,
+    "numero_processo": "02029784320228060101",
+    "juiz": "Leslie Anne Maia Campos",
+    "requerente": "Geovana Rodrigues Pires",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 419,
+    "numero_processo": "02004035720228060135",
+    "juiz": "Eduardo Andre Dantas Silva",
+    "requerente": "Valéria Cristina de Sá Nunes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 420,
+    "numero_processo": "02031207720228060091",
+    "juiz": "Marcelo Veiga Vieira",
+    "requerente": "José Rigoberto Ferreira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 421,
+    "numero_processo": "02009902120228060122",
+    "juiz": "Daniel Alves Mendes Filho",
+    "requerente": "Beatriz Henrique de Siqueira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 422,
+    "numero_processo": "02888287420228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Ana Vitoria Marinete de Sousa Queiroz",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 423,
+    "numero_processo": "02037474420228060071",
+    "juiz": "Titular\nAdvogados",
+    "requerente": "Dalveniza Mateus de Brito Gonçalves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 424,
+    "numero_processo": "02008689620228060028",
+    "juiz": "Gustavo Farias Alves",
+    "requerente": "Maria Marlí Firmino Alves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 425,
+    "numero_processo": "02009999720228060181",
+    "juiz": "Hyldon Masters Cavalcante Costa",
+    "requerente": "Jose Armando de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 426,
+    "numero_processo": "02872377720228060001",
+    "juiz": "Alda Maria Holanda Leite",
+    "requerente": "Michelle Morales Braga",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 427,
+    "numero_processo": "02869631620228060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Maria Darlete da Silva Viana",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 428,
+    "numero_processo": "02008290520228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Maria Alves Dantas",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 429,
+    "numero_processo": "02004089820228060161",
+    "juiz": "Fábio Medeiros Falcão de Andrade",
+    "requerente": "Izabel Pereira do Nascimento",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 430,
+    "numero_processo": "02004102820228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Maria Imaculada Moreira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 431,
+    "numero_processo": "02004050620228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Iracema Elça de Figueiredo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 432,
+    "numero_processo": "02003947420228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Raimunda Maria de Lima de Figueiredo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 433,
+    "numero_processo": "02003903720228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Luis Paulo Bezerra Rodrigues",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 434,
+    "numero_processo": "02812730620228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Camila Accioly Ary",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 435,
+    "numero_processo": "02007057020228060108",
+    "juiz": "Diogo Altorbelli Silva de Freitas",
+    "requerente": "Maria Amélia de Lima Cardoso",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 436,
+    "numero_processo": "02006635020228060066",
+    "juiz": "Carlos Eduardo Carvalho Arrais",
+    "requerente": "Breno Keslley Pereira de Souza",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 437,
+    "numero_processo": "02755743420228060001",
+    "juiz": "Roberto Ferreira Facundo",
+    "requerente": "Ana Júlia Rego Gonçalves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 438,
+    "numero_processo": "02009510620228060128",
+    "juiz": "Francisco Eduardo Girão Braga",
+    "requerente": "Valberlania Brito da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 439,
+    "numero_processo": "02004372320228060041",
+    "juiz": "Luis Sávio de Azevedo Bringel",
+    "requerente": "Raimundo Marinho de Luna",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 440,
+    "numero_processo": "02062735520228060112",
+    "juiz": "FABRICIUS FERREIRA SILVA",
+    "requerente": "Juliana Gonçalves Gregório",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 441,
+    "numero_processo": "02010461620228060070",
+    "juiz": "Airton Jorge de Sá Filho",
+    "requerente": "Maria da Silva Teixeira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 442,
+    "numero_processo": "02721862620228060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Benedito Lemos de Aragão",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 443,
+    "numero_processo": "02006861620228060124",
+    "juiz": "OTAVIO OLIVEIRA DE MORAIS",
+    "requerente": "Maria Rita de Jesus",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 444,
+    "numero_processo": "02017268020228060173",
+    "juiz": "Felipe William Silva Gonçalves",
+    "requerente": "Eliane Sousa Rodrigues",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 445,
+    "numero_processo": "02006692020228060143",
+    "juiz": "Márcio Freire de Souza",
+    "requerente": "Antonia Janicler Vieira da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 446,
+    "numero_processo": "02003107320228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Francisco Manuel dos Santos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 447,
+    "numero_processo": "02662017620228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Livia Mesquita Amorim",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 448,
+    "numero_processo": "02013306320228060154",
+    "juiz": "Rodrigo Campelo Diógenes",
+    "requerente": "Ana Cláudia Olímpio da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 449,
+    "numero_processo": "02657808620228060001",
+    "juiz": "Patrícia Fernanda Toledo Rodrigues",
+    "requerente": "Manuela Bezerra Landim Cunha",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 450,
+    "numero_processo": "02006492920228060143",
+    "juiz": "Márcio Freire de Souza",
+    "requerente": "Francisca Gonçalves de Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 451,
+    "numero_processo": "02633099720228060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Rozinalda Pereira Soares",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 452,
+    "numero_processo": "02004910220228060069",
+    "juiz": "Hugo Gutparakis de Miranda",
+    "requerente": "Gerardo dos Santos Filho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 453,
+    "numero_processo": "02621017820228060001",
+    "juiz": null,
+    "requerente": "Gaell Havi Santos da Silva",
+    "sentenca_favoravel": false,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 454,
+    "numero_processo": "02595632720228060001",
+    "juiz": null,
+    "requerente": "Maria Aparecida Maia Bandeira",
+    "sentenca_favoravel": false,
+    "status": "dados_incompletos"
+  },
+  {
+    "id": 455,
+    "numero_processo": "02013647820228060173",
+    "juiz": "Felipe William Silva Gonçalves",
+    "requerente": "Liliane Lima Barbosa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 456,
+    "numero_processo": "02005194720228060108",
+    "juiz": "Diogo Altorbelli Silva de Freitas",
+    "requerente": "Francisca Luciana Alves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 457,
+    "numero_processo": "02002128820228060045",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Henrique de Albuquerque Andrade",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 458,
+    "numero_processo": "02397467420228060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Antonia Karina Barroso Gouveia Cunha",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 459,
+    "numero_processo": "02001441220228060087",
+    "juiz": "Anderson Alexandre Nascimento Silva",
+    "requerente": "Antonia Maria Felix de Sousa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 460,
+    "numero_processo": "02318853720228060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Linda Mara Monteiro da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 461,
+    "numero_processo": "02004450720228060168",
+    "juiz": "Mikhail de Andrade Torres",
+    "requerente": "Raimundo Nonato de Brito",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 462,
+    "numero_processo": "02001326020228060131",
+    "juiz": "Ana Celia Pinho Carneiro",
+    "requerente": "Neurilene Germano da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 463,
+    "numero_processo": "02178913920228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Everton Meneghini",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 464,
+    "numero_processo": "02012923020228060064",
+    "juiz": "Willer Sóstenes de Sousa",
+    "requerente": "Rosa Maria da Silva Carneiro",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 465,
+    "numero_processo": "02077436620228060001",
+    "juiz": "Fernando Teles de Paula Lima",
+    "requerente": "Maria Liduína Caetano de Aquino",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 466,
+    "numero_processo": "02037406820228060001",
+    "juiz": "Fabiana Silva Félix da Rocha",
+    "requerente": "Cybele Tomaz Steger de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 467,
+    "numero_processo": "02903394420218060001",
+    "juiz": "Cristiano Rabelo Leitão",
+    "requerente": "Anna Beatriz de Brito Angelo",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 468,
+    "numero_processo": "02876823220218060001",
+    "juiz": "Danúbia Loss Nicoláo",
+    "requerente": "Raimundo Modesto de Oliveira Neto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 469,
+    "numero_processo": "00513983420218060122",
+    "juiz": "Daniel Alves Mendes Filho",
+    "requerente": "Iolanda Dantas de Carvalho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 470,
+    "numero_processo": "00508888820218060132",
+    "juiz": "HERICK BEZERRA TAVARES",
+    "requerente": "Antônia Cmapos da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 471,
+    "numero_processo": "00513212420218060090",
+    "juiz": "Joseph Raphael Alencar Brandão",
+    "requerente": "Joana Candido Araujo de Sousa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 472,
+    "numero_processo": "02767533720218060001",
+    "juiz": "Maria Valdenisa de Sousa Bernardo",
+    "requerente": "João Ricardo Cavalcante Nepomuceno Filho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 473,
+    "numero_processo": "00510544120218060126",
+    "juiz": "Marília Pires Vieira",
+    "requerente": "Maria Alves de Sousa",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 474,
+    "numero_processo": "00510795220218060062",
+    "juiz": "Bruno Leonardo Batista de Medeiros Santos",
+    "requerente": "Gessica Maria Carvalho Galdino",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 475,
+    "numero_processo": "00507599420218060096",
+    "juiz": "JORGE ROGER DOS SANTOS LIMA",
+    "requerente": "Mauro Alves Ferreira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 476,
+    "numero_processo": "00505956120218060054",
+    "juiz": "Djalma Sobreira Dantas Junior",
+    "requerente": "Francisco Fernando Eloia Mota",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 477,
+    "numero_processo": "00503243120218060061",
+    "juiz": "Larissa Affonso Mayer",
+    "requerente": "Lunna Maria Martins Brito",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 478,
+    "numero_processo": "02271716820218060001",
+    "juiz": "BRUNO GOMES BENIGNO SOBRAL",
+    "requerente": "Larysse Cristina Costa Santos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 479,
+    "numero_processo": "02120405320218060001",
+    "juiz": "Maria de Fatima Bezerra Facundo",
+    "requerente": "Beatriz Brasil de Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 480,
+    "numero_processo": "02636231420208060001",
+    "juiz": "Ciero Miranda",
+    "requerente": "Rita Emília de Carvalho Rodrigues Bezerra de Menezes",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 481,
+    "numero_processo": "02384551020208060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Cláudio Varella de Mattos Brito",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 482,
+    "numero_processo": "02226164220208060001",
+    "juiz": "Mirian Porto Mota Randal Pompeu",
+    "requerente": "Alberto Hil Furtado Junior",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 483,
+    "numero_processo": "01934690520198060001",
+    "juiz": "LUCIANO NUNES MAIA FREIRE",
+    "requerente": "Selda Maria de Aguar Carvalho",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 484,
+    "numero_processo": "01855133520198060001",
+    "juiz": "Leila Regina Corado Lobato",
+    "requerente": "Maria Vilani Marinho Freire",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 485,
+    "numero_processo": "00017219220198060158",
+    "juiz": "Titular\nAdvogados",
+    "requerente": "FRANCISCA MARQUES DE LIMA SANTIAGO",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 486,
+    "numero_processo": "01711602420188060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Antonio Luis Nobre Barreto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 487,
+    "numero_processo": "01413085220188060001",
+    "juiz": "Fabricia Ferreira de Freitas",
+    "requerente": "Larissa Cunha Peixoto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 488,
+    "numero_processo": "01748676820168060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Kaline Michelly Duarte de Amorim",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 489,
+    "numero_processo": "00111447220158060043",
+    "juiz": "Marcelino Emidio Maciel Filho",
+    "requerente": "Elisabeth dos Santos Queiroz",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 490,
+    "numero_processo": "01588748720138060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "CARLOS ALBERTO CESAR DA SILVA",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 491,
+    "numero_processo": "02094665220248060001",
+    "juiz": "Thales Pimentel Saboia",
+    "requerente": "Idelce Maria da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 492,
+    "numero_processo": "02004945120248060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Allef Rocha de Albuquerque Arraes Representado Por Sua Curadora Joana Rocha Alves",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 493,
+    "numero_processo": "02026496920248060001",
+    "juiz": "Fabiano Damasceno Maia",
+    "requerente": "Kelina Kassia Pontes de Mascena Barretto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 494,
+    "numero_processo": "02014232920248060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Fabricia Silva de Silveira Militao",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 495,
+    "numero_processo": "02614207420238060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "João Pedro Ribeiro Bezerra Freire",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 496,
+    "numero_processo": "02042587920238060112",
+    "juiz": "Péricles Victor Galvão de Oliveira",
+    "requerente": "Ana Crsitina Quezado Santos",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 497,
+    "numero_processo": "02028271020238060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Pedro Cauan Nogueira Representato Por Camila Raquel Figueiredo Nogueira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 498,
+    "numero_processo": "02186523620238060001",
+    "juiz": "Rommel Moreira Conrado",
+    "requerente": "Sergio Luiz Rodrigues Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 499,
+    "numero_processo": "02012283620238060112",
+    "juiz": "FABRICIUS FERREIRA SILVA",
+    "requerente": "Eleazart Ferreira Lima",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 500,
+    "numero_processo": "02047761420238060001",
+    "juiz": "Ana Raquel Colares dos Santos",
+    "requerente": "Julio Pinto Neto",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 501,
+    "numero_processo": "02063489420228060112",
+    "juiz": "Matheus Pereira Junior",
+    "requerente": "Josefa Jucilene Santos Barroso",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 502,
+    "numero_processo": "02006673320228060181",
+    "juiz": "Hyldon Masters Cavalcante Costa",
+    "requerente": "Raimundo Venancio da Silva",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 503,
+    "numero_processo": "02678787820218060001",
+    "juiz": "Gerardo Magelo Facundo Junior",
+    "requerente": "Julyana Rifane Oliveira",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  },
+  {
+    "id": 504,
+    "numero_processo": "02226629420218060001",
+    "juiz": "Josias Nunes Vidal",
+    "requerente": "Levi Lima Brito",
+    "sentenca_favoravel": false,
+    "status": "sucesso"
+  }
+]

@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 # Configurações
-ARQUIVO_PROCESSOS = "dados_processos_tjce.csv"
-ARQUIVO_NOMES = "nomes.csv.gz"
-ARQUIVO_SAIDA = "dados_processos_com_sexo.csv"
+ARQUIVO_PROCESSOS = "data/dados_processos_tjce.csv"
+ARQUIVO_NOMES = "data/nomes.csv.gz"
+ARQUIVO_SAIDA = "data/dados_processos_com_sexo.csv"
 
 
 def carregar_banco_nomes(arquivo_nomes):
@@ -92,9 +92,9 @@ def inferir_sexo_processos(
     return df_processos
 
 
-def main():
+def executar_inferencia_sexo():
     """
-    Função principal.
+    Função principal: infere sexo de juízes e requerentes
     """
     # Verifica se os arquivos existem
     if not os.path.exists(ARQUIVO_PROCESSOS):
@@ -155,4 +155,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    executar_inferencia_sexo()

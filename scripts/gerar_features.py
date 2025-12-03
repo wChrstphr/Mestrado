@@ -228,14 +228,17 @@ def processar_processo(processo_source):
     return features
 
 
-def main():
+def executar_geracao_features():
+    """
+    Função principal: gera features para modelo ML
+    """
     print("=" * 80)
     print("GERAÇÃO DE FEATURES PARA MODELO ML")
     print("=" * 80)
 
     # 1. Carregar dados_completos.json
     print("\n[1/4] Carregando dados_completos.json...")
-    with open("dados_completos.json", "r", encoding="utf-8") as f:
+    with open("data/dados_completos.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     processos = data["hits"]["hits"]
@@ -260,8 +263,14 @@ def main():
     # 3. Carregar dados_processos_com_sexo.csv e fazer merge
     print("\n[3/4] Integrando com dados_processos_com_sexo.csv...")
     try:
-        df_sexo = pd.read_csv("dados_processos_com_sexo.csv")
+        df_sexo = pd.read_csv("data/dados_processos_com_sexo.csv")
         print(f"   ✓ {len(df_sexo)} processos com dados de sexo carregados")
+
+        # Converter numero_processo para string com zeros à esquerda (20 dígitos)
+        df_sexo["numero_processo"] = (
+            df_sexo["numero_processo"].astype(str).str.zfill(20)
+        )
+        df_features["numero_processo"] = df_features["numero_processo"].astype(str)
 
         # Fazer merge pelo numero_processo
         df_final = df_features.merge(
@@ -287,7 +296,7 @@ def main():
 
     # 4. Salvar dataset final
     print("\n[4/4] Salvando dataset_ml_completo.csv...")
-    output_file = "dataset_ml_completo.csv"
+    output_file = "data/dataset_ml_completo.csv"
     df_final.to_csv(output_file, index=False, encoding="utf-8")
     print(f"   ✓ Dataset salvo: {output_file}")
 
@@ -325,4 +334,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    executar_geracao_features()

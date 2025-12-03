@@ -52,10 +52,9 @@ import asyncio
 import re
 import os
 from playwright.async_api import async_playwright
-import scripts.inferir_sexo as inferir_sexo
 
 # Constantes
-CACHE_FILE = "cache_processos.json"
+CACHE_FILE = "data/cache_processos.json"
 PALAVRAS_INVALIDAS_JUIZ = ["Especial", "Cível", "Criminal", "Direito", "Vara"]
 PADROES_JUIZ = [
     r"Juiz(?:a)?\s+de\s+Direito\s*[:\-]\s*([A-ZÀÁÂÃÇÉÊÍÓÔÕÚ][a-zàáâãçéêíóôõú]+(?:\s+[A-ZÀÁÂÃÇÉÊÍÓÔÕÚ][a-zàáâãçéêíóôõú]+)+)",
@@ -79,7 +78,7 @@ def carregar_decisoes():
     """Carrega o mapeamento de decisões (Procedência/Improcedência)"""
     decisoes_map = {}
     try:
-        with open("decisoes_resumo.csv", "r", encoding="utf-8") as f:
+        with open("data/decisoes_resumo.csv", "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 numero = row["numero_processo"]
@@ -241,7 +240,7 @@ async def executar_scraping():
 
     # Ler números dos processos
     print("\n1. Lendo números dos processos...")
-    numeros_processos = ler_numeros_processos("numeros_processos.csv")
+    numeros_processos = ler_numeros_processos("data/numeros_processos.csv")
     print(f"   Total de processos a buscar: {len(numeros_processos)}")
 
     # Carregar decisões
@@ -269,7 +268,7 @@ async def executar_scraping():
 
     async with async_playwright() as playwright:
         # Configurar browser
-        browser = await playwright.chromium.launch(headless=False)
+        browser = await playwright.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
 
@@ -337,14 +336,14 @@ def salvar_resultados_finais(resultados, decisoes_map):
     ]
 
     # Salvar em JSON
-    with open("dados_processos_tjce.json", "w", encoding="utf-8") as f:
+    with open("data/dados_processos_tjce.json", "w", encoding="utf-8") as f:
         json.dump(resultados_completos, f, indent=2, ensure_ascii=False)
     print(
-        f"    Arquivo JSON salvo: dados_processos_tjce.json ({len(resultados_completos)} processos válidos)"
+        f"    Arquivo JSON salvo: data/dados_processos_tjce.json ({len(resultados_completos)} processos válidos)"
     )
 
     # Salvar em CSV
-    with open("dados_processos_tjce.csv", "w", encoding="utf-8", newline="") as f:
+    with open("data/dados_processos_tjce.csv", "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[
@@ -359,30 +358,16 @@ def salvar_resultados_finais(resultados, decisoes_map):
         writer.writeheader()
         writer.writerows(resultados_completos)
     print(
-        f"    Arquivo CSV salvo: dados_processos_tjce.csv ({len(resultados_completos)} processos válidos)"
+        f"    Arquivo CSV salvo: data/dados_processos_tjce.csv ({len(resultados_completos)} processos válidos)"
     )
 
 
-async def main():
+async def executar_pipeline_scraping():
     """
-    Função principal integrada: executa scraping e inferência de sexo
+    Executa scraping de dados do TJCE
     """
-    # Etapa 1: Scraping de dados do TJCE
     await executar_scraping()
-
-    # Etapa 2: Inferência de sexo
-    print("\n" + "=" * 60)
-    print("INFERÊNCIA DE SEXO")
-    print("=" * 60)
-
-    # Verificar se o arquivo de dados foi gerado
-    if os.path.exists("dados_processos_tjce.csv"):
-        print("\nIniciando inferência de sexo a partir dos dados coletados...")
-        inferir_sexo.main()
-    else:
-        print("\n⚠ Arquivo 'dados_processos_tjce.csv' não encontrado.")
-        print("Execute o scraping primeiro para gerar os dados.")
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(executar_pipeline_scraping())
