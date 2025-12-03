@@ -4,6 +4,24 @@ Sistema para coleta e processamento de dados processuais do TJCE.
 
 ## 🎯 Início Rápido
 
+### ⚙️ Instalação
+
+### 1. Criar e ativar ambiente virtual
+
+```bash
+# Criar
+python -m venv venv
+
+# Ativar (Windows)
+.\venv\Scripts\activate
+```
+
+### 2. Instalar dependências
+
+```bash
+pip install -r requirements.txt
+playwright install chromium
+```
 ### Passo 1: Coleta Inicial via API
 
 Execute o notebook `notebooks/tjce.ipynb` para:
@@ -72,25 +90,6 @@ Infere sexo a partir dos nomes usando base de dados brasileiros.
 
 ### 3. Geração de Features
 Gera dataset final com **29 features** para ML.
-
-## ⚙️ Instalação
-
-### 1. Criar e ativar ambiente virtual
-
-```bash
-# Criar
-python -m venv venv
-
-# Ativar (Windows)
-.\venv\Scripts\activate
-```
-
-### 2. Instalar dependências
-
-```bash
-pip install -r requirements.txt
-playwright install chromium
-```
 
 ## 📂 Arquivos Gerados
 
