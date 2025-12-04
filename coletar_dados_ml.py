@@ -11,45 +11,46 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "scripts"))
 def verificar_arquivo(caminho):
     return os.path.exists(caminho)
 
+
 async def executar_scraping():
     print("\n[1/3] Web Scraping TJCE")
 
-    if not verificar_arquivo("data/numeros_processos.csv"):
-        print("Erro: data/numeros_processos.csv não encontrado")
+    if not verificar_arquivo("data/output/numeros_processos.csv"):
+        print("Erro: data/output/numeros_processos.csv não encontrado")
         return False
 
     await scraper_tjce.executar_pipeline_scraping()
-    return verificar_arquivo("data/dados_processos_tjce.csv")
+    return verificar_arquivo("data/output/dados_processos_tjce.csv")
 
 
 def executar_inferencia_sexo():
     print("\n[2/3] Inferência de Sexo")
 
-    if not verificar_arquivo("data/dados_processos_tjce.csv"):
+    if not verificar_arquivo("data/output/dados_processos_tjce.csv"):
         print("Erro: Execute o scraping primeiro")
         return False
 
     if not verificar_arquivo("data/input/nomes.csv.gz"):
-        print("Erro: data/nomes.csv.gz não encontrado")
+        print("Erro: data/input/nomes.csv.gz não encontrado")
         return False
 
     inferir_sexo.executar_inferencia_sexo()
-    return verificar_arquivo("data/dados_processos_com_sexo.csv")
+    return verificar_arquivo("data/output/dados_processos_com_sexo.csv")
 
 
 def executar_features():
     print("\n[3/3] Geração de Features")
 
-    if not verificar_arquivo("data/dados_completos.json"):
-        print("Erro: data/dados_completos.json não encontrado")
+    if not verificar_arquivo("data/output/dados_completos.json"):
+        print("Erro: data/output/dados_completos.json não encontrado")
         return False
 
-    if not verificar_arquivo("data/dados_processos_com_sexo.csv"):
+    if not verificar_arquivo("data/output/dados_processos_com_sexo.csv"):
         print("Erro: Execute a inferência de sexo primeiro")
         return False
 
     gerar_features.executar_geracao_features()
-    return verificar_arquivo("data/dataset_ml_completo.csv")
+    return verificar_arquivo("data/output/dataset_ml_limpo.csv")
 
 
 async def executar_pipeline_completo():
@@ -68,7 +69,7 @@ async def executar_pipeline_completo():
         return False
 
     print("\nPipeline concluído")
-    print("Dataset final: data/dataset_ml_completo.csv")
+    print("Dataset final: data/output/dataset_ml_limpo.csv")
     return True
 
 
