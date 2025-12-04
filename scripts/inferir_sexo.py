@@ -17,6 +17,7 @@ def carregar_banco_nomes(arquivo_nomes):
         compression="gzip",
         encoding="utf-8",
     )
+    print(df_nomes.columns)
 
     return df_nomes
 
@@ -112,20 +113,8 @@ def executar_inferencia_sexo():
     # IMPORTANTE: Ajuste os nomes das colunas conforme seu arquivo
     # Exemplos comuns: 'nome', 'first_name', 'name'
     # Exemplos comuns: 'sexo', 'gender', 'sex'
-    coluna_nome = "first_name"  # AJUSTE AQUI
-    coluna_sexo = "classification"  # AJUSTE AQUI
-
-    if coluna_nome not in df_nomes.columns:
-        print(f"\nERRO: Coluna '{coluna_nome}' não encontrada!")
-        print(f"Colunas disponíveis: {df_nomes.columns.tolist()}")
-        print(f"Ajuste a variável 'coluna_nome' no código.")
-        return
-
-    if coluna_sexo not in df_nomes.columns:
-        print(f"\nERRO: Coluna '{coluna_sexo}' não encontrada!")
-        print(f"Colunas disponíveis: {df_nomes.columns.tolist()}")
-        print(f"Ajuste a variável 'coluna_sexo' no código.")
-        return
+    coluna_nome = "first_name" 
+    coluna_sexo = "classification" 
 
     # Infere sexo nos processos
     df_resultado = inferir_sexo_processos(

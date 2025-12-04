@@ -90,7 +90,6 @@ def extrair_features_assuntos(assuntos):
         "tem_tutela_urgencia": (
             1
             if ("tutela" in assuntos_text and "urgencia" in assuntos_text)
-            or "liminar" in assuntos_text
             else 0
         ),
         "tem_obrigacao_fazer": 1 if "obrigação de fazer" in assuntos_text else 0,
