@@ -14,16 +14,16 @@ id,numero_processo,juiz,requerente,sentenca_favoravel,status
 13,02587668020248060001,Alda Maria Holanda Leite,Lucas de Sousa Grangeiro,True,sucesso
 14,02578938020248060001,Alda Maria Holanda Leite,Samuel da Silva Couto,True,sucesso
 15,02580530820248060001,Alda Maria Holanda Leite,Thomas Fernando Sales Rodrigues,True,sucesso
-16,02567210620248060001,Alda Maria Holanda Leite,Davi Leão de Sousa,True,sucesso
-17,02567332020248060001,Alda Maria Holanda Leite,Anthony Silva Girao,True,sucesso
+16,02567332020248060001,Alda Maria Holanda Leite,Anthony Silva Girao,True,sucesso
+17,02567210620248060001,Alda Maria Holanda Leite,Davi Leão de Sousa,True,sucesso
 18,02560845520248060001,Alda Maria Holanda Leite,Gabriel dos Santos Cavalcanti,True,sucesso
 19,02555865620248060001,Alda Maria Holanda Leite,Anthony Guilherme Ferreira Torres,True,sucesso
 20,02545109420248060001,Alda Maria Holanda Leite,Barbara Nascimento Barbosa,True,sucesso
 21,02540301920248060001,Alda Maria Holanda Leite,Agagha Mayte Ribeiro Dungas de Freitas,True,sucesso
-22,02534144420248060001,Alda Maria Holanda Leite,Agagha Mayte Ribeiro Dungas de Freitas,True,sucesso
-23,02534023020248060001,Alda Maria Holanda Leite,Maria Eloá da Rocha Melo,True,sucesso
-24,02533599320248060001,Alda Maria Holanda Leite,Ana Clara Lopes Ferreira,True,sucesso
-25,02533823920248060001,Alda Maria Holanda Leite,Jose Harley Moraes da Silva,True,sucesso
+22,02533599320248060001,Alda Maria Holanda Leite,Ana Clara Lopes Ferreira,True,sucesso
+23,02533823920248060001,Alda Maria Holanda Leite,Jose Harley Moraes da Silva,True,sucesso
+24,02533425720248060001,Alda Maria Holanda Leite,Kauanny Evellen Santos do Nascimento,True,sucesso
+25,02534144420248060001,Alda Maria Holanda Leite,Agagha Mayte Ribeiro Dungas de Freitas,True,sucesso
 26,02397608720248060001,Alda Maria Holanda Leite,Victor Hugo Coelho Xavier,True,sucesso
 27,02392151720248060001,Alda Maria Holanda Leite,Adryelle Félix Nascimento de Oliveira,True,sucesso
 28,02372198120248060001,Antonio Teixeira de Sousa,Francisca Gisely Marques de Oliveira,True,sucesso
@@ -37,8 +37,8 @@ id,numero_processo,juiz,requerente,sentenca_favoravel,status
 36,02333086120248060001,Alda Maria Holanda Leite,Rayconny Alves de Castro,True,sucesso
 37,02003828720248060175,André Arruda Veras,Vicente de Paulo Castro,True,sucesso
 38,02314214220248060001,Thales Pimentel Saboia,Maria Lisieux de Oliveira Lima,True,sucesso
-39,02314915920248060001,Alda Maria Holanda Leite,Joao Guilherme Nascimento Alves,True,sucesso
-40,02315678320248060001,Alda Maria Holanda Leite,Augusto Morais Braga do Nascimento,True,sucesso
+39,02315678320248060001,Alda Maria Holanda Leite,Augusto Morais Braga do Nascimento,True,sucesso
+40,02314915920248060001,Alda Maria Holanda Leite,Joao Guilherme Nascimento Alves,True,sucesso
 41,02003043920248060096,JORGE ROGER DOS SANTOS LIMA,Antônia Tayna Pereira da Silva,True,sucesso
 42,02307926820248060001,Alda Maria Holanda Leite,Thaylon Eric Pereira Xavier,True,sucesso
 43,02304886920248060001,Leila Regina Corado Lobato,José Carlos Alves Cardoso,True,sucesso
@@ -53,15 +53,15 @@ id,numero_processo,juiz,requerente,sentenca_favoravel,status
 52,02127783620248060001,Alda Maria Holanda Leite,Júlio César Amarante Pinto,True,sucesso
 53,02121972120248060001,Alda Maria Holanda Leite,Elyza Beatriz Duarte Fabricio,True,sucesso
 54,02117408620248060001,Alda Maria Holanda Leite,Antonio Jonathan da Silva Alves,True,sucesso
-55,02110939120248060001,Ricci Lôbo de Figueiredo,Rene Gouveia Miranda Filho,True,sucesso
-56,02110687820248060001,Alda Maria Holanda Leite,Antônio Davi Damasceno da Silva,True,sucesso
+55,02110687820248060001,Alda Maria Holanda Leite,Antônio Davi Damasceno da Silva,True,sucesso
+56,02110939120248060001,Ricci Lôbo de Figueiredo,Rene Gouveia Miranda Filho,True,sucesso
 57,02001989620248060122,Daniel Alves Mendes Filho,Maria Kailany Bezerra,True,sucesso
 58,02109146020248060001,Alda Maria Holanda Leite,Abraão William de Oliveira,True,sucesso
-59,02104149120248060001,Alda Maria Holanda Leite,Pedro Luan Teixeira Soares,True,sucesso
+59,02103784920248060001,Alda Maria Holanda Leite,Jose Lucas Teixeira Soares,True,sucesso
 60,02831037020238060001,Alda Maria Holanda Leite,Lorenzo Gomes dos Santos,True,sucesso
 61,02017280220238060113,PAULO LACERDA DE OLIVEIRA JUNIOR,Expedito Joaquim dos Santos,True,sucesso
-62,02824628220238060001,Fabiano Damasceno Maia,Marcia Malena Ribeiro Benicio,True,sucesso
-63,02824471620238060001,Maurício Fernandes Gomes,Lia de Souza Parente,True,sucesso
+62,02824471620238060001,Maurício Fernandes Gomes,Lia de Souza Parente,True,sucesso
+63,02824628220238060001,Fabiano Damasceno Maia,Marcia Malena Ribeiro Benicio,True,sucesso
 64,02005843320238060132,HERICK BEZERRA TAVARES,Jose Agnaldo Ferreira da Silva,True,sucesso
 65,02811559320238060001,Alda Maria Holanda Leite,Gabriel Barbosa da Costa,True,sucesso
 66,02811524120238060001,Alda Maria Holanda Leite,Maria Eduarda Ribeiro Teixeira,True,sucesso
@@ -116,393 +116,385 @@ id,numero_processo,juiz,requerente,sentenca_favoravel,status
 115,02196457920238060001,Alda Maria Holanda Leite,Ericsson dos Santos Rodrigues,True,sucesso
 116,02189408120238060001,Fabiano Damasceno Maia,Ana Cristina Gurgel de Oliveira,True,sucesso
 117,02001166920238060132,HERICK BEZERRA TAVARES,Cicero Thiago Araujo,True,sucesso
-118,02000256720238060038,Djalma Sobreira Dantas Junior,Maria Marinalva Alves Rodrigues,True,sucesso
-119,02041430320238060001,Fabiano Damasceno Maia,Marilia Tavares Magalhaes,True,sucesso
-120,02000603920238060034,JULIANNE BEZERRA BARROS SANTOS,Francisco das Chagas da Silva,True,sucesso
-121,02035333520238060001,Cristiano Rabelo Leitão,Silvana Araujo de Aguiar,True,sucesso
-122,02000558720238060043,Marcelino Emidio Maciel Filho,Joao Taciano Sampaio Oliveira,True,sucesso
-123,02001650520238060167,Antonio Carneiro Roberto,Clegiane Linhares Prado,True,sucesso
-124,02027677920238060001,Alda Maria Holanda Leite,"Nayra Lohanne Sales,",True,sucesso
-125,02000532420238060171,Liana Alencar Correia,Luiza Venâncio de Oliveira,True,sucesso
-126,02001223920238060112,Péricles Victor Galvão de Oliveira,Laura Pereira do Nascimento,True,sucesso
-127,02000325320238060137,Débora Danielle Pinheiro Ximenes Freire,Maria Valdelina Alves da Silva,True,sucesso
-128,02020246920238060001,Fabiana Silva Félix da Rocha,Flavia Nayane da Silva Sá,True,sucesso
-129,02001291620238060117,Luiz Eduardo Viana Pequeno,Francinete de Jesus Maia,True,sucesso
-130,02000197120238060099,Lucas Medeiros de Lima,Everardo de Sousa,True,sucesso
-131,02000624320238060055,BRUNO ARAÚJO MASSOUD,Rita Leandro de Mendonça,True,sucesso
-132,02000808720238060112,Péricles Victor Galvão de Oliveira,Josefa Agalgisa da Costa Gentil,True,sucesso
-133,02029050420228060091,Marcelo Veiga Vieira,Francisca Rejane Alves da Silva,True,sucesso
-134,02870039520228060001,Mirian Porto Mota Randal Pompeu,Francisco Olinto Chagas Lima,True,sucesso
-135,02864071420228060001,Maurício Fernandes Gomes,Anne Aguiar Romeu,True,sucesso
-136,02005542320228060038,Djalma Sobreira Dantas Junior,Antonio Taumaturgo Alves de Alencar,False,sucesso
-137,02017152620228060052,Samara Costa Maia,Vanda Lúcia Cabral Leite,True,sucesso
-138,02011073720228060049,Paulo Jeyson Gomes Araújo,Eusenir Santos da Silva,True,sucesso
-139,02015616220228060034,Juliana Sampaio de Araújo,Jose Cleiton Almeida Gadelha,True,sucesso
-140,02018867320228060119,Ana Izabel de Andrade Lima Pontes,Davila Teixeira de Paula,True,sucesso
-141,02026623020228060101,Luiz Guilherme Costa Pedroso Silva,Antonia de Melo Gomes Sousa,True,sucesso
-142,02014401620228060137,Jhulian Pablo Rocha Faria,Deborah Thais Ribeiro Macedo,True,sucesso
-143,02026528320228060101,Leslie Anne Maia Campos,Amauri Teixeira da Silva,True,sucesso
-144,02010634820228060136,Danúbia Loss Nicoláo,Francisco de Assis Costa,True,sucesso
-145,02014271720228060137,Jhulian Pablo Rocha Faria,Derliene Adriano da Costa,True,sucesso
-146,02847729520228060001,Gerardo Magelo Facundo Junior,Ana Carolina Pinho Conrado,True,sucesso
-147,02009257120228060107,Abraão Tiago Costa,Geórgia Parente Amaral,True,sucesso
-148,02018633020228060119,avila Alves Brandão,Maria Jaqueline Gama Rocha,True,sucesso
-149,02007831620228060124,OTAVIO OLIVEIRA DE MORAIS,Francisco de Assis Siqueira,True,sucesso
-150,02007614220228060096,JORGE ROGER DOS SANTOS LIMA,Joana Dark Fernandes,True,sucesso
-151,02765608520228060001,Gerardo Magelo Facundo Junior,Francisca Michele Amaral Pinheiro,True,sucesso
-152,02052592120228060117,Fernando de Souza Vicente,"Lidiane Oliveira dos Santos, Rep Legal do Menor Paulo Victor Oliveira dos Santos",True,sucesso
-153,02014386120228060035,RAMON BESERRA DA VEIGA PESSOA,Maria Garcia dos Santos,True,sucesso
-154,02009982320228060049,Paulo Jeyson Gomes Araújo,Lais Ribeiro Silvano,True,sucesso
-155,02052376020228060117,Luiz Eduardo Viana Pequeno,Cleivanfarias Coelho,True,sucesso
-156,02760853220228060001,Anderson Alexandre Nascimento Silva,Ana Lucia Ferreira Lemos,True,sucesso
-157,02016104220228060119,Ana Izabel de Andrade Lima Pontes,Jose Sampaio de Oliveira,True,sucesso
-158,02013004820228060115,Isaac Dantas Bezerra Braga,Henrique Jorge de Freitas Régis,True,sucesso
-159,02011330920228060090,Marcelo Veiga Vieira,Maria Iêda de Sousa Rolim,True,sucesso
-160,02754565820228060001,Paulo de Tarso Pires Nogueira,Adolfo Araújo,True,sucesso
-161,02031516020228060071,José Flávio Bezerra Morais,Antonia Cordeiro de Santana,True,sucesso
-162,02010299820228060160,João Luiz Chaves Junior,Aires Maria Dutra Ferreira da Silva,True,sucesso
-163,02750538920228060001,Alda Maria Holanda Leite,Yasmim Davila Barbosa do Nascimento,True,sucesso
-164,02023430920228060151,Francisco Eduardo Girão Braga,Cleilson Saraiva de Queiroz,True,sucesso
-165,02745974220228060001,Alda Maria Holanda Leite,Camila Nayara Lopes Castro,True,sucesso
-166,02749091820228060001,Alda Maria Holanda Leite,Agatha Nicole Vieira Henrique Silva,True,sucesso
-167,02743047220228060001,Roberto Ferreira Facundo,Mariana Cid Martins Timbó Lira,True,sucesso
-168,02745169320228060001,BRUNO GOMES BENIGNO SOBRAL,Maria Ivanete de Lima Santiago,True,sucesso
-169,02014414720228060154,Rodrigo Campelo Diógenes,José Claudio Jacinto Ferreira,True,sucesso
-170,02739366320228060001,Alda Maria Holanda Leite,"Mariana Sousa dos Santos,",True,sucesso
-171,02656300820228060001,Alda Maria Holanda Leite,Arthur Ryan do Vale de Oliveira,False,sucesso
-172,02046854220228060167,Antonio Carneiro Roberto,Patrícia Vasconcelos Linhares,True,sucesso
-173,02657029220228060001,Fabricia Ferreira de Freitas,Sarah Raquel Pinheiro da Silva Gomes,True,sucesso
-174,02013939620228060119,Ana Izabel de Andrade Lima Pontes,Maria do Nascimento Costa,True,sucesso
-175,02654508920228060001,Lucimeire Godeiro Costa,Paulo Herbert Thiers Reis,True,sucesso
-176,02651953420228060001,Alda Maria Holanda Leite,Davi Cordeiro Freitas,True,sucesso
-177,02647589020228060001,Fernando Teles de Paula Lima,Viena Maria Figueiredo Ponce de Leao,True,sucesso
-178,02647952020228060001,,Maria Eunair de Castro Freitas,True,dados_incompletos
-179,02002458120228060044,Cynthia Pereira Petri Feitosa,Kethellen Neci Lima de Oliveira,True,sucesso
-180,02638823820228060001,Patrícia Fernanda Toledo Rodrigues,Marina Nobre Moura,True,sucesso
-181,02011589020228060035,RAMON BESERRA DA VEIGA PESSOA,JOSE FRANCISCO DE OLIVEIRA,True,sucesso
-182,02639481820228060001,Alda Maria Holanda Leite,Victor Gabriel Cavalcante Queiroz,True,sucesso
-183,02640330420228060001,Alda Maria Holanda Leite,Gabriel Portela dos Santos Gomes,True,sucesso
-184,02010781420228060137,Jhulian Pablo Rocha Faria,Maria do Carmo Wanderley,True,sucesso
-185,02048267920228060064,Francisco Biserril Azevedo de Queiroz,Maria de Lourdes de Brito Sampaio,True,sucesso
-186,02635966020228060001,Alda Maria Holanda Leite,Carlos Daniel Coelho Xavier,True,sucesso
-187,02005281020228060140,Valdir Vieira Júnior,Osmarina Galdino do Nascimento,True,sucesso
-188,02008619620228060160,João Luiz Chaves Junior,Ana Jessica Franklin de Melo,True,sucesso
-189,02053806420228060112,Péricles Victor Galvão de Oliveira,Maria Sonália de Lima,True,sucesso
-190,02007911820228060051,DAYANA CLAUDIA TAVARES BARROS DE CASTRO,Jovelina Angelim de Sousa,True,sucesso
-191,02007622920228060160,Rosa Cristina Ribeiro Paiva,Francisco Henrique Ribeiro Freitas,True,sucesso
-192,02006444220228060099,Lucas Medeiros de Lima,Francisca Maria de Sousa Maciel,True,sucesso
-193,02003678520228060047,Jaison Stangherlin,Valdemir Pereira de Góes,True,sucesso
-194,02011391820228060154,Rodrigo Campelo Diógenes,Samia Saraiva do Carmo,True,sucesso
-195,02006578620228060181,Hyldon Masters Cavalcante Costa,Thayná Vieira da Silva,True,sucesso
-196,02005216620228060124,OTAVIO OLIVEIRA DE MORAIS,Jose Teles de Sousa Sobrinho,True,sucesso
-197,02543478520228060001,Alda Maria Holanda Leite,Anastacia Talita Gomes de Melo,True,sucesso
-198,02542456320228060001,Alda Maria Holanda Leite,Davi Martins Girão Porto,True,sucesso
-199,02005800820228060107,Abraão Tiago Costa,Francisco Fabiano Ferreira Brito,True,sucesso
-200,02008974420228060062,Bruno Leonardo Batista de Medeiros Santos,Carlos Alberto de Queiroz,True,sucesso
-201,02532963920228060001,Alda Maria Holanda Leite,Gustavo Leitão Nogueira,True,sucesso
-202,02011557720228060119,Ana Izabel de Andrade Lima Pontes,João Batista Mendes Repres. Por Seu Filho João Paulo Alves Mendes,True,sucesso
-203,02038362620228060117,Tassia Fernanda de Siqueira,Samila Rodrigues Silva,True,sucesso
-204,02005078220228060124,OTAVIO OLIVEIRA DE MORAIS,Manuel Santana da Silva,True,sucesso
-205,02005086720228060124,OTAVIO OLIVEIRA DE MORAIS,Francisca Lozinha Bezerra Queiros,True,sucesso
-206,02007371620228060160,João Luiz Chaves Junior,Maria Aparecida Rodrigues Pereira Martins,True,sucesso
+118,02047631520238060001,Alda Maria Holanda Leite,Laryssa Evelyn dos Santos Braga,True,sucesso
+119,02000256720238060038,Djalma Sobreira Dantas Junior,Maria Marinalva Alves Rodrigues,True,sucesso
+120,02041430320238060001,Fabiano Damasceno Maia,Marilia Tavares Magalhaes,True,sucesso
+121,02000603920238060034,JULIANNE BEZERRA BARROS SANTOS,Francisco das Chagas da Silva,True,sucesso
+122,02035333520238060001,Cristiano Rabelo Leitão,Silvana Araujo de Aguiar,True,sucesso
+123,02000558720238060043,Marcelino Emidio Maciel Filho,Joao Taciano Sampaio Oliveira,True,sucesso
+124,02001650520238060167,Antonio Carneiro Roberto,Clegiane Linhares Prado,True,sucesso
+125,02027677920238060001,Alda Maria Holanda Leite,"Nayra Lohanne Sales,",True,sucesso
+126,02000532420238060171,Liana Alencar Correia,Luiza Venâncio de Oliveira,True,sucesso
+127,02001223920238060112,Péricles Victor Galvão de Oliveira,Laura Pereira do Nascimento,True,sucesso
+128,02000325320238060137,Débora Danielle Pinheiro Ximenes Freire,Maria Valdelina Alves da Silva,True,sucesso
+129,02020246920238060001,Fabiana Silva Félix da Rocha,Flavia Nayane da Silva Sá,True,sucesso
+130,02001291620238060117,Luiz Eduardo Viana Pequeno,Francinete de Jesus Maia,True,sucesso
+131,02000197120238060099,Lucas Medeiros de Lima,Everardo de Sousa,True,sucesso
+132,02000624320238060055,BRUNO ARAÚJO MASSOUD,Rita Leandro de Mendonça,True,sucesso
+133,02000808720238060112,Péricles Victor Galvão de Oliveira,Josefa Agalgisa da Costa Gentil,True,sucesso
+134,02029050420228060091,Marcelo Veiga Vieira,Francisca Rejane Alves da Silva,True,sucesso
+135,02870039520228060001,Mirian Porto Mota Randal Pompeu,Francisco Olinto Chagas Lima,True,sucesso
+136,02864071420228060001,Maurício Fernandes Gomes,Anne Aguiar Romeu,True,sucesso
+137,02005542320228060038,Djalma Sobreira Dantas Junior,Antonio Taumaturgo Alves de Alencar,False,sucesso
+138,02017152620228060052,Samara Costa Maia,Vanda Lúcia Cabral Leite,True,sucesso
+139,02011073720228060049,Paulo Jeyson Gomes Araújo,Eusenir Santos da Silva,True,sucesso
+140,02015616220228060034,JULIANNE BEZERRA BARROS SANTOS,Jose Cleiton Almeida Gadelha,True,sucesso
+141,02018867320228060119,Ana Izabel de Andrade Lima Pontes,Davila Teixeira de Paula,True,sucesso
+142,02026623020228060101,Luiz Guilherme Costa Pedroso Silva,Antonia de Melo Gomes Sousa,True,sucesso
+143,02014401620228060137,Jhulian Pablo Rocha Faria,Deborah Thais Ribeiro Macedo,True,sucesso
+144,02026528320228060101,Leslie Anne Maia Campos,Amauri Teixeira da Silva,True,sucesso
+145,02010634820228060136,Danúbia Loss Nicoláo,Francisco de Assis Costa,True,sucesso
+146,02014271720228060137,Jhulian Pablo Rocha Faria,Derliene Adriano da Costa,True,sucesso
+147,02847729520228060001,Gerardo Magelo Facundo Junior,Ana Carolina Pinho Conrado,True,sucesso
+148,02009257120228060107,Abraão Tiago Costa,Geórgia Parente Amaral,True,sucesso
+149,02018633020228060119,avila Alves Brandão,Maria Jaqueline Gama Rocha,True,sucesso
+150,02007831620228060124,OTAVIO OLIVEIRA DE MORAIS,Francisco de Assis Siqueira,True,sucesso
+151,02007614220228060096,JORGE ROGER DOS SANTOS LIMA,Joana Dark Fernandes,True,sucesso
+152,02765608520228060001,Gerardo Magelo Facundo Junior,Francisca Michele Amaral Pinheiro,True,sucesso
+153,02052592120228060117,Fernando de Souza Vicente,"Lidiane Oliveira dos Santos, Rep Legal do Menor Paulo Victor Oliveira dos Santos",True,sucesso
+154,02014386120228060035,RAMON BESERRA DA VEIGA PESSOA,Maria Garcia dos Santos,True,sucesso
+155,02009982320228060049,Paulo Jeyson Gomes Araújo,Lais Ribeiro Silvano,True,sucesso
+156,02052376020228060117,Luiz Eduardo Viana Pequeno,Cleivanfarias Coelho,True,sucesso
+157,02760853220228060001,Anderson Alexandre Nascimento Silva,Ana Lucia Ferreira Lemos,True,sucesso
+158,02016104220228060119,Ana Izabel de Andrade Lima Pontes,Jose Sampaio de Oliveira,True,sucesso
+159,02013004820228060115,Isaac Dantas Bezerra Braga,Henrique Jorge de Freitas Régis,True,sucesso
+160,02011330920228060090,Marcelo Veiga Vieira,Maria Iêda de Sousa Rolim,True,sucesso
+161,02754565820228060001,Paulo de Tarso Pires Nogueira,Adolfo Araújo,True,sucesso
+162,02031516020228060071,José Flávio Bezerra Morais,Antonia Cordeiro de Santana,True,sucesso
+163,02010299820228060160,João Luiz Chaves Junior,Aires Maria Dutra Ferreira da Silva,True,sucesso
+164,02750538920228060001,Alda Maria Holanda Leite,Yasmim Davila Barbosa do Nascimento,True,sucesso
+165,02023430920228060151,Francisco Eduardo Girão Braga,Cleilson Saraiva de Queiroz,True,sucesso
+166,02745974220228060001,Alda Maria Holanda Leite,Camila Nayara Lopes Castro,True,sucesso
+167,02749091820228060001,Alda Maria Holanda Leite,Agatha Nicole Vieira Henrique Silva,True,sucesso
+168,02743047220228060001,Roberto Ferreira Facundo,Mariana Cid Martins Timbó Lira,True,sucesso
+169,02745169320228060001,BRUNO GOMES BENIGNO SOBRAL,Maria Ivanete de Lima Santiago,True,sucesso
+170,02014414720228060154,Rodrigo Campelo Diógenes,José Claudio Jacinto Ferreira,True,sucesso
+171,02739366320228060001,Alda Maria Holanda Leite,"Mariana Sousa dos Santos,",True,sucesso
+172,02656300820228060001,Alda Maria Holanda Leite,Arthur Ryan do Vale de Oliveira,False,sucesso
+173,02046854220228060167,Antonio Carneiro Roberto,Patrícia Vasconcelos Linhares,True,sucesso
+174,02657029220228060001,Fabricia Ferreira de Freitas,Sarah Raquel Pinheiro da Silva Gomes,True,sucesso
+175,02013939620228060119,Ana Izabel de Andrade Lima Pontes,Maria do Nascimento Costa,True,sucesso
+176,02654508920228060001,Lucimeire Godeiro Costa,Paulo Herbert Thiers Reis,True,sucesso
+177,02651953420228060001,Alda Maria Holanda Leite,Davi Cordeiro Freitas,True,sucesso
+178,02647589020228060001,Fernando Teles de Paula Lima,Viena Maria Figueiredo Ponce de Leao,True,sucesso
+179,02647952020228060001,,Maria Eunair de Castro Freitas,True,dados_incompletos
+180,02002458120228060044,Cynthia Pereira Petri Feitosa,Kethellen Neci Lima de Oliveira,True,sucesso
+181,02638823820228060001,Patrícia Fernanda Toledo Rodrigues,Marina Nobre Moura,True,sucesso
+182,02011589020228060035,RAMON BESERRA DA VEIGA PESSOA,JOSE FRANCISCO DE OLIVEIRA,True,sucesso
+183,02639481820228060001,Alda Maria Holanda Leite,Victor Gabriel Cavalcante Queiroz,True,sucesso
+184,02640330420228060001,Alda Maria Holanda Leite,Gabriel Portela dos Santos Gomes,True,sucesso
+185,02010781420228060137,Jhulian Pablo Rocha Faria,Maria do Carmo Wanderley,True,sucesso
+186,02048267920228060064,Francisco Biserril Azevedo de Queiroz,Maria de Lourdes de Brito Sampaio,True,sucesso
+187,02635966020228060001,Alda Maria Holanda Leite,Carlos Daniel Coelho Xavier,True,sucesso
+188,02005281020228060140,Valdir Vieira Júnior,Osmarina Galdino do Nascimento,True,sucesso
+189,02008619620228060160,João Luiz Chaves Junior,Ana Jessica Franklin de Melo,True,sucesso
+190,02053806420228060112,Péricles Victor Galvão de Oliveira,Maria Sonália de Lima,True,sucesso
+191,02007911820228060051,DAYANA CLAUDIA TAVARES BARROS DE CASTRO,Jovelina Angelim de Sousa,True,sucesso
+192,02007622920228060160,Rosa Cristina Ribeiro Paiva,Francisco Henrique Ribeiro Freitas,True,sucesso
+193,02006444220228060099,Lucas Medeiros de Lima,Francisca Maria de Sousa Maciel,True,sucesso
+194,02003678520228060047,Jaison Stangherlin,Valdemir Pereira de Góes,True,sucesso
+195,02011391820228060154,Rodrigo Campelo Diógenes,Samia Saraiva do Carmo,True,sucesso
+196,02006578620228060181,Hyldon Masters Cavalcante Costa,Thayná Vieira da Silva,True,sucesso
+197,02005216620228060124,OTAVIO OLIVEIRA DE MORAIS,Jose Teles de Sousa Sobrinho,True,sucesso
+198,02543478520228060001,Alda Maria Holanda Leite,Anastacia Talita Gomes de Melo,True,sucesso
+199,02542456320228060001,Alda Maria Holanda Leite,Davi Martins Girão Porto,True,sucesso
+200,02005800820228060107,Abraão Tiago Costa,Francisco Fabiano Ferreira Brito,True,sucesso
+201,02008974420228060062,Bruno Leonardo Batista de Medeiros Santos,Carlos Alberto de Queiroz,True,sucesso
+202,02532963920228060001,Alda Maria Holanda Leite,Gustavo Leitão Nogueira,True,sucesso
+203,02011557720228060119,Ana Izabel de Andrade Lima Pontes,João Batista Mendes Repres. Por Seu Filho João Paulo Alves Mendes,True,sucesso
+204,02038362620228060117,Tassia Fernanda de Siqueira,Samila Rodrigues Silva,True,sucesso
+205,02005078220228060124,OTAVIO OLIVEIRA DE MORAIS,Manuel Santana da Silva,True,sucesso
+206,02005086720228060124,OTAVIO OLIVEIRA DE MORAIS,Francisca Lozinha Bezerra Queiros,True,sucesso
 207,02007423820228060160,Rosa Cristina Ribeiro Paiva,Ademir Furtado Vasconcelos Filho,True,sucesso
-208,02523004120228060001,Rejane Eire Fernandes Alves,Mayara de Andrade Santos Travassos,True,sucesso
-209,02005307620228060108,Diogo Altorbelli Silva de Freitas,Raimundo Rocha Lima,True,sucesso
-210,02008188820228060119,Ana Izabel de Andrade Lima Pontes,Maria Josivania Sousa Lopes,True,sucesso
-211,02369744120228060001,Alda Maria Holanda Leite,Arthur Rola Seleguin,True,sucesso
-212,02007521120228060119,Ana Izabel de Andrade Lima Pontes,Maria Lucineide de Brito Silva,True,sucesso
-213,02006626120228060035,RAMON BESERRA DA VEIGA PESSOA,Josefa Maria Ribeiro,True,sucesso
-214,02006887520228060062,Bruno Leonardo Batista de Medeiros Santos,Francisca Maria Mendes da Silva,True,sucesso
-215,02027095320228060117,Tassia Fernanda de Siqueira,Yasmim da Silva Santos,True,sucesso
-216,02014003820228060071,José Flávio Bezerra Morais,Maria Oliveira Moreira,True,sucesso
-217,02031115220228060112,Matheus Pereira Junior,Francisca Ana de Jesus,True,sucesso
-218,02031106720228060112,Péricles Victor Galvão de Oliveira,Francisco Vital da Silva,True,sucesso
-219,02030976820228060112,Péricles Victor Galvão de Oliveira,Maria Gizelda da Silva,True,sucesso
-220,02005081920228060043,Marcelino Emidio Maciel Filho,Naíla Araújo de Souza Fernandes Távora,True,sucesso
-221,02026727020228060167,Aldenor Sombra de Oliveira,Ramunda Sebastiana dos Santos,True,sucesso
-222,02321608320228060001,Cristiano Rabelo Leitão,Laudiceia Almeida Freitas,True,sucesso
-223,08000178120228060133,RENATA GUIMARAES GUERRA,Ministério Público do Estado do Ceará,True,sucesso
-224,02308053820228060001,Fabricia Ferreira de Freitas,Carolyna Cabral Carneiro,True,sucesso
-225,02008771120228060173,DENYS KAROL MARTINS SANTANA,Liana Vale dos Santos Marques,True,sucesso
-226,02012011620228060071,José Flávio Bezerra Morais,Lucas de Almeida Tavares,True,sucesso
-227,02001576720228060036,Cynthia Pereira Petri Feitosa,Lais de Oliveira Bandeira,True,sucesso
-228,02011691120228060071,José Flávio Bezerra Morais,Francisca Ferreira Guedes,True,sucesso
-229,02011709320228060071,José Flávio Bezerra Morais,Raimunda Nilda da Silva,True,sucesso
-230,02003220920228060071,"Titular
+208,02007371620228060160,João Luiz Chaves Junior,Maria Aparecida Rodrigues Pereira Martins,True,sucesso
+209,02523004120228060001,Rejane Eire Fernandes Alves,Mayara de Andrade Santos Travassos,True,sucesso
+210,02005307620228060108,Diogo Altorbelli Silva de Freitas,Raimundo Rocha Lima,True,sucesso
+211,02008188820228060119,Ana Izabel de Andrade Lima Pontes,Maria Josivania Sousa Lopes,True,sucesso
+212,02369744120228060001,Alda Maria Holanda Leite,Arthur Rola Seleguin,True,sucesso
+213,02007521120228060119,Ana Izabel de Andrade Lima Pontes,Maria Lucineide de Brito Silva,True,sucesso
+214,02006626120228060035,RAMON BESERRA DA VEIGA PESSOA,Josefa Maria Ribeiro,True,sucesso
+215,02006887520228060062,Bruno Leonardo Batista de Medeiros Santos,Francisca Maria Mendes da Silva,True,sucesso
+216,02027095320228060117,Tassia Fernanda de Siqueira,Yasmim da Silva Santos,True,sucesso
+217,02014003820228060071,José Flávio Bezerra Morais,Maria Oliveira Moreira,True,sucesso
+218,02031115220228060112,Matheus Pereira Junior,Francisca Ana de Jesus,True,sucesso
+219,02031106720228060112,Péricles Victor Galvão de Oliveira,Francisco Vital da Silva,True,sucesso
+220,02030976820228060112,Péricles Victor Galvão de Oliveira,Maria Gizelda da Silva,True,sucesso
+221,02005081920228060043,Marcelino Emidio Maciel Filho,Naíla Araújo de Souza Fernandes Távora,True,sucesso
+222,02026727020228060167,Aldenor Sombra de Oliveira,Ramunda Sebastiana dos Santos,True,sucesso
+223,02321608320228060001,Cristiano Rabelo Leitão,Laudiceia Almeida Freitas,True,sucesso
+224,08000178120228060133,RENATA GUIMARAES GUERRA,Ministério Público do Estado do Ceará,True,sucesso
+225,02308053820228060001,Fabricia Ferreira de Freitas,Carolyna Cabral Carneiro,True,sucesso
+226,02008771120228060173,DENYS KAROL MARTINS SANTANA,Liana Vale dos Santos Marques,True,sucesso
+227,02012011620228060071,José Flávio Bezerra Morais,Lucas de Almeida Tavares,True,sucesso
+228,02001576720228060036,Cynthia Pereira Petri Feitosa,Lais de Oliveira Bandeira,True,sucesso
+229,02011691120228060071,José Flávio Bezerra Morais,Francisca Ferreira Guedes,True,sucesso
+230,02011709320228060071,José Flávio Bezerra Morais,Raimunda Nilda da Silva,True,sucesso
+231,02003220920228060071,"Titular
 Advogados",Aldemiza Lucas Rodrigues,True,sucesso
-231,02003065520228060071,José Flávio Bezerra Morais,Isabela do Nascimento Sousa Repre. Filha Menor,True,sucesso
-232,02003074020228060071,José Flávio Bezerra Morais,Maria do Socorro Belem Alves,True,sucesso
-233,02082641120228060001,LUCIANO NUNES MAIA FREIRE,Edna Maria Alves,True,sucesso
-234,02002667320228060071,José Flávio Bezerra Morais,Rejane Xenofonte de Morais Representando Domicília Xenofonte de Morais,True,sucesso
-235,02001342720228060035,RAMON BESERRA DA VEIGA PESSOA,Maria Vandineide Rodrigues de Oliveira,True,sucesso
-236,02075488120228060001,Alda Maria Holanda Leite,José Samuel Sousa Bezerra,True,sucesso
-237,02000497920228060087,Anderson Alexandre Nascimento Silva,Maria Ivynne Silva de Oliveira,True,sucesso
-238,02001835720228060071,José Flávio Bezerra Morais,Naiara Aline Vieira,True,sucesso
-239,02001904920228060071,José Flávio Bezerra Morais,Maria Pereira de Oliveira,True,sucesso
-240,02001783520228060071,José Flávio Bezerra Morais,"Francisca Ferreira Lima,",True,sucesso
-241,02001628120228060071,José Flávio Bezerra Morais,Antonia Gomes de Moura,True,sucesso
-242,02001636620228060071,José Flávio Bezerra Morais,Antonio Gilberto do Nascimento,True,sucesso
-243,02001305420228060143,Márcio Freire de Souza,Antônia Célia Oliveira de Lima,True,sucesso
-244,02000913220228060119,Ana Izabel de Andrade Lima Pontes,Francisco Cleber Ferreira Geraldo,True,sucesso
-245,02001201020228060143,Márcio Freire de Souza,Maria Juliana da Silva André,True,sucesso
-246,02001238420228060071,José Flávio Bezerra Morais,"João Justino Ferreira,",True,sucesso
-247,02000234020228060036,Cynthia Pereira Petri Feitosa,Francisco Antônio Alves Lima,True,sucesso
-248,02033881320228060001,Fernando Teles de Paula Lima,Gustavo Martins Queiroz,True,sucesso
-249,02000231720228060076,HERICK BEZERRA TAVARES,Adelaide Francelino Ribeiro,True,sucesso
-250,00504770920218060047,Jaison Stangherlin,José Farias de Araújo,True,sucesso
-251,00504753920218060047,Jaison Stangherlin,,True,dados_incompletos
-252,00512645020218060043,Judson Pereira Spindola Junior,Claudia Maria Grangeiro de Sá Barreto Lima,True,sucesso
-253,00510427320218060143,Márcio Freire de Souza,Antônio Umbelino de Andrade,True,sucesso
-254,00569016620218060112,Péricles Victor Galvão de Oliveira,Marli Kameyama Tavares,True,sucesso
-255,02772981020218060001,Thales Pimentel Saboia,Larissa Cunha Peixoto Camelo,True,sucesso
-256,00536742620218060029,PAULO LACERDA DE OLIVEIRA JUNIOR,Anny Caroline Lima Costa,True,sucesso
-257,02749112220218060001,Anderson Alexandre Nascimento Silva,Samuel Brandão Lima,True,sucesso
-258,00565188820218060112,Péricles Victor Galvão de Oliveira,Maria do Socorro Pereira Leite,True,sucesso
-259,02741941020218060001,Maria de Fatima Bezerra Facundo,Sandra Mara Rodrigues de Almeida,True,sucesso
-260,00504450420218060047,Jaison Stangherlin,Marcos Antônio de Araújo,True,sucesso
-261,00507386420218060114,LUZINALDO ALVES ALEXANDRE DA SILVA,Cicero Leite Moreira,True,sucesso
-262,02723606920218060001,Patrícia Fernanda Toledo Rodrigues,Ruth Helena Oliveira Menezes,True,sucesso
-263,00503423020218060036,Cynthia Pereira Petri Feitosa,Luciano Pereira de Lima,True,sucesso
-264,00531552220218060071,José Flávio Bezerra Morais,Deyvillanne Santos Oliveira dos Anjos,True,sucesso
-265,02708181620218060001,Fernando Teles de Paula Lima,Layla Suellen Moura Ramos,True,sucesso
-266,02704475220218060001,Patrícia Fernanda Toledo Rodrigues,Manoel Messias Rocha,True,sucesso
-267,00511293820218060043,Marcelino Emidio Maciel Filho,Roberio Cleber Sampaio,True,sucesso
-268,02800686520218060133,RENATA GUIMARAES GUERRA,Ministério Público do Estado do Ceará,True,sucesso
-269,00508665420218060124,OTAVIO OLIVEIRA DE MORAIS,Mayra Eufrázio da Silva,True,sucesso
-270,02487792520218060001,Alda Maria Holanda Leite,Maria Eurivone Pereira do Monte,True,sucesso
-271,02486051620218060001,Gerardo Magelo Facundo Junior,Mariana Soares Rola,True,sucesso
-272,02481289020218060001,Antonio Teixeira de Sousa,Diana Carneiro da Cunha Câmara,True,sucesso
-273,02469995020218060001,Fabiano Damasceno Maia,Espólio de Amanda de Paula Vieira,True,sucesso
-274,02467457720218060001,Fabricia Ferreira de Freitas,Silvio Machado Martins,True,sucesso
-275,02800033920218060111,Francisco de Paulo Queiroz Bernardino Junior,Maria Neuza da Silva,True,sucesso
-276,00534199520218060117,Tassia Fernanda de Siqueira,Edna Maria Leite Lima,True,sucesso
-277,02409915720218060001,Fernando Teles de Paula Lima,Matheus Teixeira Fialho,True,sucesso
-278,02385864820218060001,Antonio Teixeira de Sousa,Larissa da Silveira Lima,True,sucesso
-279,00514810920218060071,José Flávio Bezerra Morais,Veronica Domingos Lima Honorio,True,sucesso
-280,00514776920218060071,José Flávio Bezerra Morais,Giselda Macedo Pereira Correia,True,sucesso
-281,00511992220218060151,Francisco Eduardo Girão Braga,Maria Zelinda de Souza Neto,True,sucesso
-282,02357518720218060001,Alda Maria Holanda Leite,Luiz Heitor Magalhaes Peixoto,True,sucesso
-283,02353603520218060001,Fernando Teles de Paula Lima,Fabiana Vigatto Rocha Freitas,True,sucesso
-284,00513901620218060071,José Flávio Bezerra Morais,,True,dados_incompletos
-285,00513486420218060071,José Flávio Bezerra Morais,,True,dados_incompletos
-286,00510691820218060091,Carlos Eduardo Carvalho Arrais,Pedro Gomes das Neves Filho,True,sucesso
-287,00510484220218060091,Carlos Eduardo Carvalho Arrais,Maria Otaiza Queiroga Cavalcante,True,sucesso
-288,02800185820218060062,Bruno Leonardo Batista de Medeiros Santos,Ministério Público do Estado do Ceará,True,sucesso
-289,00510008320218060091,Carlos Eduardo Carvalho Arrais,Paulo Régis de Oliveira,True,sucesso
-290,01972970920198060001,Ana Raquel Colares dos Santos,Antonia Edneia de Barros Mendonça,True,sucesso
-291,01935123920198060001,Ana Raquel Colares dos Santos,Espolio de Necy Correia e Silva,True,sucesso
-292,01932777220198060001,Cristiano Rabelo Leitão,Maria de Fátima de Oliveira Gonçalves,True,sucesso
-293,01928316920198060001,DAYANA CLAUDIA TAVARES BARROS DE CASTRO,Maria Isadora Lima Nogueira,True,sucesso
-294,00200029220198060127,Sérgio da Nobrega Farias,Ministério Público,True,sucesso
-295,01842567220198060001,Roberto Ferreira Facundo,Francisco Tarcisio Damasceno,True,sucesso
-296,01835829420198060001,Ana Raquel Colares dos Santos,Francisco Heráclito de Araujo Silva Junior,True,sucesso
-297,01775463620198060001,Fernando Teles de Paula Lima,Iseuda Vieira de Souza,True,sucesso
-298,01754739120198060001,Thales Pimentel Saboia,Arnaldo Moraes Pinheiro Filho,True,sucesso
-299,00034555820198060100,Gabriela Carvalho Azzi,FRANCISCA PEREIRA BRIOSO,True,sucesso
-300,00075589820198060071,,,True,dados_incompletos
-301,01610797920198060001,,João Monteiro Neto,True,dados_incompletos
-302,00134327520198060035,RAMON BESERRA DA VEIGA PESSOA,Aldemir do Carmo Nunes,True,sucesso
-303,01544291620198060001,Mirian Porto Mota Randal Pompeu,Alice Albuquerque de Souza,True,sucesso
-304,01535137920198060001,Ana Raquel Colares dos Santos,Ethiane Silva Arcanjo de Melo,True,sucesso
-305,01499706820198060001,Mirian Porto Mota Randal Pompeu,José Cavalcante Olinda,True,sucesso
-306,01451760420198060001,BRUNO GOMES BENIGNO SOBRAL,Ernilson Martins Nascimento,True,sucesso
-307,00061712320198060144,José Arnaldo dos Santos Soares,Ministério Público do Estado do Ceará,True,sucesso
-308,01400021420198060001,Thales Pimentel Saboia,Maria Fátima Pimentel Siqueira,True,sucesso
-309,00089750420168060100,Cláudia Waleska Mattos Mascarenhas,,True,dados_incompletos
-310,00483357020168060091,Marcelo Veiga Vieira,Emilly Belizario da Silva,True,sucesso
-311,00125162020168060173,Felipe William Silva Gonçalves,Jose Matheus dos Reis Araujo,True,sucesso
-312,00105769320168060181,Hyldon Masters Cavalcante Costa,Antonia Saraiva de Morais,True,sucesso
-313,01315476520168060001,Rommel Moreira Conrado,Francisco Potiguara Frota Ferreira Gomes,True,sucesso
-314,00135494720168060043,Marcelino Emidio Maciel Filho,Reginaldo da Silva Gomes,True,sucesso
-315,02062145620158060001,Thales Pimentel Saboia,Julio Jorge Vieira Barroso,True,sucesso
-316,00019659420158060082,Suetônio de Souza Valgueiro de Carvalho Cantarelli,[Intimação Eletrônica] - Ministério Público Estadual do Ceará,True,sucesso
-317,00350977820158060071,Titular Assinado por Certificação Digital,,True,dados_incompletos
-318,00093216320158060043,Marcelino Emidio Maciel Filho,Carmelina Felix Grangeiro,True,sucesso
-319,02085143920258060001,Alda Maria Holanda Leite,Ana Clara dos Santos de Moraes,False,sucesso
-320,02072733020258060001,Alda Maria Holanda Leite,Carlos Vinícius Nobre Mendes,False,sucesso
-321,02071771520258060001,Alda Maria Holanda Leite,Mateus Henrique Barreto de Vasconcelos,False,sucesso
-322,02820545720248060001,Alda Maria Holanda Leite,Arthur Alves Lima,False,sucesso
-323,02756647120248060001,Leila Regina Corado Lobato,João Pedro Coe Torres Bezerra,False,sucesso
-324,02739610820248060001,Alda Maria Holanda Leite,Leo Jairo da Silva Moreira,False,sucesso
-325,02681151020248060001,Alda Maria Holanda Leite,André Victor Nobre Teixeira,False,sucesso
-326,02670126520248060001,Alda Maria Holanda Leite,Mariana Braga Sales,False,sucesso
-327,02572858220248060001,Alda Maria Holanda Leite,Isabella Alves Caetano,False,sucesso
-328,02566275820248060001,Alda Maria Holanda Leite,Leide Nagle de Olinvindo Vasconcelos,False,sucesso
-329,02547161120248060001,Ricci Lôbo de Figueiredo,Samuel Henrique Magalhães Campos,False,sucesso
-330,02533348020248060001,Alda Maria Holanda Leite,Gabriel Sales Gomes,False,sucesso
-331,02520772020248060001,Thales Pimentel Saboia,Vânia Maria da Costa Gomes,False,sucesso
-332,02504819820248060001,Alda Maria Holanda Leite,Maria Laura Paixao Brasil,False,sucesso
-333,02467916120248060001,Alda Maria Holanda Leite,Raimundo Nonato Holanda da Silva Junior,False,sucesso
-334,02457185420248060001,Lucimeire Godeiro Costa,Andrea Queiroz Sierra,False,sucesso
-335,02427548820248060001,Alda Maria Holanda Leite,Fernanda Lima da Silva,False,sucesso
-336,02424846420248060001,Alda Maria Holanda Leite,Valentina Cavalcante Morrocchi,False,sucesso
-337,02315487720248060001,Fabiano Damasceno Maia,Amanda Brandao Moura,False,sucesso
-338,00101925120248060052,,,False,dados_incompletos
-339,02252471720248060001,Josias Nunes Vidal,"Espólio, sucessores ou herdeiros de Jose Mendes de Sousa",False,sucesso
-340,02002594520248060028,Gustavo Farias Alves,Aloísio Teixeira Rios Neto,False,sucesso
-341,02232258320248060001,Gerardo Magelo Facundo Junior,Karen Emanuelle Barbosa Canuto,False,sucesso
-342,02209661820248060001,Fernando Teles de Paula Lima,Francisco Moésio Vasconcelos Moura,False,sucesso
-343,02169562820248060001,Josias Nunes Vidal,João Calebe Muniz,False,sucesso
-344,02000724720248060057,Caio Lima Barroso,Francisco de Assis Ferreira,False,sucesso
-345,02166072520248060001,Alda Maria Holanda Leite,"Cauã Fernando Bezerra Lucena, Fone: 85-989738310",False,sucesso
-346,02008238920248060071,José Flávio Bezerra Morais,Jose Loiola de Alencar Filho,False,sucesso
-347,02160772120248060001,Josias Nunes Vidal,Wesclei Pinheiro Mouzinho de Lima,False,sucesso
-348,02160608220248060001,Leila Regina Corado Lobato,Daniele de Souza Silva,False,sucesso
-349,02003863520248060043,Marcelino Emidio Maciel Filho,Sandhara Ribeiro Rodrigues,False,sucesso
-350,02001304420248060059,Klóvis Carício da Cruz Marques,Zulmira Silva de Souza,False,sucesso
-351,02103066220248060001,Alda Maria Holanda Leite,Daniel Costa,False,sucesso
-352,02101568120248060001,Ciero Miranda,Rafaella Joanna da Silva Caseca Galindo,False,sucesso
-353,02044250720248060001,Fabiana Silva Félix da Rocha,Maria Fernandes de Oliveira,False,sucesso
-354,02001628420248060112,Matheus Pereira Junior,Francisca Cavalcante Moraes,False,sucesso
-355,02001736320248060064,Willer Sóstenes de Sousa,Antonia Elisangela do Nascimento Moura,False,sucesso
-356,02019870820248060001,Alda Maria Holanda Leite,Pedro Victor Mourão Neres,False,sucesso
-357,02014744020248060001,Ricci Lôbo de Figueiredo,Roberta Priscila Moreira Dias Lucas,False,sucesso
-358,02874270620238060001,BRUNO GOMES BENIGNO SOBRAL,Raimundo Nonato da Silva Filho,False,sucesso
-359,02843915320238060001,Thales Pimentel Saboia,Leticia Emanuelli de Oliveira Melo,False,sucesso
-360,02789551620238060001,Maria Valdenisa de Sousa Bernardo,Jerônimo Carlos Barros Júnior,False,sucesso
-361,02763171020238060001,Ciero Miranda,Maria Alice Monteiro Alexandrino,False,sucesso
-362,02756441720238060001,Fabiana Silva Félix da Rocha,Ana Cristina Fonseca de Souza Porto,False,sucesso
-363,02051220520238060117,Luiz Eduardo Viana Pequeno,Maria Eduarda Sales Duarte,False,sucesso
-364,02742039820238060001,Fabricia Ferreira de Freitas,Juliana Fernandes Araújo,False,sucesso
-365,02729256220238060001,Fabiano Damasceno Maia,Lidiane Oliveira Fernandes,False,sucesso
-366,02697462320238060001,Ricci Lôbo de Figueiredo,Erivaldo Alexandre de Abreu,False,sucesso
-367,02006625720238060122,Daniel Alves Mendes Filho,João Furtado Dias,False,sucesso
-368,02675542020238060001,Fabiano Damasceno Maia,Sofia Almeida Leoncio Magalhães,False,sucesso
-369,02667392320238060001,Cristiano Rabelo Leitão,Melissa Macêdo Peixoto Nascimento,False,sucesso
-370,02666690620238060001,Thales Pimentel Saboia,Maria Fabiana Rodrigues dos Anjos,False,sucesso
-371,02638041020238060001,Leila Regina Corado Lobato,Emanuely Vládia Mota Palhano,False,sucesso
-372,02626115720238060001,Alda Maria Holanda Leite,Daniel Nickson Barbosa da Silva,False,sucesso
-373,02617480420238060001,Gerardo Magelo Facundo Junior,Carolina Alencar Veras Starrett,False,sucesso
-374,02613566420238060001,Alda Maria Holanda Leite,Artur Muniz Figueredo,False,sucesso
-375,02010809120238060090,Marcelo Veiga Vieira,Izabel Cristina Muniz Barbosa Mendonça,False,sucesso
-376,02591689820238060001,Fernando Teles de Paula Lima,Maria Julia Cruz Rocha,False,sucesso
-377,02558284920238060001,Ana Raquel Colares dos Santos,Helena Maria de Carvalho Brandine,False,sucesso
-378,02554777620238060001,Alda Maria Holanda Leite,Vanessa Mariano de Castro,False,sucesso
-379,02045346020238060064,Edison Ponte Bandeira de Melo,Maria Darlete da Silva Viana,False,sucesso
-380,02045042520238060064,Maria Valdileny Sombra Franklin,Nayara dos Santos Barros,False,sucesso
-381,02528405520238060001,Thales Pimentel Saboia,Isla Soares de Oliveira,False,sucesso
-382,02516920920238060001,Alda Maria Holanda Leite,Maria Beatriz Aires Queiroz Oliveira,False,sucesso
-383,02515198220238060001,Fabricia Ferreira de Freitas,Manuele Luz Santos,False,sucesso
-384,02497998020238060001,Alda Maria Holanda Leite,Mateus de Almeida Sousa,False,sucesso
-385,02492853020238060001,Alda Maria Holanda Leite,Nereide Mendonça da Silva,False,sucesso
-386,02486548620238060001,Fernando Teles de Paula Lima,Juan Carlos Nascimento da Cunha,False,sucesso
-387,00278516620238060001,Alda Maria Holanda Leite,Sophia Loren Moreira de Carvalho,False,sucesso
-388,02449896220238060001,Fernando Teles de Paula Lima,Rafaella Aragão Souza,False,sucesso
-389,02020964020238060071,José Flávio Bezerra Morais,Tasla Vieira Soares,False,sucesso
-390,02428686120238060001,Alda Maria Holanda Leite,Maitê Ferreira Nunes,False,sucesso
-391,02009997320238060113,PAULO LACERDA DE OLIVEIRA JUNIOR,Dulce Maria Viana Lourenço,False,sucesso
-392,02419748520238060001,Fernando Teles de Paula Lima,Joaquim Roberto Cardoso de Almeida,False,sucesso
-393,02417288920238060001,Fernando Teles de Paula Lima,Heitor Lima Albuquerque,False,sucesso
-394,02390076720238060001,Leila Regina Corado Lobato,José Alexandre Fernandes Santiago,False,sucesso
-395,02008136720238060075,Rejane Eire Fernandes Alves,Ingrid Lustosa Madeira Neves,False,sucesso
-396,02383312220238060001,Fabiano Damasceno Maia,Samuel Lima Albuquerque,False,sucesso
-397,02381164620238060001,Roberto Ferreira Facundo,Helena Vitorino Albim,False,sucesso
-398,02315646520238060001,Fabiano Damasceno Maia,Pedro Aragão Neto,False,sucesso
-399,02250170920238060001,Alda Maria Holanda Leite,Amanda Gomes Gurgel,False,sucesso
-400,02001055020238060161,Fábio Medeiros Falcão de Andrade,Ana Gleide Rodrigues Braz,False,sucesso
-401,02218611320238060001,Cristiano Rabelo Leitão,Francisco Martins Filho,False,sucesso
-402,02000968820238060161,Fábio Medeiros Falcão de Andrade,Francisco das Chagas Sales,False,sucesso
-403,00182859320238060001,Alda Maria Holanda Leite,Lucas Oliveira do Nascimento,False,sucesso
-404,02200675420238060001,Mirian Porto Mota Randal Pompeu,Katienne Mary Quintino Batista,False,sucesso
-405,02198129620238060001,Mirian Porto Mota Randal Pompeu,Liana Maria Pinto Firmeza,False,sucesso
-406,02173827420238060001,Fabricia Ferreira de Freitas,Monica Barreto Espindola dos Santos,False,sucesso
-407,02172268620238060001,Ricci Lôbo de Figueiredo,Carlos Miguel Fernandes Tavares,False,sucesso
-408,02172371820238060001,Alda Maria Holanda Leite,"Davi Oliveira Camurça,",False,sucesso
-409,02167773120238060001,Maria José Sousa Rosado de Alencar,Maria Vilani Fortaleza de Morais,False,sucesso
-410,02164205120238060001,Alda Maria Holanda Leite,Joecelia Raiane Queiroz Barros,False,sucesso
-411,02134949720238060001,Gerardo Magelo Facundo Junior,Nicolas Ariel Giraudo,False,sucesso
-412,02097517920238060001,Fernando Teles de Paula Lima,Regiane Patrícia Araújo Athayde,False,sucesso
-413,02086544420238060001,Leila Regina Corado Lobato,Emilia Martins Cavalcante,False,sucesso
-414,02002667620238060091,Marcelo Veiga Vieira,Joana Marinez Alves Coelho,False,sucesso
-415,02052542220238060001,Fernando Teles de Paula Lima,"Agenor Soares Dias Filho, Representado Por Tereza Lucia Lopes de Noronha Dias",False,sucesso
-416,02000825420238060113,PAULO LACERDA DE OLIVEIRA JUNIOR,Francsica Alves Filha,False,sucesso
-417,02024889320238060001,Leila Regina Corado Lobato,Izilda Mendes de Lima,False,sucesso
-418,02029784320228060101,Leslie Anne Maia Campos,Geovana Rodrigues Pires,False,sucesso
-419,02004035720228060135,Eduardo Andre Dantas Silva,Valéria Cristina de Sá Nunes,False,sucesso
-420,02031207720228060091,Marcelo Veiga Vieira,José Rigoberto Ferreira,False,sucesso
-421,02009902120228060122,Daniel Alves Mendes Filho,Beatriz Henrique de Siqueira,False,sucesso
-422,02888287420228060001,Alda Maria Holanda Leite,Ana Vitoria Marinete de Sousa Queiroz,False,sucesso
-423,02037474420228060071,"Titular
+232,02003065520228060071,José Flávio Bezerra Morais,Isabela do Nascimento Sousa Repre. Filha Menor,True,sucesso
+233,02003074020228060071,José Flávio Bezerra Morais,Maria do Socorro Belem Alves,True,sucesso
+234,02082641120228060001,LUCIANO NUNES MAIA FREIRE,Edna Maria Alves,True,sucesso
+235,02002667320228060071,José Flávio Bezerra Morais,Rejane Xenofonte de Morais Representando Domicília Xenofonte de Morais,True,sucesso
+236,02001342720228060035,RAMON BESERRA DA VEIGA PESSOA,Maria Vandineide Rodrigues de Oliveira,True,sucesso
+237,02075488120228060001,Alda Maria Holanda Leite,José Samuel Sousa Bezerra,True,sucesso
+238,02000497920228060087,Anderson Alexandre Nascimento Silva,Maria Ivynne Silva de Oliveira,True,sucesso
+239,02001835720228060071,José Flávio Bezerra Morais,Naiara Aline Vieira,True,sucesso
+240,02001904920228060071,José Flávio Bezerra Morais,Maria Pereira de Oliveira,True,sucesso
+241,02001783520228060071,José Flávio Bezerra Morais,"Francisca Ferreira Lima,",True,sucesso
+242,02001628120228060071,José Flávio Bezerra Morais,Antonia Gomes de Moura,True,sucesso
+243,02001636620228060071,José Flávio Bezerra Morais,Antonio Gilberto do Nascimento,True,sucesso
+244,02001305420228060143,Márcio Freire de Souza,Antônia Célia Oliveira de Lima,True,sucesso
+245,02000913220228060119,Ana Izabel de Andrade Lima Pontes,Francisco Cleber Ferreira Geraldo,True,sucesso
+246,02001201020228060143,Márcio Freire de Souza,Maria Juliana da Silva André,True,sucesso
+247,02001238420228060071,José Flávio Bezerra Morais,"João Justino Ferreira,",True,sucesso
+248,02000234020228060036,Cynthia Pereira Petri Feitosa,Francisco Antônio Alves Lima,True,sucesso
+249,02033881320228060001,Fernando Teles de Paula Lima,Gustavo Martins Queiroz,True,sucesso
+250,02000231720228060076,HERICK BEZERRA TAVARES,Adelaide Francelino Ribeiro,True,sucesso
+251,00504770920218060047,Jaison Stangherlin,José Farias de Araújo,True,sucesso
+252,00504753920218060047,Jaison Stangherlin,,True,dados_incompletos
+253,00512645020218060043,Judson Pereira Spindola Junior,Claudia Maria Grangeiro de Sá Barreto Lima,True,sucesso
+254,00510427320218060143,Márcio Freire de Souza,Antônio Umbelino de Andrade,True,sucesso
+255,00569016620218060112,Péricles Victor Galvão de Oliveira,Marli Kameyama Tavares,True,sucesso
+256,02772981020218060001,Thales Pimentel Saboia,Larissa Cunha Peixoto Camelo,True,sucesso
+257,00536742620218060029,PAULO LACERDA DE OLIVEIRA JUNIOR,Anny Caroline Lima Costa,True,sucesso
+258,02749112220218060001,Anderson Alexandre Nascimento Silva,Samuel Brandão Lima,True,sucesso
+259,00565188820218060112,Péricles Victor Galvão de Oliveira,Maria do Socorro Pereira Leite,True,sucesso
+260,02741941020218060001,Maria de Fatima Bezerra Facundo,Sandra Mara Rodrigues de Almeida,True,sucesso
+261,00504450420218060047,Jaison Stangherlin,Marcos Antônio de Araújo,True,sucesso
+262,00507386420218060114,LUZINALDO ALVES ALEXANDRE DA SILVA,Cicero Leite Moreira,True,sucesso
+263,02723606920218060001,Patrícia Fernanda Toledo Rodrigues,Ruth Helena Oliveira Menezes,True,sucesso
+264,00503423020218060036,Cynthia Pereira Petri Feitosa,Luciano Pereira de Lima,True,sucesso
+265,00531552220218060071,José Flávio Bezerra Morais,Deyvillanne Santos Oliveira dos Anjos,True,sucesso
+266,02708181620218060001,Fernando Teles de Paula Lima,Layla Suellen Moura Ramos,True,sucesso
+267,02704475220218060001,Patrícia Fernanda Toledo Rodrigues,Manoel Messias Rocha,True,sucesso
+268,00511293820218060043,Marcelino Emidio Maciel Filho,Roberio Cleber Sampaio,True,sucesso
+269,02800686520218060133,RENATA GUIMARAES GUERRA,Ministério Público do Estado do Ceará,True,sucesso
+270,00508665420218060124,OTAVIO OLIVEIRA DE MORAIS,Mayra Eufrázio da Silva,True,sucesso
+271,02487792520218060001,Alda Maria Holanda Leite,Maria Eurivone Pereira do Monte,True,sucesso
+272,02486051620218060001,Gerardo Magelo Facundo Junior,Mariana Soares Rola,True,sucesso
+273,02481289020218060001,Antonio Teixeira de Sousa,Diana Carneiro da Cunha Câmara,True,sucesso
+274,02469995020218060001,Fabiano Damasceno Maia,Espólio de Amanda de Paula Vieira,True,sucesso
+275,02467457720218060001,Fabricia Ferreira de Freitas,Silvio Machado Martins,True,sucesso
+276,02800033920218060111,Francisco de Paulo Queiroz Bernardino Junior,Maria Neuza da Silva,True,sucesso
+277,00534199520218060117,Tassia Fernanda de Siqueira,Edna Maria Leite Lima,True,sucesso
+278,02409915720218060001,Fernando Teles de Paula Lima,Matheus Teixeira Fialho,True,sucesso
+279,02385864820218060001,Antonio Teixeira de Sousa,Larissa da Silveira Lima,True,sucesso
+280,00514810920218060071,José Flávio Bezerra Morais,Veronica Domingos Lima Honorio,True,sucesso
+281,00514776920218060071,José Flávio Bezerra Morais,Giselda Macedo Pereira Correia,True,sucesso
+282,00511992220218060151,Francisco Eduardo Girão Braga,Maria Zelinda de Souza Neto,True,sucesso
+283,02357518720218060001,Alda Maria Holanda Leite,Luiz Heitor Magalhaes Peixoto,True,sucesso
+284,02353603520218060001,Fernando Teles de Paula Lima,Fabiana Vigatto Rocha Freitas,True,sucesso
+285,00513901620218060071,José Flávio Bezerra Morais,,True,dados_incompletos
+286,00513486420218060071,José Flávio Bezerra Morais,,True,dados_incompletos
+287,00510691820218060091,Carlos Eduardo Carvalho Arrais,Pedro Gomes das Neves Filho,True,sucesso
+288,00510484220218060091,Carlos Eduardo Carvalho Arrais,Maria Otaiza Queiroga Cavalcante,True,sucesso
+289,02800185820218060062,Bruno Leonardo Batista de Medeiros Santos,Ministério Público do Estado do Ceará,True,sucesso
+290,00510008320218060091,Carlos Eduardo Carvalho Arrais,Paulo Régis de Oliveira,True,sucesso
+291,01972970920198060001,Ana Raquel Colares dos Santos,Antonia Edneia de Barros Mendonça,True,sucesso
+292,01935123920198060001,Ana Raquel Colares dos Santos,Espolio de Necy Correia e Silva,True,sucesso
+293,01932777220198060001,Cristiano Rabelo Leitão,Maria de Fátima de Oliveira Gonçalves,True,sucesso
+294,01928316920198060001,DAYANA CLAUDIA TAVARES BARROS DE CASTRO,Maria Isadora Lima Nogueira,True,sucesso
+295,00200029220198060127,Sérgio da Nobrega Farias,Ministério Público,True,sucesso
+296,01842567220198060001,Roberto Ferreira Facundo,Francisco Tarcisio Damasceno,True,sucesso
+297,01835829420198060001,Ana Raquel Colares dos Santos,Francisco Heráclito de Araujo Silva Junior,True,sucesso
+298,01775463620198060001,Fernando Teles de Paula Lima,Iseuda Vieira de Souza,True,sucesso
+299,01754739120198060001,Thales Pimentel Saboia,Arnaldo Moraes Pinheiro Filho,True,sucesso
+300,00034555820198060100,Gabriela Carvalho Azzi,FRANCISCA PEREIRA BRIOSO,True,sucesso
+301,00075589820198060071,,,True,dados_incompletos
+302,01610797920198060001,,João Monteiro Neto,True,dados_incompletos
+303,00134327520198060035,RAMON BESERRA DA VEIGA PESSOA,Aldemir do Carmo Nunes,True,sucesso
+304,01544291620198060001,Mirian Porto Mota Randal Pompeu,Alice Albuquerque de Souza,True,sucesso
+305,01535137920198060001,Ana Raquel Colares dos Santos,Ethiane Silva Arcanjo de Melo,True,sucesso
+306,01499706820198060001,Mirian Porto Mota Randal Pompeu,José Cavalcante Olinda,True,sucesso
+307,01451760420198060001,BRUNO GOMES BENIGNO SOBRAL,Ernilson Martins Nascimento,True,sucesso
+308,00061712320198060144,José Arnaldo dos Santos Soares,Ministério Público do Estado do Ceará,True,sucesso
+309,01400021420198060001,Thales Pimentel Saboia,Maria Fátima Pimentel Siqueira,True,sucesso
+310,00089750420168060100,Cláudia Waleska Mattos Mascarenhas,,True,dados_incompletos
+311,02085143920258060001,Alda Maria Holanda Leite,Ana Clara dos Santos de Moraes,False,sucesso
+312,02072733020258060001,Alda Maria Holanda Leite,Carlos Vinícius Nobre Mendes,False,sucesso
+313,02071771520258060001,Alda Maria Holanda Leite,Mateus Henrique Barreto de Vasconcelos,False,sucesso
+314,02820545720248060001,Alda Maria Holanda Leite,Arthur Alves Lima,False,sucesso
+315,02756647120248060001,Leila Regina Corado Lobato,João Pedro Coe Torres Bezerra,False,sucesso
+316,02739610820248060001,Alda Maria Holanda Leite,Leo Jairo da Silva Moreira,False,sucesso
+317,02681151020248060001,Alda Maria Holanda Leite,André Victor Nobre Teixeira,False,sucesso
+318,02670126520248060001,Alda Maria Holanda Leite,Mariana Braga Sales,False,sucesso
+319,02572858220248060001,Alda Maria Holanda Leite,Isabella Alves Caetano,False,sucesso
+320,02566275820248060001,Alda Maria Holanda Leite,Leide Nagle de Olinvindo Vasconcelos,False,sucesso
+321,02547161120248060001,Ricci Lôbo de Figueiredo,Samuel Henrique Magalhães Campos,False,sucesso
+322,02533348020248060001,Alda Maria Holanda Leite,Gabriel Sales Gomes,False,sucesso
+323,02520772020248060001,Thales Pimentel Saboia,Vânia Maria da Costa Gomes,False,sucesso
+324,02504819820248060001,Alda Maria Holanda Leite,Maria Laura Paixao Brasil,False,sucesso
+325,02467916120248060001,Alda Maria Holanda Leite,Raimundo Nonato Holanda da Silva Junior,False,sucesso
+326,02457185420248060001,Lucimeire Godeiro Costa,Andrea Queiroz Sierra,False,sucesso
+327,02427548820248060001,Alda Maria Holanda Leite,Fernanda Lima da Silva,False,sucesso
+328,02424846420248060001,Alda Maria Holanda Leite,Valentina Cavalcante Morrocchi,False,sucesso
+329,02315487720248060001,Fabiano Damasceno Maia,Amanda Brandao Moura,False,sucesso
+330,00101925120248060052,,,False,dados_incompletos
+331,02252471720248060001,Josias Nunes Vidal,"Espólio, sucessores ou herdeiros de Jose Mendes de Sousa",False,sucesso
+332,02002594520248060028,Gustavo Farias Alves,Aloísio Teixeira Rios Neto,False,sucesso
+333,02232258320248060001,Gerardo Magelo Facundo Junior,Karen Emanuelle Barbosa Canuto,False,sucesso
+334,02209661820248060001,Fernando Teles de Paula Lima,Francisco Moésio Vasconcelos Moura,False,sucesso
+335,02169562820248060001,Josias Nunes Vidal,João Calebe Muniz,False,sucesso
+336,02000724720248060057,Caio Lima Barroso,Francisco de Assis Ferreira,False,sucesso
+337,02166072520248060001,Alda Maria Holanda Leite,"Cauã Fernando Bezerra Lucena, Fone: 85-989738310",False,sucesso
+338,02008238920248060071,José Flávio Bezerra Morais,Jose Loiola de Alencar Filho,False,sucesso
+339,02160608220248060001,Leila Regina Corado Lobato,Daniele de Souza Silva,False,sucesso
+340,02160772120248060001,Josias Nunes Vidal,Wesclei Pinheiro Mouzinho de Lima,False,sucesso
+341,02003863520248060043,Marcelino Emidio Maciel Filho,Sandhara Ribeiro Rodrigues,False,sucesso
+342,02001304420248060059,Klóvis Carício da Cruz Marques,Zulmira Silva de Souza,False,sucesso
+343,02103066220248060001,Alda Maria Holanda Leite,Daniel Costa,False,sucesso
+344,02101568120248060001,Ciero Miranda,Rafaella Joanna da Silva Caseca Galindo,False,sucesso
+345,02044250720248060001,Fabiana Silva Félix da Rocha,Maria Fernandes de Oliveira,False,sucesso
+346,02001628420248060112,Matheus Pereira Junior,Francisca Cavalcante Moraes,False,sucesso
+347,02001736320248060064,Willer Sóstenes de Sousa,Antonia Elisangela do Nascimento Moura,False,sucesso
+348,02019870820248060001,Alda Maria Holanda Leite,Pedro Victor Mourão Neres,False,sucesso
+349,02014744020248060001,Ricci Lôbo de Figueiredo,Roberta Priscila Moreira Dias Lucas,False,sucesso
+350,02874270620238060001,BRUNO GOMES BENIGNO SOBRAL,Raimundo Nonato da Silva Filho,False,sucesso
+351,02843915320238060001,Thales Pimentel Saboia,Leticia Emanuelli de Oliveira Melo,False,sucesso
+352,02789551620238060001,Maria Valdenisa de Sousa Bernardo,Jerônimo Carlos Barros Júnior,False,sucesso
+353,02763171020238060001,Ciero Miranda,Maria Alice Monteiro Alexandrino,False,sucesso
+354,02756441720238060001,Fabiana Silva Félix da Rocha,Ana Cristina Fonseca de Souza Porto,False,sucesso
+355,02051220520238060117,Luiz Eduardo Viana Pequeno,Maria Eduarda Sales Duarte,False,sucesso
+356,02742039820238060001,Fabricia Ferreira de Freitas,Juliana Fernandes Araújo,False,sucesso
+357,02729256220238060001,Fabiano Damasceno Maia,Lidiane Oliveira Fernandes,False,sucesso
+358,02697462320238060001,Ricci Lôbo de Figueiredo,Erivaldo Alexandre de Abreu,False,sucesso
+359,02006625720238060122,Daniel Alves Mendes Filho,João Furtado Dias,False,sucesso
+360,02675542020238060001,Fabiano Damasceno Maia,Sofia Almeida Leoncio Magalhães,False,sucesso
+361,02667392320238060001,Cristiano Rabelo Leitão,Melissa Macêdo Peixoto Nascimento,False,sucesso
+362,02666690620238060001,Thales Pimentel Saboia,Maria Fabiana Rodrigues dos Anjos,False,sucesso
+363,02638041020238060001,Leila Regina Corado Lobato,Emanuely Vládia Mota Palhano,False,sucesso
+364,02626115720238060001,Alda Maria Holanda Leite,Daniel Nickson Barbosa da Silva,False,sucesso
+365,02617480420238060001,Gerardo Magelo Facundo Junior,Carolina Alencar Veras Starrett,False,sucesso
+366,02613566420238060001,Alda Maria Holanda Leite,Artur Muniz Figueredo,False,sucesso
+367,02010809120238060090,Marcelo Veiga Vieira,Izabel Cristina Muniz Barbosa Mendonça,False,sucesso
+368,02591689820238060001,Fernando Teles de Paula Lima,Maria Julia Cruz Rocha,False,sucesso
+369,02558284920238060001,Ana Raquel Colares dos Santos,Helena Maria de Carvalho Brandine,False,sucesso
+370,02554777620238060001,Alda Maria Holanda Leite,Vanessa Mariano de Castro,False,sucesso
+371,02045346020238060064,Edison Ponte Bandeira de Melo,Maria Darlete da Silva Viana,False,sucesso
+372,02045042520238060064,Maria Valdileny Sombra Franklin,Nayara dos Santos Barros,False,sucesso
+373,02528405520238060001,Thales Pimentel Saboia,Isla Soares de Oliveira,False,sucesso
+374,02516920920238060001,Alda Maria Holanda Leite,Maria Beatriz Aires Queiroz Oliveira,False,sucesso
+375,02515198220238060001,Fabricia Ferreira de Freitas,Manuele Luz Santos,False,sucesso
+376,02497998020238060001,Alda Maria Holanda Leite,Mateus de Almeida Sousa,False,sucesso
+377,02492853020238060001,Alda Maria Holanda Leite,Nereide Mendonça da Silva,False,sucesso
+378,02486548620238060001,Fernando Teles de Paula Lima,Juan Carlos Nascimento da Cunha,False,sucesso
+379,00278516620238060001,Alda Maria Holanda Leite,Sophia Loren Moreira de Carvalho,False,sucesso
+380,02449896220238060001,Fernando Teles de Paula Lima,Rafaella Aragão Souza,False,sucesso
+381,02020964020238060071,José Flávio Bezerra Morais,Tasla Vieira Soares,False,sucesso
+382,02428686120238060001,Alda Maria Holanda Leite,Maitê Ferreira Nunes,False,sucesso
+383,02009997320238060113,PAULO LACERDA DE OLIVEIRA JUNIOR,Dulce Maria Viana Lourenço,False,sucesso
+384,02419748520238060001,Fernando Teles de Paula Lima,Joaquim Roberto Cardoso de Almeida,False,sucesso
+385,02417288920238060001,Fernando Teles de Paula Lima,Heitor Lima Albuquerque,False,sucesso
+386,02390076720238060001,Leila Regina Corado Lobato,José Alexandre Fernandes Santiago,False,sucesso
+387,02008136720238060075,Rejane Eire Fernandes Alves,Ingrid Lustosa Madeira Neves,False,sucesso
+388,02383312220238060001,Fabiano Damasceno Maia,Samuel Lima Albuquerque,False,sucesso
+389,02381164620238060001,Roberto Ferreira Facundo,Helena Vitorino Albim,False,sucesso
+390,02315646520238060001,Fabiano Damasceno Maia,Pedro Aragão Neto,False,sucesso
+391,02250170920238060001,Alda Maria Holanda Leite,Amanda Gomes Gurgel,False,sucesso
+392,02001055020238060161,Fábio Medeiros Falcão de Andrade,Ana Gleide Rodrigues Braz,False,sucesso
+393,02218611320238060001,Cristiano Rabelo Leitão,Francisco Martins Filho,False,sucesso
+394,02000968820238060161,Fábio Medeiros Falcão de Andrade,Francisco das Chagas Sales,False,sucesso
+395,00182859320238060001,Alda Maria Holanda Leite,Lucas Oliveira do Nascimento,False,sucesso
+396,02200675420238060001,Mirian Porto Mota Randal Pompeu,Katienne Mary Quintino Batista,False,sucesso
+397,02198129620238060001,Mirian Porto Mota Randal Pompeu,Liana Maria Pinto Firmeza,False,sucesso
+398,02172268620238060001,Ricci Lôbo de Figueiredo,Carlos Miguel Fernandes Tavares,False,sucesso
+399,02173827420238060001,Fabricia Ferreira de Freitas,Monica Barreto Espindola dos Santos,False,sucesso
+400,02172371820238060001,Alda Maria Holanda Leite,"Davi Oliveira Camurça,",False,sucesso
+401,02167773120238060001,Maria José Sousa Rosado de Alencar,Maria Vilani Fortaleza de Morais,False,sucesso
+402,02164205120238060001,Alda Maria Holanda Leite,Joecelia Raiane Queiroz Barros,False,sucesso
+403,02134949720238060001,Gerardo Magelo Facundo Junior,Nicolas Ariel Giraudo,False,sucesso
+404,02097517920238060001,Fernando Teles de Paula Lima,Regiane Patrícia Araújo Athayde,False,sucesso
+405,02086544420238060001,Leila Regina Corado Lobato,Emilia Martins Cavalcante,False,sucesso
+406,02002667620238060091,Marcelo Veiga Vieira,Joana Marinez Alves Coelho,False,sucesso
+407,02052542220238060001,Fernando Teles de Paula Lima,"Agenor Soares Dias Filho, Representado Por Tereza Lucia Lopes de Noronha Dias",False,sucesso
+408,02000825420238060113,PAULO LACERDA DE OLIVEIRA JUNIOR,Francsica Alves Filha,False,sucesso
+409,02024889320238060001,Leila Regina Corado Lobato,Izilda Mendes de Lima,False,sucesso
+410,02029784320228060101,Leslie Anne Maia Campos,Geovana Rodrigues Pires,False,sucesso
+411,02004035720228060135,Eduardo Andre Dantas Silva,Valéria Cristina de Sá Nunes,False,sucesso
+412,02031207720228060091,Marcelo Veiga Vieira,José Rigoberto Ferreira,False,sucesso
+413,02009902120228060122,Daniel Alves Mendes Filho,Beatriz Henrique de Siqueira,False,sucesso
+414,02888287420228060001,Alda Maria Holanda Leite,Ana Vitoria Marinete de Sousa Queiroz,False,sucesso
+415,02037474420228060071,"Titular
 Advogados",Dalveniza Mateus de Brito Gonçalves,False,sucesso
-424,02008689620228060028,Gustavo Farias Alves,Maria Marlí Firmino Alves,False,sucesso
-425,02009999720228060181,Hyldon Masters Cavalcante Costa,Jose Armando de Oliveira,False,sucesso
-426,02872377720228060001,Alda Maria Holanda Leite,Michelle Morales Braga,False,sucesso
-427,02869631620228060001,Thales Pimentel Saboia,Maria Darlete da Silva Viana,False,sucesso
-428,02008290520228060124,OTAVIO OLIVEIRA DE MORAIS,Maria Alves Dantas,False,sucesso
-429,02004089820228060161,Fábio Medeiros Falcão de Andrade,Izabel Pereira do Nascimento,False,sucesso
-430,02004102820228060045,Djalma Sobreira Dantas Junior,Maria Imaculada Moreira,False,sucesso
-431,02004050620228060045,Djalma Sobreira Dantas Junior,Iracema Elça de Figueiredo,False,sucesso
-432,02003947420228060045,Djalma Sobreira Dantas Junior,Raimunda Maria de Lima de Figueiredo,False,sucesso
-433,02003903720228060045,Djalma Sobreira Dantas Junior,Luis Paulo Bezerra Rodrigues,False,sucesso
-434,02812730620228060001,Fernando Teles de Paula Lima,Camila Accioly Ary,False,sucesso
-435,02007057020228060108,Diogo Altorbelli Silva de Freitas,Maria Amélia de Lima Cardoso,False,sucesso
-436,02006635020228060066,Carlos Eduardo Carvalho Arrais,Breno Keslley Pereira de Souza,False,sucesso
-437,02755743420228060001,Roberto Ferreira Facundo,Ana Júlia Rego Gonçalves,False,sucesso
-438,02009510620228060128,Francisco Eduardo Girão Braga,Valberlania Brito da Silva,False,sucesso
-439,02004372320228060041,Luis Sávio de Azevedo Bringel,Raimundo Marinho de Luna,False,sucesso
-440,02062735520228060112,FABRICIUS FERREIRA SILVA,Juliana Gonçalves Gregório,False,sucesso
-441,02010461620228060070,Airton Jorge de Sá Filho,Maria da Silva Teixeira,False,sucesso
-442,02721862620228060001,Leila Regina Corado Lobato,Benedito Lemos de Aragão,False,sucesso
-443,02006861620228060124,OTAVIO OLIVEIRA DE MORAIS,Maria Rita de Jesus,False,sucesso
-444,02017268020228060173,Felipe William Silva Gonçalves,Eliane Sousa Rodrigues,False,sucesso
-445,02006692020228060143,Márcio Freire de Souza,Antonia Janicler Vieira da Silva,False,sucesso
-446,02003107320228060045,Djalma Sobreira Dantas Junior,Francisco Manuel dos Santos,False,sucesso
-447,02662017620228060001,Fernando Teles de Paula Lima,Livia Mesquita Amorim,False,sucesso
-448,02013306320228060154,Rodrigo Campelo Diógenes,Ana Cláudia Olímpio da Silva,False,sucesso
-449,02657808620228060001,Patrícia Fernanda Toledo Rodrigues,Manuela Bezerra Landim Cunha,False,sucesso
-450,02006492920228060143,Márcio Freire de Souza,Francisca Gonçalves de Lima,False,sucesso
-451,02633099720228060001,Mirian Porto Mota Randal Pompeu,Rozinalda Pereira Soares,False,sucesso
-452,02004910220228060069,Hugo Gutparakis de Miranda,Gerardo dos Santos Filho,False,sucesso
-453,02621017820228060001,,Gaell Havi Santos da Silva,False,dados_incompletos
-454,02595632720228060001,,Maria Aparecida Maia Bandeira,False,dados_incompletos
-455,02013647820228060173,Felipe William Silva Gonçalves,Liliane Lima Barbosa,False,sucesso
-456,02005194720228060108,Diogo Altorbelli Silva de Freitas,Francisca Luciana Alves,False,sucesso
-457,02002128820228060045,Djalma Sobreira Dantas Junior,Henrique de Albuquerque Andrade,False,sucesso
-458,02397467420228060001,Thales Pimentel Saboia,Antonia Karina Barroso Gouveia Cunha,False,sucesso
-459,02001441220228060087,Anderson Alexandre Nascimento Silva,Antonia Maria Felix de Sousa,False,sucesso
-460,02318853720228060001,Leila Regina Corado Lobato,Linda Mara Monteiro da Silva,False,sucesso
-461,02004450720228060168,Mikhail de Andrade Torres,Raimundo Nonato de Brito,False,sucesso
-462,02001326020228060131,Ana Celia Pinho Carneiro,Neurilene Germano da Silva,False,sucesso
-463,02178913920228060001,Fernando Teles de Paula Lima,Everton Meneghini,False,sucesso
-464,02012923020228060064,Willer Sóstenes de Sousa,Rosa Maria da Silva Carneiro,False,sucesso
-465,02077436620228060001,Fernando Teles de Paula Lima,Maria Liduína Caetano de Aquino,False,sucesso
-466,02037406820228060001,Fabiana Silva Félix da Rocha,Cybele Tomaz Steger de Oliveira,False,sucesso
-467,02903394420218060001,Cristiano Rabelo Leitão,Anna Beatriz de Brito Angelo,False,sucesso
-468,02876823220218060001,Danúbia Loss Nicoláo,Raimundo Modesto de Oliveira Neto,False,sucesso
-469,00513983420218060122,Daniel Alves Mendes Filho,Iolanda Dantas de Carvalho,False,sucesso
-470,00508888820218060132,HERICK BEZERRA TAVARES,Antônia Cmapos da Silva,False,sucesso
-471,00513212420218060090,Joseph Raphael Alencar Brandão,Joana Candido Araujo de Sousa,False,sucesso
-472,02767533720218060001,Maria Valdenisa de Sousa Bernardo,João Ricardo Cavalcante Nepomuceno Filho,False,sucesso
-473,00510544120218060126,Marília Pires Vieira,Maria Alves de Sousa,False,sucesso
-474,00510795220218060062,Bruno Leonardo Batista de Medeiros Santos,Gessica Maria Carvalho Galdino,False,sucesso
-475,00507599420218060096,JORGE ROGER DOS SANTOS LIMA,Mauro Alves Ferreira,False,sucesso
-476,00505956120218060054,Djalma Sobreira Dantas Junior,Francisco Fernando Eloia Mota,False,sucesso
-477,00503243120218060061,Larissa Affonso Mayer,Lunna Maria Martins Brito,False,sucesso
-478,02271716820218060001,BRUNO GOMES BENIGNO SOBRAL,Larysse Cristina Costa Santos,False,sucesso
-479,02120405320218060001,Maria de Fatima Bezerra Facundo,Beatriz Brasil de Oliveira,False,sucesso
-480,02636231420208060001,Ciero Miranda,Rita Emília de Carvalho Rodrigues Bezerra de Menezes,False,sucesso
-481,02384551020208060001,Leila Regina Corado Lobato,Cláudio Varella de Mattos Brito,False,sucesso
-482,02226164220208060001,Mirian Porto Mota Randal Pompeu,Alberto Hil Furtado Junior,False,sucesso
-483,01934690520198060001,LUCIANO NUNES MAIA FREIRE,Selda Maria de Aguar Carvalho,False,sucesso
-484,01855133520198060001,Leila Regina Corado Lobato,Maria Vilani Marinho Freire,False,sucesso
-485,00017219220198060158,"Titular
+416,02008689620228060028,Gustavo Farias Alves,Maria Marlí Firmino Alves,False,sucesso
+417,02009999720228060181,Hyldon Masters Cavalcante Costa,Jose Armando de Oliveira,False,sucesso
+418,02872377720228060001,Alda Maria Holanda Leite,Michelle Morales Braga,False,sucesso
+419,02869631620228060001,Thales Pimentel Saboia,Maria Darlete da Silva Viana,False,sucesso
+420,02008290520228060124,OTAVIO OLIVEIRA DE MORAIS,Maria Alves Dantas,False,sucesso
+421,02004089820228060161,Fábio Medeiros Falcão de Andrade,Izabel Pereira do Nascimento,False,sucesso
+422,02004102820228060045,Djalma Sobreira Dantas Junior,Maria Imaculada Moreira,False,sucesso
+423,02004050620228060045,Djalma Sobreira Dantas Junior,Iracema Elça de Figueiredo,False,sucesso
+424,02003947420228060045,Djalma Sobreira Dantas Junior,Raimunda Maria de Lima de Figueiredo,False,sucesso
+425,02003903720228060045,Djalma Sobreira Dantas Junior,Luis Paulo Bezerra Rodrigues,False,sucesso
+426,02812730620228060001,Fernando Teles de Paula Lima,Camila Accioly Ary,False,sucesso
+427,02007057020228060108,Diogo Altorbelli Silva de Freitas,Maria Amélia de Lima Cardoso,False,sucesso
+428,02006635020228060066,Carlos Eduardo Carvalho Arrais,Breno Keslley Pereira de Souza,False,sucesso
+429,02755743420228060001,Roberto Ferreira Facundo,Ana Júlia Rego Gonçalves,False,sucesso
+430,02004372320228060041,Luis Sávio de Azevedo Bringel,Raimundo Marinho de Luna,False,sucesso
+431,02009510620228060128,Francisco Eduardo Girão Braga,Valberlania Brito da Silva,False,sucesso
+432,02062735520228060112,FABRICIUS FERREIRA SILVA,Juliana Gonçalves Gregório,False,sucesso
+433,02010461620228060070,Airton Jorge de Sá Filho,Maria da Silva Teixeira,False,sucesso
+434,02721862620228060001,Leila Regina Corado Lobato,Benedito Lemos de Aragão,False,sucesso
+435,02006861620228060124,OTAVIO OLIVEIRA DE MORAIS,Maria Rita de Jesus,False,sucesso
+436,02017268020228060173,Felipe William Silva Gonçalves,Eliane Sousa Rodrigues,False,sucesso
+437,02006692020228060143,Márcio Freire de Souza,Antonia Janicler Vieira da Silva,False,sucesso
+438,02003107320228060045,Djalma Sobreira Dantas Junior,Francisco Manuel dos Santos,False,sucesso
+439,02662017620228060001,Fernando Teles de Paula Lima,Livia Mesquita Amorim,False,sucesso
+440,02013306320228060154,Rodrigo Campelo Diógenes,Ana Cláudia Olímpio da Silva,False,sucesso
+441,02657808620228060001,Patrícia Fernanda Toledo Rodrigues,Manuela Bezerra Landim Cunha,False,sucesso
+442,02006492920228060143,Márcio Freire de Souza,Francisca Gonçalves de Lima,False,sucesso
+443,02633099720228060001,Mirian Porto Mota Randal Pompeu,Rozinalda Pereira Soares,False,sucesso
+444,02004910220228060069,Hugo Gutparakis de Miranda,Gerardo dos Santos Filho,False,sucesso
+445,02621017820228060001,,Gaell Havi Santos da Silva,False,dados_incompletos
+446,02595632720228060001,,Maria Aparecida Maia Bandeira,False,dados_incompletos
+447,02013647820228060173,Felipe William Silva Gonçalves,Liliane Lima Barbosa,False,sucesso
+448,02005194720228060108,Diogo Altorbelli Silva de Freitas,Francisca Luciana Alves,False,sucesso
+449,02002128820228060045,Djalma Sobreira Dantas Junior,Henrique de Albuquerque Andrade,False,sucesso
+450,02397467420228060001,Thales Pimentel Saboia,Antonia Karina Barroso Gouveia Cunha,False,sucesso
+451,02001441220228060087,Anderson Alexandre Nascimento Silva,Antonia Maria Felix de Sousa,False,sucesso
+452,02318853720228060001,Leila Regina Corado Lobato,Linda Mara Monteiro da Silva,False,sucesso
+453,02004450720228060168,Mikhail de Andrade Torres,Raimundo Nonato de Brito,False,sucesso
+454,02001326020228060131,Ana Celia Pinho Carneiro,Neurilene Germano da Silva,False,sucesso
+455,02178913920228060001,Fernando Teles de Paula Lima,Everton Meneghini,False,sucesso
+456,02012923020228060064,Willer Sóstenes de Sousa,Rosa Maria da Silva Carneiro,False,sucesso
+457,02077436620228060001,Fernando Teles de Paula Lima,Maria Liduína Caetano de Aquino,False,sucesso
+458,02037406820228060001,Fabiana Silva Félix da Rocha,Cybele Tomaz Steger de Oliveira,False,sucesso
+459,02903394420218060001,Cristiano Rabelo Leitão,Anna Beatriz de Brito Angelo,False,sucesso
+460,02876823220218060001,Danúbia Loss Nicoláo,Raimundo Modesto de Oliveira Neto,False,sucesso
+461,00513983420218060122,Daniel Alves Mendes Filho,Iolanda Dantas de Carvalho,False,sucesso
+462,00508888820218060132,HERICK BEZERRA TAVARES,Antônia Cmapos da Silva,False,sucesso
+463,00513212420218060090,Joseph Raphael Alencar Brandão,Joana Candido Araujo de Sousa,False,sucesso
+464,02767533720218060001,Maria Valdenisa de Sousa Bernardo,João Ricardo Cavalcante Nepomuceno Filho,False,sucesso
+465,00510544120218060126,Marília Pires Vieira,Maria Alves de Sousa,False,sucesso
+466,00510795220218060062,Bruno Leonardo Batista de Medeiros Santos,Gessica Maria Carvalho Galdino,False,sucesso
+467,00507599420218060096,JORGE ROGER DOS SANTOS LIMA,Mauro Alves Ferreira,False,sucesso
+468,00505956120218060054,Djalma Sobreira Dantas Junior,Francisco Fernando Eloia Mota,False,sucesso
+469,00503243120218060061,Larissa Affonso Mayer,Lunna Maria Martins Brito,False,sucesso
+470,02271716820218060001,BRUNO GOMES BENIGNO SOBRAL,Larysse Cristina Costa Santos,False,sucesso
+471,02120405320218060001,Maria de Fatima Bezerra Facundo,Beatriz Brasil de Oliveira,False,sucesso
+472,02636231420208060001,Ciero Miranda,Rita Emília de Carvalho Rodrigues Bezerra de Menezes,False,sucesso
+473,02384551020208060001,Leila Regina Corado Lobato,Cláudio Varella de Mattos Brito,False,sucesso
+474,02226164220208060001,Mirian Porto Mota Randal Pompeu,Alberto Hil Furtado Junior,False,sucesso
+475,01934690520198060001,LUCIANO NUNES MAIA FREIRE,Selda Maria de Aguar Carvalho,False,sucesso
+476,01855133520198060001,Leila Regina Corado Lobato,Maria Vilani Marinho Freire,False,sucesso
+477,00017219220198060158,"Titular
 Advogados",FRANCISCA MARQUES DE LIMA SANTIAGO,False,sucesso
-486,01711602420188060001,Fabricia Ferreira de Freitas,Antonio Luis Nobre Barreto,False,sucesso
-487,01413085220188060001,Fabricia Ferreira de Freitas,Larissa Cunha Peixoto,False,sucesso
-488,01748676820168060001,Thales Pimentel Saboia,Kaline Michelly Duarte de Amorim,False,sucesso
-489,00111447220158060043,Marcelino Emidio Maciel Filho,Elisabeth dos Santos Queiroz,False,sucesso
-490,01588748720138060001,Fabiano Damasceno Maia,CARLOS ALBERTO CESAR DA SILVA,False,sucesso
-491,02094665220248060001,Thales Pimentel Saboia,Idelce Maria da Silva,False,sucesso
-492,02004945120248060112,Matheus Pereira Junior,Allef Rocha de Albuquerque Arraes Representado Por Sua Curadora Joana Rocha Alves,False,sucesso
-493,02026496920248060001,Fabiano Damasceno Maia,Kelina Kassia Pontes de Mascena Barretto,False,sucesso
-494,02014232920248060001,Ana Raquel Colares dos Santos,Fabricia Silva de Silveira Militao,False,sucesso
-495,02614207420238060001,Josias Nunes Vidal,João Pedro Ribeiro Bezerra Freire,False,sucesso
-496,02042587920238060112,Péricles Victor Galvão de Oliveira,Ana Crsitina Quezado Santos,False,sucesso
-497,02028271020238060112,Matheus Pereira Junior,Pedro Cauan Nogueira Representato Por Camila Raquel Figueiredo Nogueira,False,sucesso
-498,02186523620238060001,Rommel Moreira Conrado,Sergio Luiz Rodrigues Lima,False,sucesso
-499,02012283620238060112,FABRICIUS FERREIRA SILVA,Eleazart Ferreira Lima,False,sucesso
-500,02047761420238060001,Ana Raquel Colares dos Santos,Julio Pinto Neto,False,sucesso
-501,02063489420228060112,Matheus Pereira Junior,Josefa Jucilene Santos Barroso,False,sucesso
-502,02006673320228060181,Hyldon Masters Cavalcante Costa,Raimundo Venancio da Silva,False,sucesso
-503,02678787820218060001,Gerardo Magelo Facundo Junior,Julyana Rifane Oliveira,False,sucesso
-504,02226629420218060001,Josias Nunes Vidal,Levi Lima Brito,False,sucesso
+478,01711602420188060001,Fabricia Ferreira de Freitas,Antonio Luis Nobre Barreto,False,sucesso
+479,01413085220188060001,Fabricia Ferreira de Freitas,Larissa Cunha Peixoto,False,sucesso
+480,01748676820168060001,Thales Pimentel Saboia,Kaline Michelly Duarte de Amorim,False,sucesso
+481,00111447220158060043,Marcelino Emidio Maciel Filho,Elisabeth dos Santos Queiroz,False,sucesso
+482,01588748720138060001,Fabiano Damasceno Maia,CARLOS ALBERTO CESAR DA SILVA,False,sucesso
+483,02094665220248060001,Thales Pimentel Saboia,Idelce Maria da Silva,False,sucesso
+484,02004945120248060112,Matheus Pereira Junior,Allef Rocha de Albuquerque Arraes Representado Por Sua Curadora Joana Rocha Alves,False,sucesso
+485,02026496920248060001,Fabiano Damasceno Maia,Kelina Kassia Pontes de Mascena Barretto,False,sucesso
+486,02014232920248060001,Ana Raquel Colares dos Santos,Fabricia Silva de Silveira Militao,False,sucesso
+487,02614207420238060001,Josias Nunes Vidal,João Pedro Ribeiro Bezerra Freire,False,sucesso
+488,02042587920238060112,Péricles Victor Galvão de Oliveira,Ana Crsitina Quezado Santos,False,sucesso
+489,02028271020238060112,Matheus Pereira Junior,Pedro Cauan Nogueira Representato Por Camila Raquel Figueiredo Nogueira,False,sucesso
+490,02186523620238060001,Rommel Moreira Conrado,Sergio Luiz Rodrigues Lima,False,sucesso
+491,02012283620238060112,FABRICIUS FERREIRA SILVA,Eleazart Ferreira Lima,False,sucesso
+492,02047761420238060001,Ana Raquel Colares dos Santos,Julio Pinto Neto,False,sucesso
+493,02063489420228060112,Matheus Pereira Junior,Josefa Jucilene Santos Barroso,False,sucesso
+494,02006673320228060181,Hyldon Masters Cavalcante Costa,Raimundo Venancio da Silva,False,sucesso
+495,02678787820218060001,Gerardo Magelo Facundo Junior,Julyana Rifane Oliveira,False,sucesso
+496,02226629420218060001,Josias Nunes Vidal,Levi Lima Brito,False,sucesso

@@ -268,7 +268,7 @@ async def executar_scraping():
 
     async with async_playwright() as playwright:
         # Configurar browser
-        browser = await playwright.chromium.launch(headless=True)
+        browser = await playwright.chromium.launch(headless=False)
         context = await browser.new_context()
         page = await context.new_page()
 
@@ -326,13 +326,13 @@ def salvar_resultados_finais(resultados, decisoes_map):
     resultados_completos = [
         {
             "id": idx,
-            "numero_processo": r["numero_processo"],
-            "juiz": r.get("juiz"),
-            "requerente": r.get("requerente"),
-            "sentenca_favoravel": decisoes_map.get(r["numero_processo"]),
-            "status": r["status"],
+            "numero_processo": resultado["numero_processo"],
+            "juiz": resultado.get("juiz"),
+            "requerente": resultado.get("requerente"),
+            "sentenca_favoravel": decisoes_map.get(resultado["numero_processo"]),
+            "status": resultado["status"],
         }
-        for idx, r in enumerate(resultados_filtrados, 1)
+        for idx, resultado in enumerate(resultados_filtrados, 1)
     ]
 
     # Salvar em JSON
