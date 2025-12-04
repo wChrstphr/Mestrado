@@ -29,7 +29,7 @@ def executar_inferencia_sexo():
         print("Erro: Execute o scraping primeiro")
         return False
 
-    if not verificar_arquivo("data/nomes.csv.gz"):
+    if not verificar_arquivo("data/input/nomes.csv.gz"):
         print("Erro: data/nomes.csv.gz não encontrado")
         return False
 

@@ -1,31 +1,18 @@
 """
 Script para gerar features do dados_completos.json e integrá-las com dados_processos_com_sexo.csv
-Gera dataset completo com 26 features para modelo de Machine Learning
+Gera dataset limpo e otimizado para modelo de Machine Learning:
+- Remove features desnecessárias
+- Cria features derivadas (eh_segunda, eh_sexta)
+- Transforma assuntos em features binárias
+- Converte sexo para binário (0=M, 1=F, -1=Indefinido)
+- Filtra apenas registros com status 'sucesso'
+- Substitui numero_processo por ID genérico
 """
 
 import json
 import pandas as pd
 from datetime import datetime
-import re
-from collections import Counter
-
-
-def extrair_tipo_vara(nome_orgao):
-    """Extrai o tipo de vara do nome do órgão julgador"""
-    nome_lower = nome_orgao.lower()
-
-    if "infancia" in nome_lower or "juventude" in nome_lower:
-        return "Infância_Juventude"
-    elif "fazenda" in nome_lower:
-        return "Fazenda_Publica"
-    elif "juizado especial" in nome_lower:
-        return "Juizado_Especial"
-    elif "turma recursal" in nome_lower:
-        return "Turma_Recursal"
-    elif "vice-presidencia" in nome_lower or "presidencia" in nome_lower:
-        return "Presidencia"
-    else:
-        return "Outros"
+import unicodedata
 
 
 def extrair_features_temporais(data_ajuizamento_str, data_atualizacao_str):
@@ -40,13 +27,14 @@ def extrair_features_temporais(data_ajuizamento_str, data_atualizacao_str):
 
         # Calcular diferença
         dias_desde_ajuizamento = (data_atual - data_ajuiz).days
+        dia_semana = data_ajuiz.weekday()
 
         return {
             "dias_desde_ajuizamento": dias_desde_ajuizamento,
             "ano_ajuizamento": data_ajuiz.year,
             "mes_ajuizamento": data_ajuiz.month,
-            "trimestre_ajuizamento": (data_ajuiz.month - 1) // 3 + 1,
-            "dia_semana_ajuizamento": data_ajuiz.weekday(),
+            "eh_segunda": 1 if dia_semana == 0 else 0,
+            "eh_sexta": 1 if dia_semana == 4 else 0,
         }
     except Exception as e:
         print(f"Erro ao processar datas: {e}")
@@ -54,63 +42,26 @@ def extrair_features_temporais(data_ajuizamento_str, data_atualizacao_str):
             "dias_desde_ajuizamento": 0,
             "ano_ajuizamento": 0,
             "mes_ajuizamento": 0,
-            "trimestre_ajuizamento": 0,
-            "dia_semana_ajuizamento": 0,
+            "eh_segunda": 0,
+            "eh_sexta": 0,
         }
-
-
-def classificar_classe(classe_nome):
-    """Classifica a classe processual em categorias principais"""
-    classes_principais = [
-        "Procedimento Comum Cível",
-        "Agravo de Instrumento",
-        "Apelação Cível",
-        "Procedimento do Juizado Especial da Fazenda Pública",
-        "Cumprimento de sentença",
-        "Procedimento do Juizado Especial Cível",
-        "Cumprimento de Sentença contra a Fazenda Pública",
-        "Ação Civil Pública",
-        "Recurso Inominado Cível",
-        "Cumprimento Provisório de Sentença",
-    ]
-
-    if classe_nome in classes_principais:
-        return classe_nome
-    else:
-        return "Outros"
 
 
 def extrair_features_assuntos(assuntos):
     """Extrai features relacionadas aos assuntos do processo"""
     assuntos_text = " ".join([a.get("nome", "").lower() for a in assuntos])
+    assunto_principal = (
+        assuntos[0].get("nome", "Desconhecido") if assuntos else "Desconhecido"
+    )
 
     return {
         "qtd_assuntos": len(assuntos),
-        "tem_medicamento": 1 if "medicamento" in assuntos_text else 0,
         "tem_tutela_urgencia": (
-            1
-            if ("tutela" in assuntos_text and "urgencia" in assuntos_text)
-            else 0
+            1 if ("tutela" in assuntos_text and "urgencia" in assuntos_text) else 0
         ),
         "tem_obrigacao_fazer": 1 if "obrigação de fazer" in assuntos_text else 0,
         "tem_dano_moral": 1 if "dano moral" in assuntos_text else 0,
-        "area_saude": (
-            1
-            if any(
-                palavra in assuntos_text
-                for palavra in [
-                    "medicamento",
-                    "tratamento",
-                    "oncológico",
-                    "saúde",
-                    "hospitalar",
-                ]
-            )
-            else 0
-        ),
-        "assunto_principal": (
-            assuntos[0].get("nome", "Desconhecido") if assuntos else "Desconhecido"
-        ),
+        "assunto_principal": assunto_principal,
     }
 
 
@@ -123,40 +74,14 @@ def extrair_features_movimentos(movimentos, dias_desde_ajuizamento):
         qtd_movimentos / dias_desde_ajuizamento if dias_desde_ajuizamento > 0 else 0
     )
 
-    # Verificar movimentos recentes (últimos 30 dias)
-    try:
-        data_limite = datetime.now() - pd.Timedelta(days=30)
-        movimentos_recentes = 0
-
-        for mov in movimentos:
-            data_mov_str = mov.get("dataHora", "")
-            if data_mov_str:
-                data_mov = datetime.fromisoformat(data_mov_str.replace("Z", "+00:00"))
-                if data_mov >= data_limite:
-                    movimentos_recentes += 1
-    except:
-        movimentos_recentes = 0
-
-    # Extrair tipo de distribuição do primeiro movimento
-    tipo_distribuicao = "Desconhecido"
-    if movimentos:
-        primeiro_mov = movimentos[0]
-        complementos = primeiro_mov.get("complementosTabelados", [])
-        for comp in complementos:
-            if "distribuicao" in comp.get("descricao", "").lower():
-                tipo_distribuicao = comp.get("nome", "Desconhecido")
-                break
-
     return {
         "qtd_movimentos": qtd_movimentos,
         "velocidade_movimentos": round(velocidade, 4),
-        "movimentos_recentes": movimentos_recentes,
-        "tipo_distribuicao": tipo_distribuicao,
     }
 
 
 def processar_processo(processo_source):
-    """Processa um processo e extrai todas as features"""
+    """Processa um processo e extrai apenas as features necessárias"""
 
     # Dados básicos
     numero_processo = processo_source.get("numeroProcesso", "")
@@ -167,21 +92,10 @@ def processar_processo(processo_source):
         processo_source.get("dataHoraUltimaAtualizacao", ""),
     )
 
-    # Features categóricas
-    grau = processo_source.get("grau", "Desconhecido")
-    classe_info = processo_source.get("classe", {})
-    classe_nome = classe_info.get("nome", "Desconhecido")
-    classe_categoria = classificar_classe(classe_nome)
-
     # Órgão julgador
     orgao_julgador = processo_source.get("orgaoJulgador", {})
     nome_orgao = orgao_julgador.get("nome", "")
-    tipo_vara = extrair_tipo_vara(nome_orgao)
     municipio_fortaleza = 1 if "FORTALEZA" in nome_orgao.upper() else 0
-
-    # Sistema e formato
-    sistema = processo_source.get("sistema", {}).get("nome", "Desconhecido")
-    formato = processo_source.get("formato", {}).get("nome", "Desconhecido")
 
     # Features de assuntos
     assuntos = processo_source.get("assuntos", [])
@@ -199,6 +113,8 @@ def processar_processo(processo_source):
     )
 
     # Verificar se tem recurso
+    classe_info = processo_source.get("classe", {})
+    classe_nome = classe_info.get("nome", "Desconhecido")
     tem_recurso = (
         1
         if any(
@@ -208,16 +124,11 @@ def processar_processo(processo_source):
         else 0
     )
 
-    # Montar dicionário com todas as features
+    # Montar dicionário com apenas as features necessárias
     features = {
         "numero_processo": numero_processo,
         **features_temporais,
-        "grau": grau,
-        "classe_categoria": classe_categoria,
-        "tipo_vara": tipo_vara,
         "municipio_fortaleza": municipio_fortaleza,
-        "sistema": sistema,
-        "formato": formato,
         **features_assuntos,
         **features_movimentos,
         "complexidade_score": complexidade_score,
@@ -237,11 +148,11 @@ def executar_geracao_features():
 
     # 1. Carregar dados_completos.json
     print("\n[1/4] Carregando dados_completos.json...")
-    with open("data/dados_completos.json", "r", encoding="utf-8") as f:
+    with open("data/output/dados_completos.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     processos = data["hits"]["hits"]
-    print(f"   ✓ {len(processos)} processos carregados")
+    print(f"   OK {len(processos)} processos carregados")
 
     # 2. Extrair features de cada processo
     print("\n[2/4] Extraindo features...")
@@ -256,14 +167,14 @@ def executar_geracao_features():
         features_list.append(features)
 
     df_features = pd.DataFrame(features_list)
-    print(f"   ✓ {len(df_features)} processos com features extraídas")
-    print(f"   ✓ {len(df_features.columns)} colunas geradas")
+    print(f"   OK {len(df_features)} processos com features extraídas")
+    print(f"   OK {len(df_features.columns)} colunas geradas")
 
     # 3. Carregar dados_processos_com_sexo.csv e fazer merge
-    print("\n[3/4] Integrando com dados_processos_com_sexo.csv...")
+    print("\n[3/5] Integrando com dados_processos_com_sexo.csv...")
     try:
-        df_sexo = pd.read_csv("data/dados_processos_com_sexo.csv")
-        print(f"   ✓ {len(df_sexo)} processos com dados de sexo carregados")
+        df_sexo = pd.read_csv("data/output/dados_processos_com_sexo.csv")
+        print(f"   OK {len(df_sexo)} processos com dados de sexo carregados")
 
         # Converter numero_processo para string com zeros à esquerda (20 dígitos)
         df_sexo["numero_processo"] = (
@@ -286,18 +197,87 @@ def executar_geracao_features():
             how="inner",
         )
 
-        print(f"   ✓ Merge realizado: {len(df_final)} processos no dataset final")
+        print(f"   OK Merge realizado: {len(df_final)} processos no dataset final")
 
     except FileNotFoundError:
-        print("   ⚠ Arquivo dados_processos_com_sexo.csv não encontrado")
-        print("   → Continuando apenas com features extraídas...")
+        print("   AVISO: Arquivo dados_processos_com_sexo.csv não encontrado")
+        print("   -> Continuando apenas com features extraídas...")
         df_final = df_features
 
-    # 4. Salvar dataset final
-    print("\n[4/4] Salvando dataset_ml_completo.csv...")
-    output_file = "data/dataset_ml_completo.csv"
+    # 4. Filtrar apenas registros com status 'sucesso' e transformar dados
+    print("\n[4/5] Limpando e transformando dados...")
+    registros_antes = len(df_final)
+    df_final = df_final[df_final["status"] == "sucesso"].copy()
+    print(f"   OK Filtrados {len(df_final)} registros com status 'sucesso'")
+    print(f"   OK Removidos {registros_antes - len(df_final)} registros")
+
+    # Transformar sexo em binário (0=M, 1=F, -1=Indefinido)
+    df_final["sexo_juiz_bin"] = (
+        df_final["sexo_juiz"]
+        .map({"M": 0, "F": 1, "Indefinido": -1})
+        .fillna(-1)
+        .astype(int)
+    )
+    df_final["sexo_requerente_bin"] = (
+        df_final["sexo_requerente"]
+        .map({"M": 0, "F": 1, "Indefinido": -1})
+        .fillna(-1)
+        .astype(int)
+    )
+    print("   OK Sexo convertido (0=M, 1=F, -1=Indefinido)")
+
+    # Transformar sentenca_favoravel em binário
+    df_final["sentenca_favoravel"] = (
+        df_final["sentenca_favoravel"]
+        .map({True: 1, False: 0, "True": 1, "False": 0, 1: 1, 0: 0})
+        .fillna(0)
+        .astype(int)
+    )
+    print("   OK Sentença convertida (0=Improcedente, 1=Procedente)")
+
+    # Criar features binárias para cada assunto principal
+    assuntos_unicos = df_final["assunto_principal"].unique()
+    print(f"   OK Criando {len(assuntos_unicos)} features de assunto...")
+
+    for assunto in assuntos_unicos:
+        # Limpar nome do assunto - remove acentos e caracteres especiais
+        nome_limpo = assunto.lower()
+        # Normalizar unicode removendo todos os acentos
+        nome_limpo = unicodedata.normalize("NFD", nome_limpo)
+        nome_limpo = nome_limpo.encode("ascii", "ignore").decode("utf-8")
+        # Substituir caracteres especiais por underscore
+        nome_limpo = (
+            nome_limpo.replace(" ", "_")
+            .replace("/", "_")
+            .replace("(", "")
+            .replace(")", "")
+            .replace("-", "_")
+        )
+        nome_limpo = nome_limpo.replace("__", "_").strip("_")
+        nome_feature = f"eh_{nome_limpo}"[:60]
+
+        df_final[nome_feature] = (df_final["assunto_principal"] == assunto).astype(int)
+
+    # Remover colunas desnecessárias
+    colunas_remover = [
+        "numero_processo",
+        "sexo_juiz",
+        "sexo_requerente",
+        "status",
+        "assunto_principal",
+    ]
+    df_final = df_final.drop(columns=colunas_remover)
+
+    # Criar ID genérico
+    df_final.insert(0, "id", range(1, len(df_final) + 1))
+
+    print(f"   OK Dataset final com {len(df_final.columns)} features")
+
+    # 5. Salvar dataset final
+    print("\n[5/5] Salvando dataset_ml_limpo.csv...")
+    output_file = "data/output/dataset_ml_limpo.csv"
     df_final.to_csv(output_file, index=False, encoding="utf-8")
-    print(f"   ✓ Dataset salvo: {output_file}")
+    print(f"   OK Dataset salvo: {output_file}")
 
     # Estatísticas finais
     print("\n" + "=" * 80)
@@ -305,30 +285,39 @@ def executar_geracao_features():
     print("=" * 80)
     print(f"\nTotal de processos: {len(df_final)}")
     print(f"Total de features: {len(df_final.columns)}")
-    print(f"\nColunas do dataset:")
+
+    print("\nFEATURES FINAIS:")
     for i, col in enumerate(df_final.columns, 1):
         print(f"  {i:2d}. {col}")
 
-    # Estatísticas descritivas
-    print(f"\n\nTipos de dados:")
-    print(df_final.dtypes)
+    print("\nDISTRIBUICOES:")
+    print("\nSexo dos Juizes:")
+    print(f"  - Masculino (0): {(df_final['sexo_juiz_bin'] == 0).sum()}")
+    print(f"  - Feminino (1): {(df_final['sexo_juiz_bin'] == 1).sum()}")
+    print(f"  - Indefinido (-1): {(df_final['sexo_juiz_bin'] == -1).sum()}")
 
-    print(f"\n\nPrimeiras linhas do dataset:")
+    print(f"\nSexo dos Requerentes:")
+    print(f"  - Masculino (0): {(df_final['sexo_requerente_bin'] == 0).sum()}")
+    print(f"  - Feminino (1): {(df_final['sexo_requerente_bin'] == 1).sum()}")
+    print(f"  - Indefinido (-1): {(df_final['sexo_requerente_bin'] == -1).sum()}")
+
+    print(f"\nSentenças:")
+    print(f"  - Improcedente (0): {(df_final['sentenca_favoravel'] == 0).sum()}")
+    print(f"  - Procedente (1): {(df_final['sentenca_favoravel'] == 1).sum()}")
+
+    print("\nPREVIEW (5 primeiras linhas):")
     print(df_final.head())
 
-    print(f"\n\nEstatísticas numéricas:")
-    print(df_final.describe())
-
     # Verificar valores faltantes
-    print(f"\n\nValores faltantes:")
+    print("\nValores faltantes:")
     missing = df_final.isnull().sum()
     if missing.sum() > 0:
         print(missing[missing > 0])
     else:
-        print("   ✓ Nenhum valor faltante!")
+        print("   OK Nenhum valor faltante!")
 
     print("\n" + "=" * 80)
-    print("✓ PROCESSO CONCLUÍDO!")
+    print("PROCESSO CONCLUIDO!")
     print("=" * 80)
 
 

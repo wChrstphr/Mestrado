@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 # Configurações
-ARQUIVO_PROCESSOS = "data/dados_processos_tjce.csv"
-ARQUIVO_NOMES = "data/nomes.csv.gz"
-ARQUIVO_SAIDA = "data/dados_processos_com_sexo.csv"
+ARQUIVO_PROCESSOS = "data/output/dados_processos_tjce.csv"
+ARQUIVO_NOMES = "data/input/nomes.csv.gz"
+ARQUIVO_SAIDA = "data/output/dados_processos_com_sexo.csv"
 
 
 def carregar_banco_nomes(arquivo_nomes):
@@ -113,8 +113,8 @@ def executar_inferencia_sexo():
     # IMPORTANTE: Ajuste os nomes das colunas conforme seu arquivo
     # Exemplos comuns: 'nome', 'first_name', 'name'
     # Exemplos comuns: 'sexo', 'gender', 'sex'
-    coluna_nome = "first_name" 
-    coluna_sexo = "classification" 
+    coluna_nome = "first_name"
+    coluna_sexo = "classification"
 
     # Infere sexo nos processos
     df_resultado = inferir_sexo_processos(

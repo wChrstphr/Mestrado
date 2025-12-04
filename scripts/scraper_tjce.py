@@ -54,7 +54,7 @@ import os
 from playwright.async_api import async_playwright
 
 # Constantes
-CACHE_FILE = "data/cache_processos.json"
+CACHE_FILE = "data/output/cache_processos.json"
 PALAVRAS_INVALIDAS_JUIZ = ["Especial", "Cível", "Criminal", "Direito", "Vara"]
 PADROES_JUIZ = [
     r"Juiz(?:a)?\s+de\s+Direito\s*[:\-]\s*([A-ZÀÁÂÃÇÉÊÍÓÔÕÚ][a-zàáâãçéêíóôõú]+(?:\s+[A-ZÀÁÂÃÇÉÊÍÓÔÕÚ][a-zàáâãçéêíóôõú]+)+)",
@@ -78,7 +78,7 @@ def carregar_decisoes():
     """Carrega o mapeamento de decisões (Procedência/Improcedência)"""
     decisoes_map = {}
     try:
-        with open("data/decisoes_resumo.csv", "r", encoding="utf-8") as f:
+        with open("data/output/decisoes_resumo.csv", "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 numero = row["numero_processo"]
@@ -240,7 +240,7 @@ async def executar_scraping():
 
     # Ler números dos processos
     print("\n1. Lendo números dos processos...")
-    numeros_processos = ler_numeros_processos("data/numeros_processos.csv")
+    numeros_processos = ler_numeros_processos("data/output/numeros_processos.csv")
     print(f"   Total de processos a buscar: {len(numeros_processos)}")
 
     # Carregar decisões
@@ -336,14 +336,16 @@ def salvar_resultados_finais(resultados, decisoes_map):
     ]
 
     # Salvar em JSON
-    with open("data/dados_processos_tjce.json", "w", encoding="utf-8") as f:
+    with open("data/output/dados_processos_tjce.json", "w", encoding="utf-8") as f:
         json.dump(resultados_completos, f, indent=2, ensure_ascii=False)
     print(
-        f"    Arquivo JSON salvo: data/dados_processos_tjce.json ({len(resultados_completos)} processos válidos)"
+        f"    Arquivo JSON salvo: data/output/dados_processos_tjce.json ({len(resultados_completos)} processos válidos)"
     )
 
     # Salvar em CSV
-    with open("data/dados_processos_tjce.csv", "w", encoding="utf-8", newline="") as f:
+    with open(
+        "data/output/dados_processos_tjce.csv", "w", encoding="utf-8", newline=""
+    ) as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[
@@ -358,7 +360,7 @@ def salvar_resultados_finais(resultados, decisoes_map):
         writer.writeheader()
         writer.writerows(resultados_completos)
     print(
-        f"    Arquivo CSV salvo: data/dados_processos_tjce.csv ({len(resultados_completos)} processos válidos)"
+        f"    Arquivo CSV salvo: data/output/dados_processos_tjce.csv ({len(resultados_completos)} processos válidos)"
     )
 
 
