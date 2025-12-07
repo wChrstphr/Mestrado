@@ -65,6 +65,43 @@ def extrair_features_assuntos(assuntos):
     }
 
 
+def extrair_horario_decisao(movimentos):
+    """
+    Verifica se a decisão (Procedência/Improcedência) foi no horário de almoço (11h-13h)
+
+    Returns:
+        dict: {
+            'eh_horario_almoco': int (1 se entre 11h-13h, 0 caso contrário)
+        }
+    """
+    for mov in movimentos:
+        nome_mov = mov.get("nome", "")
+
+        # Verificar se é uma decisão
+        if "Procedência" in nome_mov or "Improcedência" in nome_mov:
+            data_hora = mov.get("dataHora", "")
+
+            if data_hora:
+                try:
+                    # Formato ISO: "2025-09-25T11:03:41.000Z"
+                    dt = datetime.fromisoformat(data_hora.replace("Z", "+00:00"))
+                    hora = dt.hour
+
+                    # Verificar se é horário de almoço (11h-13h inclusive)
+                    eh_horario_almoco = 1 if (11 <= hora <= 13) else 0
+
+                    return {
+                        "eh_horario_almoco": eh_horario_almoco,
+                    }
+                except Exception as e:
+                    print(f"Erro ao processar dataHora: {e}")
+
+    # Se não encontrou decisão ou não tem dataHora, retornar valores padrão
+    return {
+        "eh_horario_almoco": 0,
+    }
+
+
 def extrair_features_movimentos(movimentos, dias_desde_ajuizamento):
     """Extrai features relacionadas aos movimentos do processo"""
     qtd_movimentos = len(movimentos)
@@ -107,6 +144,9 @@ def processar_processo(processo_source):
         movimentos, features_temporais["dias_desde_ajuizamento"]
     )
 
+    # Features de horário da decisão
+    features_horario_decisao = extrair_horario_decisao(movimentos)
+
     # Complexidade
     complexidade_score = (
         features_assuntos["qtd_assuntos"] * features_movimentos["qtd_movimentos"]
@@ -131,6 +171,7 @@ def processar_processo(processo_source):
         "municipio_fortaleza": municipio_fortaleza,
         **features_assuntos,
         **features_movimentos,
+        **features_horario_decisao,  # Adiciona eh_horario_almoco
         "complexidade_score": complexidade_score,
         "tem_recurso": tem_recurso,
     }
@@ -191,6 +232,7 @@ def executar_geracao_features():
                     "sexo_requerente",
                     "sentenca_favoravel",
                     "status",
+                    "texto_decisao",  # Adicionar texto da decisão
                 ]
             ],
             on="numero_processo",

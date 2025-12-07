@@ -86,9 +86,9 @@ def carregar_decisoes():
                 # Procedência = True, else False
                 sentenca_favoravel = "Procedência" in tipo
                 decisoes_map[numero] = sentenca_favoravel
-        print(f"   ✓ Decisões carregadas: {len(decisoes_map)} processos")
+        print(f"   Decisoes carregadas: {len(decisoes_map)} processos")
     except Exception as e:
-        print(f"   ⚠ Erro ao carregar decisões: {e}")
+        print(f"   Erro ao carregar decisoes: {e}")
     return decisoes_map
 
 
@@ -98,10 +98,10 @@ def carregar_cache():
         try:
             with open(CACHE_FILE, "r", encoding="utf-8") as f:
                 cache = json.load(f)
-                print(f"   ✓ Cache carregado: {len(cache)} processos já coletados")
+                print(f"   Cache carregado: {len(cache)} processos ja coletados")
                 return cache
         except Exception as e:
-            print(f"   ⚠ Erro ao carregar cache: {e}")
+            print(f"   Erro ao carregar cache: {e}")
     return []
 
 
@@ -111,7 +111,7 @@ def salvar_cache(resultados):
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(resultados, f, indent=2, ensure_ascii=False)
     except Exception as e:
-        print(f"   ⚠ Erro ao salvar cache: {e}")
+        print(f"   Erro ao salvar cache: {e}")
 
 
 def validar_nome_juiz(nome):
@@ -232,6 +232,45 @@ async def buscar_dados_processo(page, numero_processo):
         }
 
 
+async def buscar_texto_decisao(page, numero_processo):
+    """
+    Busca o texto completo da decisão no site do TJCE.
+    O texto está na célula da tabela de movimentos.
+
+    Retorna: str com o texto da decisão ou None se não encontrado
+    """
+    try:
+        # Expandir movimentações completas
+        link_mov = page.locator("#linkmovimentacoes")
+        if await link_mov.is_visible(timeout=2000):
+            await link_mov.click()
+            await asyncio.sleep(0.8)
+
+        # Termos de decisão (ordem de prioridade)
+        termos = [
+            "Julgado procedente o pedido",
+            "Julgado improcedente o pedido",
+            "Procedência",
+            "Improcedência",
+        ]
+
+        # Buscar célula com decisão
+        for termo in termos:
+            celula = page.get_by_role("cell", name=termo)
+            if await celula.is_visible(timeout=1000):
+                texto = await celula.inner_text()
+                if len(texto.strip()) > 50:
+                    print(f"   Decisao extraida: {len(texto)} chars")
+                    return texto.strip()
+
+        print("   Texto nao encontrado")
+        return None
+
+    except Exception as e:
+        print(f"   Erro: {str(e)}")
+        return None
+
+
 async def executar_scraping():
     """Executa o processo de scraping"""
     print("=" * 60)
@@ -249,14 +288,28 @@ async def executar_scraping():
 
     # Carregar cache
     print("\n3. Verificando cache...")
-    resultados = carregar_cache()
+    cache_completo = carregar_cache()
+
+    # Filtrar cache apenas para processos da lista atual
+    numeros_processos_set = set(numeros_processos)
+    resultados = [
+        r for r in cache_completo if r["numero_processo"] in numeros_processos_set
+    ]
+
+    # Informar se há processos no cache que não estão na lista atual
+    processos_ignorados = len(cache_completo) - len(resultados)
+    if processos_ignorados > 0:
+        print(
+            f"   Cache: {len(cache_completo)} processos ({processos_ignorados} ignorados - nao estao na lista atual)"
+        )
+
     processos_ja_coletados = {r["numero_processo"] for r in resultados}
     processos_pendentes = [
         num for num in numeros_processos if num not in processos_ja_coletados
     ]
 
     if not processos_pendentes:
-        print("   ✓ Todos os processos já foram coletados!")
+        print("   Todos os processos ja foram coletados!")
         print("\n4. Salvando resultados finais...")
         salvar_resultados_finais(resultados, decisoes_map)
         return
@@ -276,17 +329,28 @@ async def executar_scraping():
         processos_no_cache = len(resultados)
         for idx, numero in enumerate(processos_pendentes, 1):
             total_geral = processos_no_cache + idx
-            print(f"\n[{total_geral}/{len(numeros_processos)}] Processando {numero}...")
+            print(
+                f"\n[{idx}/{len(processos_pendentes)} pendentes | {total_geral}/{len(numeros_processos)} total] Processando {numero}..."
+            )
 
+            # Buscar dados básicos (juiz e requerente)
             resultado = await buscar_dados_processo(page, numero)
+
+            # Se encontrou o processo, buscar também o texto da decisão
+            if resultado["status"] in ["sucesso", "dados_incompletos"]:
+                texto_decisao = await buscar_texto_decisao(page, numero)
+                resultado["texto_decisao"] = texto_decisao
+            else:
+                resultado["texto_decisao"] = None
+
             resultados.append(resultado)
 
             # Salvar cache a cada 50 processos
-            if idx % 50 == 0:
+            if idx % 15 == 0:
                 salvar_cache(resultados)
 
             # Pausa entre requisições
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.5)
 
         # Fechar browser
         await context.close()
@@ -316,11 +380,27 @@ async def executar_scraping():
 
 
 def salvar_resultados_finais(resultados, decisoes_map):
-    """Salva os resultados finais em JSON e CSV com id e sentenca_favoravel"""
-    # Filtrar apenas processos com sucesso ou dados incompletos (excluir não encontrados)
+    """Salva os resultados finais em JSON e CSV com id, sentenca_favoravel e texto_decisao"""
+    # Filtrar apenas processos com sucesso E que tenham texto da decisão
     resultados_filtrados = [
-        r for r in resultados if r["status"] not in ["nao_encontrado", "erro"]
+        r
+        for r in resultados
+        if r["status"] not in ["nao_encontrado", "erro"]
+        and r.get("texto_decisao") is not None
     ]
+
+    # Informar quantos processos foram filtrados
+    total_coletados = len(
+        [r for r in resultados if r["status"] not in ["nao_encontrado", "erro"]]
+    )
+    processos_sem_texto = total_coletados - len(resultados_filtrados)
+    if processos_sem_texto > 0:
+        print(
+            f"    Filtrados {processos_sem_texto} processos sem texto da decisao (segredo de justica)"
+        )
+        print(
+            f"    Processos com texto: {len(resultados_filtrados)} de {total_coletados} ({len(resultados_filtrados)/total_coletados*100:.1f}%)"
+        )
 
     # Adicionar id e sentenca_favoravel aos resultados
     resultados_completos = [
@@ -329,6 +409,9 @@ def salvar_resultados_finais(resultados, decisoes_map):
             "numero_processo": resultado["numero_processo"],
             "juiz": resultado.get("juiz"),
             "requerente": resultado.get("requerente"),
+            "texto_decisao": resultado.get(
+                "texto_decisao"
+            ),  # Adicionar texto da decisão
             "sentenca_favoravel": decisoes_map.get(resultado["numero_processo"]),
             "status": resultado["status"],
         }
@@ -353,6 +436,7 @@ def salvar_resultados_finais(resultados, decisoes_map):
                 "numero_processo",
                 "juiz",
                 "requerente",
+                "texto_decisao",  # Adicionar texto da decisão ao CSV
                 "sentenca_favoravel",
                 "status",
             ],

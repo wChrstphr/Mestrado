@@ -18,15 +18,15 @@
     ]
   },
   {
-    "numero_processo": "30415587920258060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "30048329320258060167",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30415587920258060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -318,13 +318,13 @@
     ]
   },
   {
-    "numero_processo": "02806827320248060001",
+    "numero_processo": "02807251020248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02807251020248060001",
+    "numero_processo": "02806827320248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -360,13 +360,13 @@
     ]
   },
   {
-    "numero_processo": "02765255720248060001",
+    "numero_processo": "02766979620248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02766979620248060001",
+    "numero_processo": "02765255720248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -426,7 +426,7 @@
     ]
   },
   {
-    "numero_processo": "02729105920248060001",
+    "numero_processo": "02728923820248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -438,7 +438,7 @@
     ]
   },
   {
-    "numero_processo": "02728923820248060001",
+    "numero_processo": "02729105920248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -462,13 +462,13 @@
     ]
   },
   {
-    "numero_processo": "02698706920248060001",
+    "numero_processo": "02060096720248060112",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02060096720248060112",
+    "numero_processo": "02698706920248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -486,15 +486,15 @@
     ]
   },
   {
-    "numero_processo": "02686824120248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "30003627320248060128",
     "decisoes": [
       "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "02686824120248060001",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -564,13 +564,13 @@
     ]
   },
   {
-    "numero_processo": "02652094720248060001",
+    "numero_processo": "02652268320248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02652268320248060001",
+    "numero_processo": "02652094720248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -600,13 +600,13 @@
     ]
   },
   {
-    "numero_processo": "02647496020248060001",
+    "numero_processo": "02647868720248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02647868720248060001",
+    "numero_processo": "02647496020248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -624,13 +624,13 @@
     ]
   },
   {
-    "numero_processo": "02012761420248060062",
+    "numero_processo": "02641441720248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02641441720248060001",
+    "numero_processo": "02012761420248060062",
     "decisoes": [
       "Procedência"
     ]
@@ -750,30 +750,6 @@
     ]
   },
   {
-    "numero_processo": "02567332020248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02566275820248060001",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
-    "numero_processo": "02567210620248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02567055220248060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "30183215020248060001",
     "decisoes": [
       "Procedência em Parte"
@@ -786,15 +762,33 @@
     ]
   },
   {
-    "numero_processo": "30181681720248060001",
+    "numero_processo": "02567055220248060001",
     "decisoes": [
       "Procedência em Parte"
     ]
   },
   {
-    "numero_processo": "02560845520248060001",
+    "numero_processo": "02567210620248060001",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02567332020248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02566275820248060001",
+    "decisoes": [
+      "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "30181681720248060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -804,7 +798,7 @@
     ]
   },
   {
-    "numero_processo": "02555865620248060001",
+    "numero_processo": "02560845520248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -813,6 +807,12 @@
     "numero_processo": "02555588820248060001",
     "decisoes": [
       "Procedência em Parte"
+    ]
+  },
+  {
+    "numero_processo": "02555865620248060001",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -846,24 +846,6 @@
     ]
   },
   {
-    "numero_processo": "02533599320248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02533823920248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02533425720248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02534144420248060001",
     "decisoes": [
       "Procedência"
@@ -882,21 +864,33 @@
     ]
   },
   {
+    "numero_processo": "02533599320248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02533823920248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02533425720248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
     "numero_processo": "02530438020248060001",
     "decisoes": [
       "Procedência em Parte"
     ]
   },
   {
-    "numero_processo": "02520495220248060001",
+    "numero_processo": "02520772020248060001",
     "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02520599620248060001",
-    "decisoes": [
-      "Procedência"
+      "Improcedência"
     ]
   },
   {
@@ -918,9 +912,21 @@
     ]
   },
   {
-    "numero_processo": "02520772020248060001",
+    "numero_processo": "02520495220248060001",
     "decisoes": [
-      "Improcedência"
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02520599620248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02516286220248060001",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -931,12 +937,6 @@
   },
   {
     "numero_processo": "02516164820248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02516286220248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -954,15 +954,15 @@
     ]
   },
   {
-    "numero_processo": "02504057420248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02504819820248060001",
     "decisoes": [
       "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "02504057420248060001",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -984,7 +984,7 @@
     ]
   },
   {
-    "numero_processo": "02496228220248060001",
+    "numero_processo": "02496435820248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -996,7 +996,7 @@
     ]
   },
   {
-    "numero_processo": "02496435820248060001",
+    "numero_processo": "02496228220248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -1026,13 +1026,13 @@
     ]
   },
   {
-    "numero_processo": "02469856120248060001",
+    "numero_processo": "02469795420248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02469795420248060001",
+    "numero_processo": "02469856120248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -1164,6 +1164,24 @@
     ]
   },
   {
+    "numero_processo": "02424708020248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02426059220248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02424854920248060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
     "numero_processo": "02424768720248060001",
     "decisoes": [
       "Procedência"
@@ -1177,24 +1195,6 @@
   },
   {
     "numero_processo": "02425279820248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02424854920248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02424708020248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
-    "numero_processo": "02426059220248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -1380,19 +1380,13 @@
     ]
   },
   {
-    "numero_processo": "02314214220248060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02315487720248060001",
     "decisoes": [
       "Improcedência"
     ]
   },
   {
-    "numero_processo": "02315678320248060001",
+    "numero_processo": "02314214220248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -1404,15 +1398,21 @@
     ]
   },
   {
-    "numero_processo": "30003745120248060043",
+    "numero_processo": "02315678320248060001",
     "decisoes": [
-      "Improcedência"
+      "Procedência"
     ]
   },
   {
     "numero_processo": "02003043920248060096",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30003745120248060043",
+    "decisoes": [
+      "Improcedência"
     ]
   },
   {
@@ -1638,15 +1638,15 @@
     ]
   },
   {
-    "numero_processo": "30078601920248060001",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
     "numero_processo": "02229755020248060001",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30078601920248060001",
+    "decisoes": [
+      "Improcedência"
     ]
   },
   {
@@ -1866,13 +1866,13 @@
     ]
   },
   {
-    "numero_processo": "02160608220248060001",
+    "numero_processo": "02160772120248060001",
     "decisoes": [
       "Improcedência"
     ]
   },
   {
-    "numero_processo": "02160772120248060001",
+    "numero_processo": "02160608220248060001",
     "decisoes": [
       "Improcedência"
     ]
@@ -2010,15 +2010,15 @@
     ]
   },
   {
-    "numero_processo": "02003666020248060070",
-    "decisoes": [
-      "Procedência em parte do pedido e procedência do pedido contraposto"
-    ]
-  },
-  {
     "numero_processo": "02120491020248060001",
     "decisoes": [
       "Procedência em Parte"
+    ]
+  },
+  {
+    "numero_processo": "02003666020248060070",
+    "decisoes": [
+      "Procedência em parte do pedido e procedência do pedido contraposto"
     ]
   },
   {
@@ -2046,13 +2046,13 @@
     ]
   },
   {
-    "numero_processo": "02110687820248060001",
+    "numero_processo": "02110939120248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02110939120248060001",
+    "numero_processo": "02110687820248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -2082,13 +2082,13 @@
     ]
   },
   {
-    "numero_processo": "02103784920248060001",
+    "numero_processo": "02104149120248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02104149120248060001",
+    "numero_processo": "02103784920248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -2142,13 +2142,13 @@
     ]
   },
   {
-    "numero_processo": "02070363020248060001",
+    "numero_processo": "02071688720248060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02071688720248060001",
+    "numero_processo": "02070363020248060001",
     "decisoes": [
       "Procedência"
     ]
@@ -2340,15 +2340,15 @@
     ]
   },
   {
-    "numero_processo": "30000085220248060062",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "08000045520248060087",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30000085220248060062",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -2442,13 +2442,13 @@
     ]
   },
   {
-    "numero_processo": "02022222020238060062",
+    "numero_processo": "02022248720238060062",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02022248720238060062",
+    "numero_processo": "02022222020238060062",
     "decisoes": [
       "Procedência"
     ]
@@ -2472,13 +2472,13 @@
     ]
   },
   {
-    "numero_processo": "30008084720238060052",
+    "numero_processo": "30008101720238060052",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "30008101720238060052",
+    "numero_processo": "30008084720238060052",
     "decisoes": [
       "Procedência"
     ]
@@ -2556,9 +2556,9 @@
     ]
   },
   {
-    "numero_processo": "02824523820238060001",
+    "numero_processo": "02824628220238060001",
     "decisoes": [
-      "Procedência em Parte"
+      "Procedência"
     ]
   },
   {
@@ -2568,9 +2568,9 @@
     ]
   },
   {
-    "numero_processo": "02824628220238060001",
+    "numero_processo": "02824523820238060001",
     "decisoes": [
-      "Procedência"
+      "Procedência em Parte"
     ]
   },
   {
@@ -2886,9 +2886,9 @@
     ]
   },
   {
-    "numero_processo": "02697462320238060001",
+    "numero_processo": "02697436820238060001",
     "decisoes": [
-      "Improcedência"
+      "Procedência"
     ]
   },
   {
@@ -2898,9 +2898,9 @@
     ]
   },
   {
-    "numero_processo": "02697436820238060001",
+    "numero_processo": "02697462320238060001",
     "decisoes": [
-      "Procedência"
+      "Improcedência"
     ]
   },
   {
@@ -3006,13 +3006,13 @@
     ]
   },
   {
-    "numero_processo": "08000093520238060177",
+    "numero_processo": "02669558120238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02669558120238060001",
+    "numero_processo": "08000093520238060177",
     "decisoes": [
       "Procedência"
     ]
@@ -3462,15 +3462,15 @@
     ]
   },
   {
-    "numero_processo": "02490315720238060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02042587920238060112",
     "decisoes": [
       "Improcedência do pedido e improcedência do pedido contraposto"
+    ]
+  },
+  {
+    "numero_processo": "02490315720238060001",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -3600,13 +3600,13 @@
     ]
   },
   {
-    "numero_processo": "02462324120238060001",
+    "numero_processo": "02463078020238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02463078020238060001",
+    "numero_processo": "02462324120238060001",
     "decisoes": [
       "Procedência"
     ]
@@ -3636,15 +3636,15 @@
     ]
   },
   {
-    "numero_processo": "02452927620238060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "02451957620238060001",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02452927620238060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -3672,13 +3672,13 @@
     ]
   },
   {
-    "numero_processo": "30004628920238060119",
+    "numero_processo": "02446986220238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02446986220238060001",
+    "numero_processo": "30004628920238060119",
     "decisoes": [
       "Procedência"
     ]
@@ -3702,15 +3702,15 @@
     ]
   },
   {
-    "numero_processo": "30002422720238060108",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "30002609120238060126",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30002422720238060108",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -4080,15 +4080,15 @@
     ]
   },
   {
-    "numero_processo": "30001513420238060108",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
     "numero_processo": "30003822820238060119",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30001513420238060108",
+    "decisoes": [
+      "Improcedência"
     ]
   },
   {
@@ -4098,13 +4098,13 @@
     ]
   },
   {
-    "numero_processo": "02346279820238060001",
+    "numero_processo": "02346435220238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02346435220238060001",
+    "numero_processo": "02346279820238060001",
     "decisoes": [
       "Procedência"
     ]
@@ -4123,13 +4123,13 @@
     ]
   },
   {
-    "numero_processo": "30003753620238060119",
+    "numero_processo": "30003582120238060112",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "30003582120238060112",
+    "numero_processo": "30003753620238060119",
     "decisoes": [
       "Procedência"
     ]
@@ -4364,15 +4364,15 @@
     ]
   },
   {
-    "numero_processo": "30002333220238060119",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02001055020238060161",
     "decisoes": [
       "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "30002333220238060119",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -4568,7 +4568,7 @@
     ]
   },
   {
-    "numero_processo": "02172268620238060001",
+    "numero_processo": "02173827420238060001",
     "decisoes": [
       "Improcedência"
     ]
@@ -4580,7 +4580,7 @@
     ]
   },
   {
-    "numero_processo": "02173827420238060001",
+    "numero_processo": "02172268620238060001",
     "decisoes": [
       "Improcedência"
     ]
@@ -4778,13 +4778,13 @@
     ]
   },
   {
-    "numero_processo": "02108785220238060001",
+    "numero_processo": "02108550920238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02108550920238060001",
+    "numero_processo": "02108785220238060001",
     "decisoes": [
       "Procedência"
     ]
@@ -4874,15 +4874,15 @@
     ]
   },
   {
-    "numero_processo": "30004435420238060064",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "30090323020238060001",
     "decisoes": [
       "Procedência em Parte"
+    ]
+  },
+  {
+    "numero_processo": "30004435420238060064",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -4982,15 +4982,15 @@
     ]
   },
   {
-    "numero_processo": "30077947320238060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "02001106520238060034",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "30077947320238060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -5030,13 +5030,13 @@
     ]
   },
   {
-    "numero_processo": "30000271820238060119",
+    "numero_processo": "02047631520238060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02047631520238060001",
+    "numero_processo": "30000271820238060119",
     "decisoes": [
       "Procedência"
     ]
@@ -5631,15 +5631,15 @@
     ]
   },
   {
-    "numero_processo": "02027056420228060101",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02869631620228060001",
     "decisoes": [
       "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "02027056420228060101",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -5729,13 +5729,13 @@
     ]
   },
   {
-    "numero_processo": "02018867320228060119",
+    "numero_processo": "30009363220228060075",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "30009363220228060075",
+    "numero_processo": "02018867320228060119",
     "decisoes": [
       "Procedência"
     ]
@@ -5838,13 +5838,13 @@
     ]
   },
   {
-    "numero_processo": "02025558320228060101",
+    "numero_processo": "02018278520228060119",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02018278520228060119",
+    "numero_processo": "02025558320228060101",
     "decisoes": [
       "Procedência"
     ]
@@ -5904,15 +5904,15 @@
     ]
   },
   {
-    "numero_processo": "02003903720228060045",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
     "numero_processo": "02010605220228060182",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02003903720228060045",
+    "decisoes": [
+      "Improcedência"
     ]
   },
   {
@@ -5946,12 +5946,6 @@
     ]
   },
   {
-    "numero_processo": "02025882020228060151",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02820412920228060001",
     "decisoes": [
       "Procedência"
@@ -5967,6 +5961,12 @@
     "numero_processo": "02819053220228060001",
     "decisoes": [
       "Procedência em parte do pedido e improcedência do pedido contraposto"
+    ]
+  },
+  {
+    "numero_processo": "02025882020228060151",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -6174,13 +6174,13 @@
     ]
   },
   {
-    "numero_processo": "02016659020228060119",
+    "numero_processo": "02006601620228060157",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02006601620228060157",
+    "numero_processo": "02016659020228060119",
     "decisoes": [
       "Procedência"
     ]
@@ -6246,13 +6246,13 @@
     ]
   },
   {
-    "numero_processo": "02012724520228060062",
+    "numero_processo": "02773142720228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02773142720228060001",
+    "numero_processo": "02012724520228060062",
     "decisoes": [
       "Procedência"
     ]
@@ -6366,9 +6366,9 @@
     ]
   },
   {
-    "numero_processo": "02031516020228060071",
+    "numero_processo": "02009510620228060128",
     "decisoes": [
-      "Procedência"
+      "Improcedência"
     ]
   },
   {
@@ -6378,9 +6378,9 @@
     ]
   },
   {
-    "numero_processo": "02009510620228060128",
+    "numero_processo": "02031516020228060071",
     "decisoes": [
-      "Improcedência"
+      "Procedência"
     ]
   },
   {
@@ -6498,15 +6498,15 @@
     ]
   },
   {
-    "numero_processo": "02010692420228060114",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02721862620228060001",
     "decisoes": [
       "Improcedência"
+    ]
+  },
+  {
+    "numero_processo": "02010692420228060114",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -6558,15 +6558,15 @@
     ]
   },
   {
-    "numero_processo": "02017268020228060173",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
     "numero_processo": "02006800920228060124",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02017268020228060173",
+    "decisoes": [
+      "Improcedência"
     ]
   },
   {
@@ -6727,13 +6727,13 @@
     ]
   },
   {
-    "numero_processo": "02005834720228060176",
+    "numero_processo": "02677529120228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02677529120228060001",
+    "numero_processo": "02005834720228060176",
     "decisoes": [
       "Procedência"
     ]
@@ -6757,13 +6757,13 @@
     ]
   },
   {
-    "numero_processo": "02673951420228060001",
+    "numero_processo": "02675095020228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02675095020228060001",
+    "numero_processo": "02673951420228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -6859,21 +6859,14 @@
     ]
   },
   {
-    "numero_processo": "02005679320228060176",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02020200420228060151",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02656300820228060001",
+    "numero_processo": "02005679320228060176",
     "decisoes": [
-      "Improcedência",
       "Procedência"
     ]
   },
@@ -6881,6 +6874,13 @@
     "numero_processo": "02006622820228060143",
     "decisoes": [
       "Procedência em Parte"
+    ]
+  },
+  {
+    "numero_processo": "02656300820228060001",
+    "decisoes": [
+      "Improcedência",
+      "Procedência"
     ]
   },
   {
@@ -6920,13 +6920,13 @@
     ]
   },
   {
-    "numero_processo": "02651953420228060001",
+    "numero_processo": "02654508920228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02654508920228060001",
+    "numero_processo": "02651953420228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -6956,15 +6956,15 @@
     ]
   },
   {
-    "numero_processo": "02639569220228060001",
-    "decisoes": [
-      "Procedência do Pedido - Reconhecimento pelo réu"
-    ]
-  },
-  {
     "numero_processo": "02011589020228060035",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02639569220228060001",
+    "decisoes": [
+      "Procedência do Pedido - Reconhecimento pelo réu"
     ]
   },
   {
@@ -7142,13 +7142,13 @@
     ]
   },
   {
-    "numero_processo": "02012042820228060052",
+    "numero_processo": "02012025820228060052",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02012025820228060052",
+    "numero_processo": "02012042820228060052",
     "decisoes": [
       "Procedência"
     ]
@@ -7166,13 +7166,13 @@
     ]
   },
   {
-    "numero_processo": "02605843820228060001",
+    "numero_processo": "02051380820228060112",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02051380820228060112",
+    "numero_processo": "02605843820228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -7196,25 +7196,25 @@
     ]
   },
   {
-    "numero_processo": "02601513420228060001",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02005358820228060176",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02602240620228060001",
+    "numero_processo": "02601513420228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
     "numero_processo": "02603652520228060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02602240620228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -7304,13 +7304,13 @@
     ]
   },
   {
-    "numero_processo": "02041978720228060167",
+    "numero_processo": "02572188820228060001",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02572188820228060001",
+    "numero_processo": "02041978720228060167",
     "decisoes": [
       "Procedência"
     ]
@@ -7340,13 +7340,13 @@
     ]
   },
   {
-    "numero_processo": "02014955920228060171",
+    "numero_processo": "02024587620228060071",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02024587620228060071",
+    "numero_processo": "02014955920228060171",
     "decisoes": [
       "Procedência"
     ]
@@ -7376,13 +7376,13 @@
     ]
   },
   {
-    "numero_processo": "02012077320228060119",
+    "numero_processo": "02003282420228060036",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02003282420228060036",
+    "numero_processo": "02012077320228060119",
     "decisoes": [
       "Procedência"
     ]
@@ -7424,15 +7424,15 @@
     ]
   },
   {
-    "numero_processo": "02546197920228060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "02003678520228060047",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02546197920228060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -7490,12 +7490,6 @@
     ]
   },
   {
-    "numero_processo": "02008661220228060163",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "02532963920228060001",
     "decisoes": [
       "Procedência"
@@ -7505,6 +7499,12 @@
     "numero_processo": "02011557720228060119",
     "decisoes": [
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02008661220228060163",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {
@@ -7526,13 +7526,13 @@
     ]
   },
   {
-    "numero_processo": "02007423820228060160",
+    "numero_processo": "02007371620228060160",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02007371620228060160",
+    "numero_processo": "02007423820228060160",
     "decisoes": [
       "Procedência"
     ]
@@ -7604,25 +7604,19 @@
     ]
   },
   {
-    "numero_processo": "02005194720228060108",
-    "decisoes": [
-      "Improcedência"
-    ]
-  },
-  {
     "numero_processo": "02003114320228060050",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "02508636220228060001",
+    "numero_processo": "02005194720228060108",
     "decisoes": [
-      "Procedência"
+      "Improcedência"
     ]
   },
   {
-    "numero_processo": "02007922720228060043",
+    "numero_processo": "02508636220228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -7634,13 +7628,19 @@
     ]
   },
   {
-    "numero_processo": "02505085220228060001",
+    "numero_processo": "02007922720228060043",
     "decisoes": [
       "Procedência"
     ]
   },
   {
     "numero_processo": "02504903120228060001",
+    "decisoes": [
+      "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02505085220228060001",
     "decisoes": [
       "Procedência"
     ]
@@ -7820,15 +7820,15 @@
     ]
   },
   {
-    "numero_processo": "02005798820228060053",
-    "decisoes": [
-      "Procedência"
-    ]
-  },
-  {
     "numero_processo": "02008522720228060034",
     "decisoes": [
       "Procedência em Parte"
+    ]
+  },
+  {
+    "numero_processo": "02005798820228060053",
+    "decisoes": [
+      "Procedência"
     ]
   },
   {
@@ -9144,13 +9144,13 @@
     ]
   },
   {
-    "numero_processo": "00505365420218060125",
+    "numero_processo": "00558468020218060112",
     "decisoes": [
       "Procedência"
     ]
   },
   {
-    "numero_processo": "00558468020218060112",
+    "numero_processo": "00505365420218060125",
     "decisoes": [
       "Procedência"
     ]
@@ -9193,16 +9193,16 @@
     ]
   },
   {
-    "numero_processo": "02666619720218060001",
-    "decisoes": [
-      "Procedência em Parte"
-    ]
-  },
-  {
     "numero_processo": "00556821820218060112",
     "decisoes": [
       "Procedência",
       "Procedência"
+    ]
+  },
+  {
+    "numero_processo": "02666619720218060001",
+    "decisoes": [
+      "Procedência em Parte"
     ]
   },
   {

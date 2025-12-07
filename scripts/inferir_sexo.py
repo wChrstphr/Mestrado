@@ -123,7 +123,7 @@ def executar_inferencia_sexo():
 
     # Salva resultado
     df_resultado.to_csv(ARQUIVO_SAIDA, index=False, encoding="utf-8")
-    print(f"\n✓ Resultado salvo em {ARQUIVO_SAIDA}")
+    print(f"\nResultado salvo em {ARQUIVO_SAIDA}")
 
     # Estatísticas
     print(f"\n{'='*60}")
